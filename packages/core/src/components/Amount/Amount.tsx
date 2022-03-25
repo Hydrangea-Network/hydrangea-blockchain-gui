@@ -61,7 +61,7 @@ export default function Amount(props: AmountProps) {
   const correctedValue = value[0] === '.' ? `0${value}` : value;
 
   const currencyCode = symbol === undefined ? defaultCurrencyCode : symbol;
-  const isChiaCurrency = ['XCH', 'TXCH'].includes(currencyCode);
+  const isChiaCurrency = ['XHG', 'TXHG'].includes(currencyCode);
   const mojo = isChiaCurrency 
     ? chiaToMojo(correctedValue) 
     : catToMojo(correctedValue);

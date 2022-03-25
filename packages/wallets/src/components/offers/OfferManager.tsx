@@ -84,11 +84,11 @@ function ConfirmOfferCancellation(props: ConfirmOfferCancellationProps) {
   }
 
   async function handleConfirm() {
-    const { fee: xchFee } = methods.getValues();
+    const { fee: xhgFee } = methods.getValues();
     var fee = 0;
 
     if (cancelWithTransaction) {
-      fee = Number.parseFloat(chiaToMojo(xchFee));
+      fee = Number.parseFloat(chiaToMojo(xhgFee));
     }
     onClose([true, { cancelWithTransaction, cancellationFee: fee }]);
   }
@@ -521,7 +521,7 @@ export function OfferManager() {
             <StyledTradeIcon color="primary" />
             <Typography variant="body1">
               <Trans>
-                Create an offer to exchange XCH or other tokens. View an offer to inspect and accept an offer made by another party.
+                Create an offer to exchange XHG or other tokens. View an offer to inspect and accept an offer made by another party.
               </Trans>
             </Typography>
             <Button onClick={handleCreateOffer} variant="contained" color="primary">

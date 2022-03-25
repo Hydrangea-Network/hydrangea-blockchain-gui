@@ -8,5 +8,5 @@ export default function useIsMainnet(): boolean | undefined {
     return undefined;
   }
 
-  return networkPrefix.toLowerCase() === 'xch';
+  return networkPrefix.toLowerCase() === 'xhg';
 }

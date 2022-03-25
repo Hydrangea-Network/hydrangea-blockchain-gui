@@ -59,7 +59,7 @@ function buildAssetSelectorList(
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
       name = 'Chia';
-      symbol = 'XCH';
+      symbol = 'XHG';
     }
     else if (wallet.type === WalletType.CAT) {
       name = wallet.name;
