@@ -31,7 +31,7 @@ msgstr ""
 #~ msgstr "（可选）"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
+#~ msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
 #~ msgstr "* 想要进一步了解奇亚？来看看一位开源开发者创建的 <0>奇亚区块浏览器</0>。"
 
 #: src/components/WalletHistory.tsx:150
@@ -72,8 +72,8 @@ msgstr ""
 
 #: src/electron/main.tsx:433
 #: src/electron/main.tsx:520
-#~ msgid "About Chia Blockchain"
-#~ msgstr "关于奇亚Chia区块链项目"
+#~ msgid "About Hydrangea Blockchain"
+#~ msgstr "关于奇亚Hydrangea区块链项目"
 
 #: src/components/trading/ViewOffer.jsx:74
 #~ msgid "Accept"
@@ -329,7 +329,7 @@ msgstr ""
 #~ msgstr "区块可验证延迟函数迭代"
 
 #: src/components/block/Block.jsx:326
-#~ msgid "Block at height {0} in the Chia blockchain"
+#~ msgid "Block at height {0} in the Hydrangea blockchain"
 #~ msgstr "奇亚区块链上高度为 {0} 的区块"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -409,7 +409,7 @@ msgstr ""
 
 #: src/components/WalletSend.tsx:100
 #: src/components/cat/WalletCATSend.tsx:119
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:36
@@ -444,20 +444,20 @@ msgstr ""
 #~ msgstr "在Keybase上参与讨论"
 
 #: src/electron/main.tsx:430
-#~ msgid "Chia"
+#~ msgid "Hydrangea"
 #~ msgstr "奇亚"
 
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
+msgid "Hydangea Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:369
-#~ msgid "Chia Blockchain Wiki"
+#~ msgid "Hydrangea Blockchain Wiki"
 #~ msgstr "奇亚区块链项目维基"
 
 #: src/components/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
+msgid "Hydrangea Wallet"
 msgstr "奇亚钱包"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -640,7 +640,7 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Hydangea Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -652,7 +652,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr "创建分布式身份钱包"
 
 #: src/components/cat/WalletCATCreateNew.tsx:76
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Hydangea Asset Token Wallet"
 msgstr ""
 
 #: src/components/cat/WalletCATSelect.tsx:32
@@ -861,7 +861,7 @@ msgstr "删除未确认的交易"
 #~ msgstr "删除此密钥将会把密钥从你的计算机中永久移除，请确保你已经将其备份。确定继续？"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 #~ msgstr ""
 
 #: src/components/offers/OfferViewer.tsx:499
@@ -978,7 +978,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/WalletImport.tsx:84
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
 msgstr "请输入你保存的24个助记词来恢复奇亚钱包"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
@@ -1000,7 +1000,7 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 #~ msgstr "错误：无法发送奇亚到染色地址。请输入奇亚钱包地址。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
@@ -2146,7 +2146,7 @@ msgstr "请等待钱包同步"
 #~ msgstr "通过初筛的农田"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
 #~ msgstr "农田就是在你的硬盘上分配的一块空间，用来收获奇亚币。<0>了解更多</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
@@ -2754,7 +2754,7 @@ msgstr "支出迭代长度(区块数)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
 msgstr "消费限额（单位时间可消费的奇亚币）：{0}"
 
 #: src/constants/WalletName.ts:5
@@ -2804,8 +2804,8 @@ msgstr "状态："
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/did/WalletDID.tsx:885
 #: src/components/rateLimited/WalletRateLimited.jsx:346
@@ -2976,7 +2976,7 @@ msgid "This is not a valid address for sending funds to"
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
 msgstr "这是你目前可以交易的奇亚币数额。该数额不包含处理中的农场奖励、收入交易，以及未经区块链确认的支付交易。"
 
 #: src/components/standard/WalletStandardCards.tsx:44
@@ -2996,7 +2996,7 @@ msgstr "待处理的收入与支出总和(还未上链). 不包括农场耕种�
 #~ msgstr "此时间是该区块被农民创建的时间，因此，此时间会早于其被时间认证机制最终确认的时间。"
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "这里是你的私钥所控制的, 到目前最新子块高度为止的全部奇亚数. 包含被冻结的耕种奖励, 但不包含待处理的收入与支出."
 
 #: src/components/standard/WalletStandardCards.tsx:31
@@ -3054,7 +3054,7 @@ msgstr ""
 #~ msgstr "该交易在链上的区块高度"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
 #~ msgstr "此版本的奇亚客户端与区块链已经不再兼容，无法安全地种植。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
@@ -3094,8 +3094,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "总余额"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+#~ msgid "Total Hydrangea Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -3373,7 +3373,7 @@ msgstr "钱包"
 #~ msgstr "想要加入农业合作社？创建一个农田NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgid "Want to earn more Hydrangea? Add more plots to your farm."
 #~ msgstr "想要获得更多奇亚币？ 给你的农场多开垦一些农田吧。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
@@ -3414,7 +3414,7 @@ msgstr ""
 #~ msgstr "权重是施加给所有子块包括目前这块的额外的困难度."
 
 #: src/components/_selectKey_old/SelectKey.tsx:183
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
 #~ msgstr "欢迎来到奇亚。请用已有的密钥登录，或者创建一个新的密钥。"
 
 #: src/components/WalletAdd.tsx:76
@@ -3493,8 +3493,8 @@ msgstr ""
 #~ msgstr "你需要先领取你的奖励。"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3568,7 +3568,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-#~ msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+#~ msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 #~ msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3652,8 +3652,8 @@ msgstr "同步中"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} 区块奖励"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+#~ msgid "{currencyCode} Total Hydrangea Farmed"
 #~ msgstr "{currencyCode} 收获的奇亚币总计"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

@@ -1,8 +1,8 @@
 import { useMemo } from 'react';
-import { useGetWalletsQuery, useGetCatListQuery } from '@chia/api-react';
-import { WalletType } from '@chia/api';
-import type { Wallet } from '@chia/api';
-import { useCurrencyCode } from '@chia/core';
+import { useGetWalletsQuery, useGetCatListQuery } from '@hydrangea/api-react';
+import { WalletType } from '@hydrangea/api';
+import type { Wallet } from '@hydrangea/api';
+import { useCurrencyCode } from '@hydrangea/core';
 
 export default function useWallet(walletId: number): {
   loading: boolean;

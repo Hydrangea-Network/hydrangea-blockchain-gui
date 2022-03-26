@@ -1,5 +1,5 @@
-import { useGetSyncStatusQuery } from '@chia/api-react';
-import { SyncingStatus } from '@chia/api';
+import { useGetSyncStatusQuery } from '@hydrangea/api-react';
+import { SyncingStatus } from '@hydrangea/api';
 import getWalletSyncingStatus from '../utils/getWalletSyncingStatus';
 
 export default function useWalletState(): {

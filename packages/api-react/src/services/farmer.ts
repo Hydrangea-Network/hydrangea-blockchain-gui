@@ -1,5 +1,5 @@
-import { Farmer } from '@chia/api';
-import type { Plot, FarmerConnection, RewardTargets, SignagePoint, Pool, FarmingInfo } from '@chia/api';
+import { Farmer } from '@hydrangea/api';
+import type { Plot, FarmerConnection, RewardTargets, SignagePoint, Pool, FarmingInfo } from '@hydrangea/api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 import api, { baseQuery } from '../api';
 

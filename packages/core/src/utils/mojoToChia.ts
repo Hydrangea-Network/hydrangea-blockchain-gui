@@ -4,6 +4,6 @@ import chiaFormatter from './chiaFormatter';
 
 export default function mojoToChia(mojo: string | number | Big): number {
   return chiaFormatter(mojo, Unit.MOJO)
-    .to(Unit.CHIA)
+    .to(Unit.HYDRANGEA)
     .toNumber();
 }

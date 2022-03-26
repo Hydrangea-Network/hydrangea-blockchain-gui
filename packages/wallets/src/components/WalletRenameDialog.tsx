@@ -7,7 +7,7 @@ import {
   DialogTitle,
   DialogContent,
 } from '@material-ui/core';
-import { AlertDialog, ButtonLoading, DialogActions, Flex, Form, TextField, useOpenDialog } from '@chia/core';
+import { AlertDialog, ButtonLoading, DialogActions, Flex, Form, TextField, useOpenDialog } from '@hydrangea/core';
 
 type WalletRenameDialogFormData = {
   name: string;

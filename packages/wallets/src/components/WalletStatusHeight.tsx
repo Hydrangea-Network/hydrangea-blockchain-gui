@@ -1,6 +1,6 @@
 import React from 'react';
-import { FormatLargeNumber } from '@chia/core';
-import { useGetHeightInfoQuery } from '@chia/api-react';
+import { FormatLargeNumber } from '@hydrangea/core';
+import { useGetHeightInfoQuery } from '@hydrangea/api-react';
 
 export default function WalletStatusHeight() {
   const { data: height, isLoading } = useGetHeightInfoQuery({}, {

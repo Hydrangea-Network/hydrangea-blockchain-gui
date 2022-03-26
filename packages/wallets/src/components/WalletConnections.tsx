@@ -5,10 +5,10 @@ import {
   FormatBytes,
   Loading,
   Table,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Tooltip } from '@material-ui/core';
-import { Connection, ServiceConnectionName } from '@chia/api';
-import { useGetWalletConnectionsQuery } from '@chia/api-react';
+import { Connection, ServiceConnectionName } from '@hydrangea/api';
+import { useGetWalletConnectionsQuery } from '@hydrangea/api-react';
 
 const cols = [
   {

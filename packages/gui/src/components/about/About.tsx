@@ -71,7 +71,7 @@ const Spacer = styled.div`
   margin-bottom: 1rem;
 `;
 
-const url = 'https://chia.net';
+const url = 'https://hydrangea.website/';
 
 type Props = {
   version: string;
@@ -117,7 +117,7 @@ export default function About(props: Props) {
         </StyledLink>
         <StyledSubTitle>{description}</StyledSubTitle>
         <Spacer />
-        <div className="copyright">Copyright (c) {currentYear} Chia Network</div>
+        <div className="copyright">Copyright (c) {currentYear} Hydrangea Network</div>
         <Spacer />
         <VersionsTable>
           {versions?.electron && (
@@ -147,7 +147,7 @@ export default function About(props: Props) {
         </VersionsTable>
 
         <BugReport
-          href="https://github.com/Chia-Network/chia-blockchain/issues"
+          href="https://github.com/Hydrangea-Network/Hydrangea-blockchain/issues"
           target="_blank"
         >
           Report an issue

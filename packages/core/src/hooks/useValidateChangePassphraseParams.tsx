@@ -1,6 +1,6 @@
 import React from 'react';
 import { t, plural, Trans } from '@lingui/macro';
-import { useGetKeyringStatusQuery } from '@chia/api-react';
+import { useGetKeyringStatusQuery } from '@hydrangea/api-react';
 import AlertDialog from '../components/AlertDialog';
 import ConfirmDialog from '../components/ConfirmDialog';
 import useOpenDialog from './useOpenDialog';

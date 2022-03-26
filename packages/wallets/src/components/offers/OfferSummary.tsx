@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react';
 import { Plural, Trans } from '@lingui/macro';
-import { type OfferSummaryRecord  } from '@chia/api';
+import { type OfferSummaryRecord  } from '@hydrangea/api';
 import {
   Flex,
   FormatLargeNumber,
@@ -8,7 +8,7 @@ import {
   TooltipIcon,
   mojoToChia,
   mojoToCAT,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Box,
   Divider,

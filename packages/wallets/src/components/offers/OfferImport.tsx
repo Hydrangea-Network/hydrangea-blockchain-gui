@@ -1,10 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Trans } from '@lingui/macro';
-import { Back, Card, Dropzone, Flex, useOpenDialog, useShowError } from '@chia/core';
+import { Back, Card, Dropzone, Flex, useOpenDialog, useShowError } from '@hydrangea/core';
 import { Button, Grid, Typography } from '@material-ui/core';
-import { useGetOfferSummaryMutation } from '@chia/api-react';
-import { type OfferSummaryRecord } from '@chia/api';
+import { useGetOfferSummaryMutation } from '@hydrangea/api-react';
+import { type OfferSummaryRecord } from '@hydrangea/api';
 import OfferDataEntryDialog from './OfferDataEntryDialog';
 import fs, { Stats } from 'fs';
 

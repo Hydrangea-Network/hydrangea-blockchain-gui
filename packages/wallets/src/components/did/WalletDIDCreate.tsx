@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { Amount, Form, AlertDialog, Back, Card, Flex, ButtonLoading, chiaToMojo } from '@chia/core';
+import { Amount, Form, AlertDialog, Back, Card, Flex, ButtonLoading, chiaToMojo } from '@hydrangea/core';
 import {
   Typography,
   Button,

@@ -1,5 +1,5 @@
-import { ServiceName } from '@chia/api';
-import { Mode } from '@chia/core';
+import { ServiceName } from '@hydrangea/api';
+import { Mode } from '@hydrangea/core';
 
 export default {
   [Mode.WALLET]: [

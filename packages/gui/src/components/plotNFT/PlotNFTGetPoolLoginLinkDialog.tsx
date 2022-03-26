@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { t, Trans } from '@lingui/macro';
 import { Alert } from '@material-ui/lab';
 import styled from 'styled-components';
-import { CopyToClipboard, Flex, Link, Loading } from '@chia/core';
+import { CopyToClipboard, Flex, Link, Loading } from '@hydrangea/core';
 import {
   Button,
   Dialog,
@@ -11,8 +11,8 @@ import {
   DialogContent,
   Typography,
 } from '@material-ui/core';
-import { useGetPoolLoginLinkQuery } from '@chia/api-react';
-import type { PlotNFT, PlotNFTExternal } from '@chia/api';
+import { useGetPoolLoginLinkQuery } from '@hydrangea/api-react';
+import type { PlotNFT, PlotNFTExternal } from '@hydrangea/api';
 
 const StyledLoginLink = styled(Typography)`
   word-break: break-all;

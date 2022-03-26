@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, Link, DashboardTitle } from '@chia/core';
+import { Flex, Link, DashboardTitle } from '@hydrangea/core';
 import { Trans } from '@lingui/macro';
 import { Route, Routes } from 'react-router-dom';
 import PlotOverview from './overview/PlotOverview';

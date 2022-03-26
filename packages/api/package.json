@@ -1,8 +1,8 @@
 {
-  "name": "@chia/api",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia API Library",
-  "productName": "Chia Blockchain",
+  "name": "@hydrangea/api",
+  "author": "Hydrqangea Network <hello@hydrangea.website> (https://hydrangea.website/)",
+  "description": "Hydrangea API Library",
+  "productName": "Hydrangea Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

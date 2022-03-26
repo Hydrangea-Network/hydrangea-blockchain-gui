@@ -10,9 +10,9 @@ import {
   StateColor,
   Table,
   DashboardTitle,
-} from '@chia/core';
-import { Status } from '@chia/icons';
-import { useGetLatestBlocksQuery, useGetUnfinishedBlockHeadersQuery } from '@chia/api-react';
+} from '@hydrangea/core';
+import { Status } from '@hydrangea/icons';
+import { useGetLatestBlocksQuery, useGetUnfinishedBlockHeadersQuery } from '@hydrangea/api-react';
 import { useNavigate } from 'react-router-dom';
 import { Box, Tooltip, Typography } from '@material-ui/core';
 // import HelpIcon from '@material-ui/icons/Help';

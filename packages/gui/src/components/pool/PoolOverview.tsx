@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useToggle } from 'react-use';
-import { Flex, UnitFormat, More, Table, mojoToChiaLocaleString, Suspender } from '@chia/core';
+import { Flex, UnitFormat, More, Table, mojoToChiaLocaleString, Suspender } from '@hydrangea/core';
 import { useNavigate } from 'react-router';
 import {
   ViewList as ViewListIcon,
@@ -31,7 +31,7 @@ import PlotNFTStateEnum from '../../constants/PlotNFTState';
 import PlotNFTUnconfirmedCard from '../plotNFT/PlotNFTUnconfirmedCard';
 import PlotNFTState from '../plotNFT/PlotNFTState';
 import useUnconfirmedPlotNFTs from '../../hooks/useUnconfirmedPlotNFTs';
-import { WalletStatus } from '@chia/wallets';
+import { WalletStatus } from '@hydrangea/wallets';
 
 const groupsCols = [
   {

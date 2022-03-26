@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Link, Loading, Table, Card, FormatBytes } from '@chia/core';
-import { useGetFarmingInfoQuery } from '@chia/api-react';
+import { Link, Loading, Table, Card, FormatBytes } from '@hydrangea/core';
+import { useGetFarmingInfoQuery } from '@hydrangea/api-react';
 import { Typography } from '@material-ui/core';
 import moment from 'moment';
 import type { Row } from '../core/components/Table/Table';

@@ -1,8 +1,8 @@
 {
-  "name": "@chia/icons",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
-  "description": "Chia Icons Library",
-  "productName": "Chia Blockchain",
+  "name": "@hydrangea/icons",
+  "author": "Hydrangea Network <hello@hydrangea.website> (https://hydrangea.website/)",
+  "description": "Hydrangea Icons Library",
+  "productName": "Hydrangea Blockchain",
   "private": true,
   "version": "1.0.0",
   "engines": {

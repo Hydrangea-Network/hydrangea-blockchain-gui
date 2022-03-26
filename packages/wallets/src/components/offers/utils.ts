@@ -1,9 +1,9 @@
-import { WalletType } from '@chia/api';
-import type { OfferSummaryRecord } from '@chia/api';
+import { WalletType } from '@hydrangea/api';
+import type { OfferSummaryRecord } from '@hydrangea/api';
 import {
   mojoToChiaLocaleString,
   mojoToCATLocaleString,
-} from '@chia/core';
+} from '@hydrangea/core';
 import OfferState from './OfferState';
 import { AssetIdMapEntry } from '../../hooks/useAssetIdName';
 

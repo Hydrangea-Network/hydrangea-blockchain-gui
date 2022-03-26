@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Flex } from '@chia/core';
+import { Flex } from '@hydrangea/core';
 import { ArrowBackIos as ArrowBackIosIcon } from '@material-ui/icons';
 import { useNavigate, useParams } from 'react-router-dom';
 import styled from 'styled-components';

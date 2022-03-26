@@ -31,8 +31,8 @@ msgstr ""
 #~ msgstr "(オプション)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Chia Explorer</0> を是非ご覧ください。"
+#~ msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
+#~ msgstr "*チアのブロックをさらに調べたいですか？オープンソース開発者に提供していただいた <0>Hydrangea Explorer</0> を是非ご覧ください。"
 
 #: src/components/WalletHistory.tsx:150
 msgid "+"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: src/electron/main.tsx:433
 #: src/electron/main.tsx:520
-#~ msgid "About Chia Blockchain"
+#~ msgid "About Hydrangea Blockchain"
 #~ msgstr "チアブロックチェーンについて"
 
 #: src/components/trading/ViewOffer.jsx:74
@@ -329,7 +329,7 @@ msgstr ""
 #~ msgstr "ブロック VDF 評価回数"
 
 #: src/components/block/Block.jsx:326
-#~ msgid "Block at height {0} in the Chia blockchain"
+#~ msgid "Block at height {0} in the Hydrangea blockchain"
 #~ msgstr "チアブロックチェーン内の高さ {0} のブロック"
 
 #: src/components/fullNode/FullNode.jsx:331
@@ -409,7 +409,7 @@ msgstr ""
 
 #: src/components/WalletSend.tsx:100
 #: src/components/cat/WalletCATSend.tsx:119
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:36
@@ -444,20 +444,20 @@ msgstr ""
 #~ msgstr "Keybase でチャット"
 
 #: src/electron/main.tsx:430
-#~ msgid "Chia"
+#~ msgid "Hydrangea"
 #~ msgstr "チア"
 
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
+msgid "Hydangea Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:369
-#~ msgid "Chia Blockchain Wiki"
+#~ msgid "Hydrangea Blockchain Wiki"
 #~ msgstr "チアブロックチェーンの Wiki"
 
 #: src/components/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
+msgid "Hydrangea Wallet"
 msgstr "チアウォレット"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
@@ -640,7 +640,7 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Hydangea Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -652,7 +652,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr ""
 
 #: src/components/cat/WalletCATCreateNew.tsx:76
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Hydangea Asset Token Wallet"
 msgstr ""
 
 #: src/components/cat/WalletCATSelect.tsx:32
@@ -861,7 +861,7 @@ msgstr ""
 #~ msgstr "鍵を削除すると復元することができませんので、必ずバックアップを取ってください。本当に続行しますか？"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 #~ msgstr ""
 
 #: src/components/offers/OfferViewer.tsx:499
@@ -978,7 +978,7 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/WalletImport.tsx:84
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
 msgstr "チアウォレットを復元するには、24語の合言葉を入力してください。"
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
@@ -1000,7 +1000,7 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
+#~ msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 #~ msgstr "エラー: チアは色付きのアドレスには送れません。チアのアドレスを入力してください。"
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
@@ -2146,7 +2146,7 @@ msgstr ""
 #~ msgstr "フィルターを通過した耕地数"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
 #~ msgstr "耕地とは、チアを収穫し、得るためにハードドライブ上に確保する領域です。<0>詳しく</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
@@ -2754,7 +2754,7 @@ msgstr "支払いインターバル長 (ブロック数)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
 msgstr "支払い額上限 (チア毎インターバル): {0}"
 
 #: src/constants/WalletName.ts:5
@@ -2804,8 +2804,8 @@ msgstr "状態:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/did/WalletDID.tsx:885
 #: src/components/rateLimited/WalletRateLimited.jsx:346
@@ -2976,7 +2976,7 @@ msgid "This is not a valid address for sending funds to"
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
 msgstr "取引に使用できるチアの額です。承認待ちの耕作報酬、承認待ちの入金取引、及びブロックチェーンにまだ含まれていない消費チアはいずれも含まれていません。"
 
 #: src/components/standard/WalletStandardCards.tsx:44
@@ -2996,7 +2996,7 @@ msgstr "これが (まだブロックチェーンに含まれていない) 保�
 #~ msgstr "これが農家がブロックを作成した日時です。時間証明によって完成する前の段階です。"
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "現在の先端サブブロックにおいて、あなたの秘密鍵が所有している全チアの額です。凍結中の耕作報酬は含まれますが、承認待ちの入出金取引は反映されていません。"
 
 #: src/components/standard/WalletStandardCards.tsx:31
@@ -3054,7 +3054,7 @@ msgstr ""
 #~ msgstr "このトレードはこのブロック高でブロックチェーンに取り込まれました。"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
 #~ msgstr "ご使用のバージョンのチアアプリはブロックチェーンと互換性が無く、安全に耕作できません。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
@@ -3094,8 +3094,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "全残高"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+#~ msgid "Total Hydrangea Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -3373,7 +3373,7 @@ msgstr "ウォレット"
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
+#~ msgid "Want to earn more Hydrangea? Add more plots to your farm."
 #~ msgstr "畑に耕地を増やしましょう。さらにチアを得られますよ。"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
@@ -3414,7 +3414,7 @@ msgstr ""
 #~ msgstr "ブロック重とはこのブロックを含めた全てのブロックの難易度の合計です。"
 
 #: src/components/_selectKey_old/SelectKey.tsx:183
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+#~ msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
 #~ msgstr "チアにようこそ。お持ちの鍵でログインするか、新しく鍵を作成してください。"
 
 #: src/components/WalletAdd.tsx:76
@@ -3493,8 +3493,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3568,7 +3568,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-#~ msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+#~ msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 #~ msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3652,8 +3652,8 @@ msgstr "同期中"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} ブロック報酬"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+#~ msgid "{currencyCode} Total Hydrangea Farmed"
 #~ msgstr "{currencyCode} 全収穫チア"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

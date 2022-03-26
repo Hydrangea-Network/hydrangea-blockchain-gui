@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { StateIndicator, State, CardSimple } from '@chia/core';
+import { StateIndicator, State, CardSimple } from '@hydrangea/core';
 import FarmCardNotAvailable from './FarmCardNotAvailable';
 import useFarmerStatus from '../../../hooks/useFarmerStatus';
 import FarmerStatus from '../../../constants/FarmerStatus';

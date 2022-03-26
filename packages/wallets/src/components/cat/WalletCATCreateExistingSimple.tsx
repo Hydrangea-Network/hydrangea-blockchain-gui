@@ -1,12 +1,12 @@
 import React from 'react';
 import { Trans, t } from '@lingui/macro';
-import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@chia/core';
+import { Back, ButtonLoading, Card, Flex, Form, TextField } from '@hydrangea/core';
 import { Box, Grid } from '@material-ui/core';
-import { useAddCATTokenMutation } from '@chia/api-react';
+import { useAddCATTokenMutation } from '@hydrangea/api-react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router';
 import useWalletState from '../../hooks/useWalletState';
-import { SyncingStatus } from '@chia/api';
+import { SyncingStatus } from '@hydrangea/api';
 
 type CreateExistingCATWalletData = {
   name: string;

@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 import { Alert } from '@material-ui/lab';
 import { Trans } from '@lingui/macro';
-import { useGetBlockQuery, useGetBlockRecordQuery  } from '@chia/api-react'
+import { useGetBlockQuery, useGetBlockRecordQuery  } from '@hydrangea/api-react'
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   Back,
@@ -27,7 +27,7 @@ import {
   DashboardTitle,
   Suspender,
   toBech32m,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   unix_to_short_date,
   hex_to_array,

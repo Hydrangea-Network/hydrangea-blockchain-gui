@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import {
   AlertDialog,
   Flex,
-} from '@chia/core';
+} from '@hydrangea/core';
 
 type WalletSendTransactionResultDialogProps = {
   success: boolean;

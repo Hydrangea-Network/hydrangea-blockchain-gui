@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { useCurrencyCode, mojoToChiaLocaleString, CardSimple } from '@chia/core';
-import { useGetFarmedAmountQuery } from '@chia/api-react';
+import { useCurrencyCode, mojoToChiaLocaleString, CardSimple } from '@hydrangea/core';
+import { useGetFarmedAmountQuery } from '@hydrangea/api-react';
 
 export default function FarmCardTotalChiaFarmed() {
   const currencyCode = useCurrencyCode();

@@ -6,10 +6,10 @@ import {
   Grid,
   Container,
 } from '@material-ui/core';
-import { useGenerateMnemonicMutation, useAddKeyMutation, useLogInMutation } from '@chia/api-react';
+import { useGenerateMnemonicMutation, useAddKeyMutation, useLogInMutation } from '@hydrangea/api-react';
 import { useNavigate } from 'react-router';
 import { useEffectOnce } from 'react-use';
-import { ButtonLoading, Flex, Loading, Logo, useShowError } from '@chia/core';
+import { ButtonLoading, Flex, Loading, Logo, useShowError } from '@hydrangea/core';
 
 const MnemonicField = (props: any) => (
   <Grid item xs={2}>

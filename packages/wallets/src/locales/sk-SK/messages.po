@@ -31,8 +31,8 @@ msgstr ""
 #~ msgstr "(voliteľné)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "* Chcete viac preskúmať Chia bloky? Vyskúšajte aplikáciu <0>Chia Explorer</0> vytvorenú open source vývojárom."
+#~ msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
+#~ msgstr "* Chcete viac preskúmať Hydrangea bloky? Vyskúšajte aplikáciu <0>Hydrangea Explorer</0> vytvorenú open source vývojárom."
 
 #: src/components/WalletHistory.tsx:150
 msgid "+"
@@ -72,8 +72,8 @@ msgstr ""
 
 #: src/electron/main.tsx:433
 #: src/electron/main.tsx:520
-#~ msgid "About Chia Blockchain"
-#~ msgstr "O Chia blockchaine"
+#~ msgid "About Hydrangea Blockchain"
+#~ msgstr "O Hydrangea blockchaine"
 
 #: src/components/trading/ViewOffer.jsx:74
 #~ msgid "Accept"
@@ -329,8 +329,8 @@ msgstr ""
 #~ msgstr "Blok VDF iterácii"
 
 #: src/components/block/Block.jsx:326
-#~ msgid "Block at height {0} in the Chia blockchain"
-#~ msgstr "Blok s výškou {0} v Chia blockchaine"
+#~ msgid "Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Blok s výškou {0} v Hydrangea blockchaine"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -409,7 +409,7 @@ msgstr ""
 
 #: src/components/WalletSend.tsx:100
 #: src/components/cat/WalletCATSend.tsx:119
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 msgstr ""
 
 #: src/components/plot/PlotsNotFound.tsx:36
@@ -444,21 +444,21 @@ msgstr ""
 #~ msgstr "Chatovať na KeyBase"
 
 #: src/electron/main.tsx:430
-#~ msgid "Chia"
-#~ msgstr "Chia"
+#~ msgid "Hydrangea"
+#~ msgstr "Hydrangea"
 
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
-msgid "Chia Asset Token"
+msgid "Hydangea Asset Token"
 msgstr ""
 
 #: src/electron/main.tsx:369
-#~ msgid "Chia Blockchain Wiki"
-#~ msgstr "Chia Blockchain Wiki"
+#~ msgid "Hydrangea Blockchain Wiki"
+#~ msgstr "Hydrangea Blockchain Wiki"
 
 #: src/components/standard/WalletStandard.tsx:23
-msgid "Chia Wallet"
-msgstr "Chia peňaženka"
+msgid "Hydrangea Wallet"
+msgstr "Hydrangea peňaženka"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 #~ msgid "Choose Number of Plots"
@@ -640,7 +640,7 @@ msgid "Create An Attestation Packet"
 msgstr "Vytvoriť atestačný paket"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:77
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Hydangea Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/wallet/create/WalletCreate.jsx:290
@@ -652,7 +652,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr "Vytvoriť peňaženku s distribuovanou identitou"
 
 #: src/components/cat/WalletCATCreateNew.tsx:76
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Hydangea Asset Token Wallet"
 msgstr ""
 
 #: src/components/cat/WalletCATSelect.tsx:32
@@ -861,7 +861,7 @@ msgstr "Odstrániť nepotvrdené transakcie"
 #~ msgstr "Odstránením kľúča natrvalo odstránite kľúč z počítača. Uistite sa, že máte zálohy. Ste si istý, že chcete pokračovať?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 #~ msgstr ""
 
 #: src/components/offers/OfferViewer.tsx:499
@@ -978,8 +978,8 @@ msgstr "Pretiahnite myšou obnovovací záložný súbor"
 #~ msgstr ""
 
 #: src/components/WalletImport.tsx:84
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Zadajte 24 slov, ktoré ste si uložili pre účely obnovenia vašej peňaženky Chia."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+msgstr "Zadajte 24 slov, ktoré ste si uložili pre účely obnovenia vašej peňaženky Hydrangea."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
 #~ msgid "Enter your passphrase:"
@@ -1000,8 +1000,8 @@ msgid "Error the entered address appears to be for a different colour."
 msgstr ""
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "Chyba: Chia nie je možné odoslať na farebnú adresu. Zadajte prosím Chia adresu."
+#~ msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+#~ msgstr "Chyba: Hydrangea nie je možné odoslať na farebnú adresu. Zadajte prosím Hydrangea adresu."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
 #~ msgid "Estimated Network Space"
@@ -2146,8 +2146,8 @@ msgstr "Počkajte prosím na synchronizáciu peňaženky"
 #~ msgstr "Polia, ktoré prešli filtrom"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-#~ msgstr "Polia sú pridelené priestory na vašom pevnom disku používanom na ťažbu a zarábanie Chia. <0>Ďalšie informácie</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
+#~ msgstr "Polia sú pridelené priestory na vašom pevnom disku používanom na ťažbu a zarábanie Hydrangea. <0>Ďalšie informácie</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
 #~ msgid "Plotter"
@@ -2754,8 +2754,8 @@ msgstr "Dĺžka disponibilného intervalu (počet blokov)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limit výdavkov (chia na interval): {0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
+msgstr "Limit výdavkov (hydrangea na interval): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -2804,8 +2804,8 @@ msgstr "Stav:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/did/WalletDID.tsx:885
 #: src/components/rateLimited/WalletRateLimited.jsx:346
@@ -2976,8 +2976,8 @@ msgid "This is not a valid address for sending funds to"
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Toto je množstvo Chia, ktoré môžete v súčasnosti použiť na uskutočnenie transakcií. Nezahŕňa nespracované odmeny za ťažbu, nespracované prichádzajúce transakcie a Chia, ktorú ste práve minuli, ale ešte nie je v blockchaine."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+msgstr "Toto je množstvo Hydrangea, ktoré môžete v súčasnosti použiť na uskutočnenie transakcií. Nezahŕňa nespracované odmeny za ťažbu, nespracované prichádzajúce transakcie a Hydrangea, ktorú ste práve minuli, ale ešte nie je v blockchaine."
 
 #: src/components/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2996,8 +2996,8 @@ msgstr "Toto je súčet prichádzajúcich a odchádzajúcich nespracovaných tra
 #~ msgstr "Toto je čas, kedy ťažiar vytvoril blok, a to ešte predtým, ako bol finalizovaný s dôkazom o čase"
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Toto je celkové množstvo Chia v blockchaine v aktuálne najnovšom čiastkovom bloku, ktorý je kontrolovaný vašimi súkromnými kľúčmi. Zahŕňa zmrazené odmeny za ťaženie, ale nie nespracované prichádzajúce a odchádzajúce transakcie."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Toto je celkové množstvo Hydrangea v blockchaine v aktuálne najnovšom čiastkovom bloku, ktorý je kontrolovaný vašimi súkromnými kľúčmi. Zahŕňa zmrazené odmeny za ťaženie, ale nie nespracované prichádzajúce a odchádzajúce transakcie."
 
 #: src/components/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -3054,7 +3054,7 @@ msgstr ""
 #~ msgstr "Tento obchod bol zahrnutý v blockchaine na tejto pozícii"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
+#~ msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
 #~ msgstr "Táto verzia Chii nie je kompatibilná s blockchainom a farmenie na nej nie je bezpečné."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
@@ -3094,8 +3094,8 @@ msgstr ""
 msgid "Total Balance"
 msgstr "Celkový zostatok"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+#~ msgid "Total Hydrangea Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -3373,8 +3373,8 @@ msgstr "Peňaženky"
 #~ msgstr "Chcete sa pripojiť k združeniu? Vytvorte NFT poľa"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
-#~ msgstr "Chcete zarobiť viac Chia? Pridajte na svoju farmu ďalšie polia."
+#~ msgid "Want to earn more Hydrangea? Add more plots to your farm."
+#~ msgstr "Chcete zarobiť viac Hydrangea? Pridajte na svoju farmu ďalšie polia."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -3414,8 +3414,8 @@ msgstr ""
 #~ msgstr "Váha je celková pridaná obtiažnosť všetkých blokov až po tento blok vrátane tohto bloku"
 
 #: src/components/_selectKey_old/SelectKey.tsx:183
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-#~ msgstr "Vitajte v Chia. Prosím prihláste sa s existujúcim kľúčom, alebo si vytvorte nový."
+#~ msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+#~ msgstr "Vitajte v Hydrangea. Prosím prihláste sa s existujúcim kľúčom, alebo si vytvorte nový."
 
 #: src/components/WalletAdd.tsx:76
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3493,8 +3493,8 @@ msgstr ""
 #~ msgstr "Najprv musíte získať svoje odmeny"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3568,7 +3568,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-#~ msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+#~ msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 #~ msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3652,8 +3652,8 @@ msgstr "synchronizácia"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Odmena za blok"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+#~ msgid "{currencyCode} Total Hydrangea Farmed"
 #~ msgstr "{currencyCode} Celkové množstvo vyfarmárčenej Chii"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

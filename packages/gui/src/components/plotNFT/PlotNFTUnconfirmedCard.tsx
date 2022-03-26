@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import styled from 'styled-components';
 import { Trans } from '@lingui/macro';
-import { Flex, Link, Loading } from '@chia/core';
-import { useGetTransactionQuery } from '@chia/api-react';
+import { Flex, Link, Loading } from '@hydrangea/core';
+import { useGetTransactionQuery } from '@hydrangea/api-react';
 import { Box, Card, CardContent, Typography } from '@material-ui/core';
-import type { UnconfirmedPlotNFT } from '@chia/api';
+import type { UnconfirmedPlotNFT } from '@hydrangea/api';
 import PlotNFTState from '../../constants/PlotNFTState';
 import useUnconfirmedPlotNFTs from '../../hooks/useUnconfirmedPlotNFTs';
 

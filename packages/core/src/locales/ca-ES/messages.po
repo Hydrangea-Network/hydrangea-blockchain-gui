@@ -31,8 +31,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-#~ msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-#~ msgstr "*Vols explorar encara més els blocs de Chia? Dona un cop d'ull a <0>Chia Explorer</0> creat per un desenvolupador de codi lliure."
+#~ msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
+#~ msgstr "*Vols explorar encara més els blocs de Hydrangea? Dona un cop d'ull a <0>Hydrangea Explorer</0> creat per un desenvolupador de codi lliure."
 
 #: src/components/plot/add/PlotAddNFT.tsx:128
 #~ msgid "+ Add New Plot NFT"
@@ -60,8 +60,8 @@ msgstr ""
 
 #: src/electron/main.tsx:433
 #: src/electron/main.tsx:520
-#~ msgid "About Chia Blockchain"
-#~ msgstr "Sobre la cadena de blocs de Chia"
+#~ msgid "About Hydrangea Blockchain"
+#~ msgstr "Sobre la cadena de blocs de Hydrangea"
 
 #: src/components/trading/ViewOffer.jsx:74
 #~ msgid "Accept"
@@ -257,8 +257,8 @@ msgstr "Enrere"
 #~ msgstr "Iteracions de bloc VDF"
 
 #: src/components/block/Block.jsx:326
-#~ msgid "Block at height {0} in the Chia blockchain"
-#~ msgstr "Bloc a la alçada {0} a la cadena de blocs de Chia"
+#~ msgid "Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Bloc a la alçada {0} a la cadena de blocs de Hydrangea"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -348,16 +348,16 @@ msgstr "Cancel·lar"
 #~ msgstr "Xateja a KeyBase"
 
 #: src/electron/main.tsx:430
-#~ msgid "Chia"
-#~ msgstr "Chia"
+#~ msgid "Hydrangea"
+#~ msgstr "Hydrangea"
 
 #: src/electron/main.tsx:369
-#~ msgid "Chia Blockchain Wiki"
-#~ msgstr "Wiki de la Cadena de Blocs de Chia"
+#~ msgid "Hydrangea Blockchain Wiki"
+#~ msgstr "Wiki de la Cadena de Blocs de Hydrangea"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:642
-#~ msgid "Chia Wallet"
-#~ msgstr "Moneder Chia"
+#~ msgid "Hydrangea Wallet"
+#~ msgstr "Moneder Hydrangea"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:34
 #~ msgid "Choose Number of Plots"
@@ -715,7 +715,7 @@ msgid "Deleting the key will permanently remove the key from your computer, make
 msgstr "Si esborres la clau, serà eliminada definitivament de l'ordinador. Assegura't que tens còpies de seguretat. Estas segur que vols continuar?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+#~ msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 #~ msgstr ""
 
 #: src/electron/main.tsx:315
@@ -816,8 +816,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/_wallet_old/WalletImport.tsx:146
-#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-#~ msgstr "Introdueix les 24 paraules mnemotècniques que has guardat per restaurar el moneder de Chia."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+#~ msgstr "Introdueix les 24 paraules mnemotècniques que has guardat per restaurar el moneder de Hydrangea."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
 #~ msgid "Enter your passphrase:"
@@ -829,8 +829,8 @@ msgid "Error"
 msgstr "Error"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "No és possible enviar Chia a l'adreça acolorida. Si us plau, introdueix una adreça Chia."
+#~ msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+#~ msgstr "No és possible enviar Hydrangea a l'adreça acolorida. Si us plau, introdueix una adreça Hydrangea."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
 #~ msgid "Estimated Network Space"
@@ -1817,8 +1817,8 @@ msgstr "D'acord"
 #~ msgstr "Parcel·les que han passat el filtre"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-#~ msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-#~ msgstr "Parcel·les ubicades al teu disc dur fetes servir per cultivar i aconseguir Chia. <0>Aprèn més</0>"
+#~ msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
+#~ msgstr "Parcel·les ubicades al teu disc dur fetes servir per cultivar i aconseguir Hydrangea. <0>Aprèn més</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
 #~ msgid "Plotter"
@@ -2361,8 +2361,8 @@ msgstr ""
 
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:401
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:448
-#~ msgid "Spending Limit (chia per interval): {0}"
-#~ msgstr "Límit de despesa (Chia per interval): {0}"
+#~ msgid "Spending Limit (hydrangea per interval): {0}"
+#~ msgstr "Límit de despesa (Hydrangea per interval): {0}"
 
 #: src/components/app/AppState.tsx:161
 #~ msgid "Starting services"
@@ -2414,8 +2414,8 @@ msgstr ""
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/_wallet_old/did/WalletDID.tsx:889
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:347
@@ -2573,8 +2573,8 @@ msgstr ""
 #~ msgstr "Aquesta característica només està disponible a la interfície gràfica."
 
 #: src/components/_wallet_old/card/WalletCardSpendableBalance.tsx:26
-#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-#~ msgstr "Aquesta és la quantitat de Chia que pots fer servir per fer transaccions. No inclou les recompenses agrícoles pendents, transaccions entrants pendents ni Chia que acabis de gastar, però que encara no es troba a la cadena de blocs."
+#~ msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+#~ msgstr "Aquesta és la quantitat de Hydrangea que pots fer servir per fer transaccions. No inclou les recompenses agrícoles pendents, transaccions entrants pendents ni Hydrangea que acabis de gastar, però que encara no es troba a la cadena de blocs."
 
 #: src/components/_wallet_old/card/WalletCardPendingChange.tsx:26
 #~ msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2593,8 +2593,8 @@ msgstr ""
 #~ msgstr "Moment en què el bloc ha estat creat pel pagès, abans de ser finalitzat amb una prova de temps"
 
 #: src/components/_wallet_old/card/WalletCardTotalBalance.tsx:34
-#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-#~ msgstr "Aquesta és la quantitat total de Chia, a la cadena de blocs del sub bloc pic actual, controlada per les teves claus privades. Inclou les recompenses pel cultiu congelades, però no les transaccions entrants i sortints pendents."
+#~ msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Aquesta és la quantitat total de Hydrangea, a la cadena de blocs del sub bloc pic actual, controlada per les teves claus privades. Inclou les recompenses pel cultiu congelades, però no les transaccions entrants i sortints pendents."
 
 #: src/components/_wallet_old/card/WalletCardPendingTotalBalance.tsx:29
 #~ msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2639,8 +2639,8 @@ msgstr ""
 #~ msgstr "Aquesta transacció va ser inclosa en aquesta alçada de bloc"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Aquesta versió de Chia ja no és compatible amb la cadena de blocs i pot no cultivar amb seguretat."
+#~ msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Aquesta versió de Hydrangea ja no és compatible amb la cadena de blocs i pot no cultivar amb seguretat."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 #~ msgid "Thread Multiplier for Phase 2"
@@ -2668,8 +2668,8 @@ msgstr ""
 #~ msgid "Total Balance"
 #~ msgstr "Saldo total"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+#~ msgid "Total Hydrangea Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -2922,8 +2922,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-#~ msgid "Want to earn more Chia? Add more plots to your farm."
-#~ msgstr "Vols aconseguir més Chia? Afegeix més parcel·les al teu cultiu."
+#~ msgid "Want to earn more Hydrangea? Add more plots to your farm."
+#~ msgstr "Vols aconseguir més Hydrangea? Afegeix més parcel·les al teu cultiu."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 #~ msgid "Want to have a delay before the next plot starts?"
@@ -2954,8 +2954,8 @@ msgstr ""
 #~ msgstr "El pes és la dificultat afegida total de tots els sub blocs incloent l'actual"
 
 #: src/screens/SelectKey/SelectKey.tsx:105
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Benvingut a Chia. Inicia la sessió amb una clau existent o crea'n una de nova."
+msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+msgstr "Benvingut a Hydrangea. Inicia la sessió amb una clau existent o crea'n una de nova."
 
 #: src/components/_wallet_old/WalletAdd.tsx:66
 #~ msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3029,8 +3029,8 @@ msgstr ""
 #~ msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 #~ msgid "You need {currencyCode} to join a pool."
@@ -3087,7 +3087,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-#~ msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+#~ msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 #~ msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3172,9 +3172,9 @@ msgstr ""
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Recompenses de bloc"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "{currencyCode} Chia total cultivada"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+#~ msgid "{currencyCode} Total Hydrangea Farmed"
+#~ msgstr "{currencyCode} Hydrangea total cultivada"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

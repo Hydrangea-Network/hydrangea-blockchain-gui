@@ -1,10 +1,10 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Loading, State, StateIndicator } from '@chia/core';
-import { useGetSyncStatusQuery } from '@chia/api-react';
+import { Loading, State, StateIndicator } from '@hydrangea/core';
+import { useGetSyncStatusQuery } from '@hydrangea/api-react';
 import { Typography } from '@material-ui/core';
 import getWalletSyncingStatus from '../utils/getWalletSyncingStatus';
-import { SyncingStatus } from '@chia/api';
+import { SyncingStatus } from '@hydrangea/api';
 import WalletStatusHeight from './WalletStatusHeight';
 
 type Props = {

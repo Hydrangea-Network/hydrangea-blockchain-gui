@@ -12,7 +12,7 @@ import {
   FormatLargeNumber,
   Link,
   useOpenDialog,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Box,
   Card,
@@ -21,7 +21,7 @@ import {
   MenuItem,
   ListItemIcon,
 } from '@material-ui/core';
-import { Plot as PlotIcon } from '@chia/icons';
+import { Plot as PlotIcon } from '@hydrangea/icons';
 import { /* Link as LinkIcon, */ Payment as PaymentIcon } from '@material-ui/icons';
 import PlotNFTName from './PlotNFTName';
 import PlotNFTExternalState from './PlotNFTExternalState';

@@ -13,7 +13,7 @@ import AccordionDetails from '@material-ui/core/AccordionDetails';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Tooltip } from '@material-ui/core';
 import HelpIcon from '@material-ui/icons/Help';
-import { AlertDialog, Card, Flex, chiaToMojo, mojoToChiaLocaleString } from '@chia/core';
+import { AlertDialog, Card, Flex, chiaToMojo, mojoToChiaLocaleString } from '@hydrangea/core';
 import {
   send_transaction,
   rl_set_user_info_action,
@@ -398,7 +398,7 @@ const RLDetailsCard = (props) => {
             <Box flexGrow={1}>
               <Typography variant="subtitle1">
                 <Trans>
-                  Spending Limit (chia per interval):{' '}
+                  Spending Limit (hydrangea per interval):{' '}
                   {mojoToChiaLocaleString(limit)}
                 </Trans>
               </Typography>
@@ -445,7 +445,7 @@ const RLDetailsCard = (props) => {
             <Box flexGrow={1}>
               <Typography variant="subtitle1">
                 <Trans>
-                  Spending Limit (chia per interval):{' '}
+                  Spending Limit (hydrangea per interval):{' '}
                   {mojoToChiaLocaleString(limit)}
                 </Trans>
               </Typography>

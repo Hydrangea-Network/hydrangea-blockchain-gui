@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, ConfirmDialog, UnitFormat, useOpenDialog } from '@chia/core';
-import type { PlotNFT } from '@chia/api';
-import { usePwAbsorbRewardsMutation } from '@chia/api-react';
+import { AlertDialog, ConfirmDialog, UnitFormat, useOpenDialog } from '@hydrangea/core';
+import type { PlotNFT } from '@hydrangea/api';
+import { usePwAbsorbRewardsMutation } from '@hydrangea/api-react';
 import usePlotNFTDetails from './usePlotNFTDetails';
 import PlotNFTState from '../constants/PlotNFTState';
 

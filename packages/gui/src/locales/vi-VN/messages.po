@@ -23,8 +23,8 @@ msgid "(Optional)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:64
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "* Bạn muốn khám phá thêm về Chia Blockchain? Xem <0> Chia Explorer </0> được xây dựng bởi các nhà phát triển nguồn mở."
+msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
+msgstr "* Bạn muốn khám phá thêm về Hydrangea Blockchain? Xem <0> Hydrangea Explorer </0> được xây dựng bởi các nhà phát triển nguồn mở."
 
 #: src/components/plot/add/PlotAddNFT.tsx:123
 msgid "+ Add New Plot NFT"
@@ -48,8 +48,8 @@ msgstr "Harvester là một dịch vụ chạy trên một máy chứa các tệ
 
 #: src/electron/main.tsx:422
 #: src/electron/main.tsx:509
-msgid "About Chia Blockchain"
-msgstr "Về Chia Blockchain"
+msgid "About Hydrangea Blockchain"
+msgstr "Về Hydrangea Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -230,8 +230,8 @@ msgid "Block VDF Iterations"
 msgstr "Khối VDF lặp lại"
 
 #: src/components/block/Block.jsx:337
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Khối tại height {0} trong Chia blockchain"
+msgid "Block at height {0} in the Hydrangea blockchain"
+msgstr "Khối tại height {0} trong Hydrangea blockchain"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -325,16 +325,16 @@ msgid "Chat on KeyBase"
 msgstr "Chat trên Keybase"
 
 #: src/electron/main.tsx:419
-msgid "Chia"
-msgstr "Chia"
+msgid "Hydrangea"
+msgstr "Hydrangea"
 
 #: src/electron/main.tsx:358
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchain Wiki"
+msgid "Hydrangea Blockchain Wiki"
+msgstr "Hydrangea Blockchain Wiki"
 
 #: src/components/wallet/standard/WalletStandard.tsx:649
-msgid "Chia Wallet"
-msgstr "Ví Chia"
+msgid "Hydrangea Wallet"
+msgstr "Ví Hydrangea"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:36
 msgid "Choose Number of Plots"
@@ -741,8 +741,8 @@ msgid "Edit Payout Instructions"
 msgstr ""
 
 #: src/components/wallet/WalletImport.tsx:147
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Nhập 24 từ ghi nhớ mà bạn đã lưu để khôi phục ví Chia của bạn."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+msgstr "Nhập 24 từ ghi nhớ mà bạn đã lưu để khôi phục ví Hydrangea của bạn."
 
 #: src/components/farm/card/FarmCardStatus.tsx:35
 #: src/components/farm/card/FarmCardStatus.tsx:49
@@ -755,8 +755,8 @@ msgid "Error"
 msgstr "Lỗi"
 
 #: src/components/wallet/standard/WalletStandard.tsx:456
-msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Lỗi: Không thể gửi chia đến địa chỉ coloured. Vui lòng nhập địa chỉ chia."
+msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+msgstr "Lỗi: Không thể gửi hydrangea đến địa chỉ coloured. Vui lòng nhập địa chỉ hydrangea."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:20
 msgid "Estimated Network Space"
@@ -1583,8 +1583,8 @@ msgid "Plots Passed Filter"
 msgstr "Plot đã lọc"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:35
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
-msgstr "Plot được phân bổ không gian trên ổ cứng của bạn dùng để farm và thu về Chia. <0> Tìm hiểu thêm </0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
+msgstr "Plot được phân bổ không gian trên ổ cứng của bạn dùng để farm và thu về Hydrangea. <0> Tìm hiểu thêm </0>"
 
 #: src/components/plot/queue/PlotQueueIndicator.tsx:34
 msgid "Plotting"
@@ -2048,8 +2048,8 @@ msgstr "Chi tiêu thời gian khoảng (số khối): {thời gian khoảng các
 
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:401
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:448
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Giới hạn Chi tiêu (chia cho mỗi khoảng thời gian): {0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
+msgstr "Giới hạn Chi tiêu (hydrangea cho mỗi khoảng thời gian): {0}"
 
 #: src/components/fullNode/FullNode.jsx:100
 msgid "State"
@@ -2097,8 +2097,8 @@ msgstr "Tình trạng:"
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/wallet/did/WalletDID.tsx:886
 #: src/components/wallet/rateLimited/WalletRateLimited.jsx:347
@@ -2247,8 +2247,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Tính năng này chỉ khả dụng trên GUI."
 
 #: src/components/wallet/card/WalletCardSpendableBalance.tsx:26
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Đây là số lượng Chia mà bạn hiện có thể sử dụng để thực hiện các giao dịch. Nó không bao gồm phần thưởng farm đang chờ xử lý, các giao dịch đến đang chờ xử lý và Chia mà bạn vừa chi tiêu nhưng chưa có trong blockchain."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+msgstr "Đây là số lượng Hydrangea mà bạn hiện có thể sử dụng để thực hiện các giao dịch. Nó không bao gồm phần thưởng farm đang chờ xử lý, các giao dịch đến đang chờ xử lý và Hydrangea mà bạn vừa chi tiêu nhưng chưa có trong blockchain."
 
 #: src/components/wallet/card/WalletCardPendingChange.tsx:26
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2267,7 +2267,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Đây là thời gian khối được tạo ra bởi farmer, trước khi nó được hoàn thiện với một bằng chứng về thời gian"
 
 #: src/components/wallet/card/WalletCardTotalBalance.tsx:34
-msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Đây là tổng lượng XHG trong chuỗi khối ở khối phụ cao nhất hiện tại được kiểm soát bởi các khóa riêng của bạn. Nó bao gồm phần thưởng farm bị đóng băng, nhưng không phải là các giao dịch đến và đi đang chờ xử lý."
 
 #: src/components/wallet/card/WalletCardPendingTotalBalance.tsx:29
@@ -2313,8 +2313,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Giao dịch này đã được đưa vào blockchain ở chiều cao khối này"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-msgstr "Phiên bản Chia này không còn tương thích với blockchain và không thể farm một cách an toàn."
+msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
+msgstr "Phiên bản Hydrangea này không còn tương thích với blockchain và không thể farm một cách an toàn."
 
 #: src/components/fullNode/FullNode.jsx:92
 msgid "Time Created"
@@ -2338,8 +2338,8 @@ msgstr "Đến"
 msgid "Total Balance"
 msgstr "Tổng số dư"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:15
-#~ msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:15
+#~ msgid "Total Hydrangea Farmed"
 #~ msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:20
@@ -2552,8 +2552,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Muốn thêm Chia? Thêm nhiều plot vào farm của bạn."
+msgid "Want to earn more Hydrangea? Add more plots to your farm."
+msgstr "Muốn thêm Hydrangea? Thêm nhiều plot vào farm của bạn."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:86
 msgid "Want to have a delay before the next plot starts?"
@@ -2580,8 +2580,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Trọng lượng là tổng độ khó cộng thêm của tất cả các khối phụ lên đến và bao gồm khối này"
 
 #: src/components/selectKey/SelectKey.tsx:141
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Chào mừng đến với Chia. Vui lòng đăng nhập bằng khóa hiện có hoặc tạo khóa mới."
+msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+msgstr "Chào mừng đến với Hydrangea. Vui lòng đăng nhập bằng khóa hiện có hoặc tạo khóa mới."
 
 #: src/components/wallet/WalletAdd.tsx:66
 msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -2651,8 +2651,8 @@ msgid "You need to claim your rewards first"
 msgstr ""
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:37
 msgid "You need {currencyCode} to join a pool."
@@ -2743,9 +2743,9 @@ msgstr ""
 msgid "{currencyCode} Block Rewards"
 msgstr "{currencyCode} phần thưởng khối"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-msgid "{currencyCode} Total Chia Farmed"
-msgstr "{currencyCode} Tổng số Chia thu được"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+msgid "{currencyCode} Total Hydrangea Farmed"
+msgstr "{currencyCode} Tổng số Hydrangea thu được"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 msgid "{currencyCode} User Transaction Fees"

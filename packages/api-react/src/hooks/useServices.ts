@@ -1,4 +1,4 @@
-import { ServiceName } from '@chia/api';
+import { ServiceName } from '@hydrangea/api';
 import useService, { ServiceState } from './useService';
 
 type Options = {

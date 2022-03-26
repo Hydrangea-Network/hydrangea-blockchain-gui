@@ -1,5 +1,5 @@
-import { FullNode } from '@chia/api';
-import type { Block, BlockRecord, BlockHeader, BlockchainState, FullNodeConnection } from '@chia/api';
+import { FullNode } from '@hydrangea/api';
+import type { Block, BlockRecord, BlockHeader, BlockchainState, FullNodeConnection } from '@hydrangea/api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 import api, { baseQuery } from '../api';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { useShowDebugInformation, Flex } from '@chia/core';
+import { useShowDebugInformation, Flex } from '@hydrangea/core';
 import WalletHistory from '../WalletHistory';
 import WalletStandardCards from './WalletStandardCards';
 import WalletReceiveAddress from '../WalletReceiveAddress';

@@ -1,10 +1,10 @@
 import React, { useMemo } from 'react';
 import { useFormContext } from 'react-hook-form';
-import { Wallet, WalletType, type CATToken } from '@chia/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@chia/api-react';
+import { Wallet, WalletType, type CATToken } from '@hydrangea/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@hydrangea/api-react';
 import { Trans } from '@lingui/macro';
 import { FormControl, InputLabel, MenuItem } from '@material-ui/core';
-import { Select } from '@chia/core';
+import { Select } from '@hydrangea/core';
 import type OfferEditorRowData from './OfferEditorRowData';
 
 type WalletOfferAssetSelection = {
@@ -58,7 +58,7 @@ function buildAssetSelectorList(
     }
 
     if (wallet.type === WalletType.STANDARD_WALLET) {
-      name = 'Chia';
+      name = 'Hydrangea';
       symbol = 'XHG';
     }
     else if (wallet.type === WalletType.CAT) {

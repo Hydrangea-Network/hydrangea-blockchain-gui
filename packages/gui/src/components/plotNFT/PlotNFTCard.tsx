@@ -16,7 +16,7 @@ import {
   ConfirmDialog,
   useOpenDialog,
   mojoToChiaLocaleString,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Box,
   Button,
@@ -32,8 +32,8 @@ import {
   Link as LinkIcon,
   Payment as PaymentIcon,
 } from '@material-ui/icons';
-import { Plot as PlotIcon } from '@chia/icons';
-import { useDeleteUnconfirmedTransactionsMutation } from '@chia/api-react';
+import { Plot as PlotIcon } from '@hydrangea/icons';
+import { useDeleteUnconfirmedTransactionsMutation } from '@hydrangea/api-react';
 import type PlotNFT from '../../types/PlotNFT';
 import PlotNFTName from './PlotNFTName';
 import PlotNFTStatus from './PlotNFTState';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, Flex, CardStep, useCurrencyCode } from '@chia/core';
+import { Button, Flex, CardStep, useCurrencyCode } from '@hydrangea/core';
 import { Box, Typography } from '@material-ui/core';
 import useOpenExternal from '../../../hooks/useOpenExternal';
 

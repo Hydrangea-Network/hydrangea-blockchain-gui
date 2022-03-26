@@ -1,5 +1,5 @@
 import React from 'react';
-import { ModeProvider } from '@chia/core';
+import { ModeProvider } from '@hydrangea/core';
 import AppRouter from './AppRouter';
 
 export default function App() {

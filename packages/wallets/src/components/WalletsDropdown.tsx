@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { ListItemIcon, ListItemText, Typography } from '@material-ui/core';
-import { Dropdown, Flex, Loading, useTrans } from '@chia/core';
-import { useGetWalletsQuery } from '@chia/api-react';
-import { WalletType, type Wallet } from '@chia/api';
+import { Dropdown, Flex, Loading, useTrans } from '@hydrangea/core';
+import { useGetWalletsQuery } from '@hydrangea/api-react';
+import { WalletType, type Wallet } from '@hydrangea/api';
 import { useNavigate } from 'react-router';
 import WalletName from '../constants/WalletName';
 import WalletIcon from './WalletIcon';
@@ -11,7 +11,7 @@ import WalletBadge from './WalletBadge';
 function getPrimaryTitle(wallet: Wallet): string {
   switch (wallet.type) {
     case WalletType.STANDARD_WALLET:
-      return 'Chia';
+      return 'Hydrangea';
     default:
       return wallet.name;
   }

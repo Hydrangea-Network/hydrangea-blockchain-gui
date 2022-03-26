@@ -22,8 +22,8 @@ import {
   mojoToCATLocaleString,
   useShowSaveDialog,
   Tooltip,
-} from '@chia/core';
-import { OfferTradeRecord } from '@chia/api';
+} from '@hydrangea/core';
+import { OfferTradeRecord } from '@hydrangea/api';
 import fs from 'fs';
 import { Remote } from 'electron';
 import {
@@ -43,8 +43,8 @@ import {
   Typography
 } from '@material-ui/core';
 import { Cancel, GetApp as Download, Info, Reply as Share, Visibility } from '@material-ui/icons';
-import { Trade as TradeIcon } from '@chia/icons';
-import { useCancelOfferMutation, useGetOfferDataMutation, useGetWalletsQuery } from '@chia/api-react';
+import { Trade as TradeIcon } from '@hydrangea/icons';
+import { useCancelOfferMutation, useGetOfferDataMutation, useGetWalletsQuery } from '@hydrangea/api-react';
 import { colorForOfferState, displayStringForOfferState, formatAmountForWalletType, suggestedFilenameForOffer } from './utils';
 import useAssetIdName from '../../hooks/useAssetIdName';
 import useWalletOffers from '../../hooks/useWalletOffers';

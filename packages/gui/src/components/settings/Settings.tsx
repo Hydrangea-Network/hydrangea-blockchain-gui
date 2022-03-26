@@ -8,8 +8,8 @@ import {
   Suspender,
   useOpenDialog,
   useSkipMigration,
-} from '@chia/core';
-import { useGetKeyringStatusQuery } from '@chia/api-react';
+} from '@hydrangea/core';
+import { useGetKeyringStatusQuery } from '@hydrangea/api-react';
 import {
   Grid,
   Typography,

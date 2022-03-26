@@ -1,8 +1,8 @@
-# @chia/api-react
+# @hydrangea/api-react
 
 ![Alt text](https://www.chia.net/img/chia_logo.svg)
 
-This library provides react hooks on the top of @chia/api and uses [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) under do hood.
+This library provides react hooks on the top of @hydrangea/api and uses [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) under do hood.
 It is designed to simplify common cases for loading data in a web application, eliminating the need to hand-write data fetching & caching logic yourself. Providing much more benefits:
 
 - Automatically refresh queries when data changed (using events from Chia Blockchain).
@@ -19,7 +19,7 @@ It is designed to simplify common cases for loading data in a web application, e
 
 ```tsx
 import React from 'react';
-import { useGetPublicKeysQuery } from '@chia/api-react';
+import { useGetPublicKeysQuery } from '@hydrangea/api-react';
 import Suspender from 'react-suspender';
 
 export default function PublicKeys() {
@@ -56,7 +56,7 @@ export default function PublicKeys() {
 ```tsx
 import React, { Suspense } from 'react';
 import Websocket from 'ws'; // or read this value from electron main application
-import { store, api } from '@chia/api-react';
+import { store, api } from '@hydrangea/api-react';
 import PublicKeys from './PublicKeys';
 
 // prepare api

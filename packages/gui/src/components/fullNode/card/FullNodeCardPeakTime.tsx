@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { CardSimple } from '@chia/core';
+import { CardSimple } from '@hydrangea/core';
 import moment from 'moment';
-import { useGetLatestPeakTimestampQuery } from '@chia/api-react';
+import { useGetLatestPeakTimestampQuery } from '@hydrangea/api-react';
 
 export default function FullNodeCardPeakTime() {
   const { data: timestamp, isLoading, error } = useGetLatestPeakTimestampQuery();

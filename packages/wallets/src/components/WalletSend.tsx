@@ -4,7 +4,7 @@ import {
   useGetSyncStatusQuery,
   useSendTransactionMutation,
   useFarmBlockMutation,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import {
   Amount,
   ButtonLoading,
@@ -17,7 +17,7 @@ import {
   chiaToMojo,
   getTransactionResult,
   useIsSimulator,
-} from '@chia/core';
+} from '@hydrangea/core';
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import {

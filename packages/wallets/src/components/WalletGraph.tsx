@@ -4,10 +4,10 @@ import { ResponsiveLine } from '@nivo/line';
 import { orderBy, groupBy, sumBy, map } from 'lodash';
 import { /* Typography, */ Paper } from '@material-ui/core';
 import styled from 'styled-components';
-import { useGetWalletBalanceQuery } from '@chia/api-react';
-import { TransactionType } from '@chia/api';
-import type { Transaction } from '@chia/api';
-import { mojoToChia, blockHeightToTimestamp } from '@chia/core';
+import { useGetWalletBalanceQuery } from '@hydrangea/api-react';
+import { TransactionType } from '@hydrangea/api';
+import type { Transaction } from '@hydrangea/api';
+import { mojoToChia, blockHeightToTimestamp } from '@hydrangea/core';
 import useWalletTransactions from '../hooks/useWalletTransactions';
 
 /*

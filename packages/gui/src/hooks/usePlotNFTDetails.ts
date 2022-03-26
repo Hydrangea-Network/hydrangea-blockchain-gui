@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import type { PlotNFT, Plot } from '@chia/api';
-import { useIsWalletSynced } from '@chia/wallets';
+import type { PlotNFT, Plot } from '@hydrangea/api';
+import { useIsWalletSynced } from '@hydrangea/wallets';
 import PlotNFTState from '../constants/PlotNFTState';
 import usePlots from './usePlots';
 import usePlotNFTName from './usePlotNFTName';

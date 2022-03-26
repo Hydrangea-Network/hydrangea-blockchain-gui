@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex, More, useOpenDialog } from '@chia/core';
+import { Flex, More, useOpenDialog } from '@hydrangea/core';
 import {
   Box,
   MenuItem,
@@ -8,7 +8,7 @@ import {
   ListItemIcon,
   Typography,
 } from '@material-ui/core';
-import { useGetCombinedPlotsQuery } from '@chia/api-react';
+import { useGetCombinedPlotsQuery } from '@hydrangea/api-react';
 import { Settings as SettingsIcon } from '@material-ui/icons';
 import FarmOverviewHero from './FarmOverviewHero';
 import FarmOverviewCards from './FarmOverviewCards';

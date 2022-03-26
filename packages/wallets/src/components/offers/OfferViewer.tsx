@@ -23,7 +23,7 @@ import {
   chiaToMojo,
   mojoToChiaLocaleString,
   mojoToCATLocaleString,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Box,
   Button,
@@ -38,8 +38,8 @@ import {
   Tooltip,
   Typography
 } from '@material-ui/core';
-import { OfferSummaryRecord, OfferTradeRecord, OfferCoinOfInterest, WalletType } from '@chia/api';
-import { useCheckOfferValidityMutation, useTakeOfferMutation } from '@chia/api-react';
+import { OfferSummaryRecord, OfferTradeRecord, OfferCoinOfInterest, WalletType } from '@hydrangea/api';
+import { useCheckOfferValidityMutation, useTakeOfferMutation } from '@hydrangea/api-react';
 import {
   colorForOfferState,
   displayStringForOfferState,

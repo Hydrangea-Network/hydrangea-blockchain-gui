@@ -10,8 +10,8 @@ import {
   useOpenDialog,
   useShowError,
   useOpenExternal,
-} from '@chia/core';
-import { OfferTradeRecord } from '@chia/api';
+} from '@hydrangea/core';
+import { OfferTradeRecord } from '@hydrangea/api';
 import {
   Button,
   Checkbox,

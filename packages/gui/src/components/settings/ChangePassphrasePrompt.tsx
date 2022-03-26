@@ -16,8 +16,8 @@ import {
   Help as HelpIcon,
 } from '@material-ui/icons';
 import { t, Trans } from '@lingui/macro';
-import { AlertDialog, Flex, useOpenDialog, Suspender, useValidateChangePassphraseParams } from '@chia/core';
-import { useGetKeyringStatusQuery, useRemoveKeyringPassphraseMutation, useSetKeyringPassphraseMutation } from '@chia/api-react';
+import { AlertDialog, Flex, useOpenDialog, Suspender, useValidateChangePassphraseParams } from '@hydrangea/core';
+import { useGetKeyringStatusQuery, useRemoveKeyringPassphraseMutation, useSetKeyringPassphraseMutation } from '@hydrangea/api-react';
 
 type Props = {
   onSuccess: () => void;

@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { AlertDialog, Fee, Back, ButtonLoading, Card, Flex, Form, TextField } from '@chia/core';
+import { AlertDialog, Fee, Back, ButtonLoading, Card, Flex, Form, TextField } from '@hydrangea/core';
 import { Box, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router';
 import { create_cc_for_colour_action } from '../../../modules/message';
-import { chiaToMojo } from '@chia/core';
+import { chiaToMojo } from '@hydrangea/core';
 import { openDialog } from '../../../modules/dialog';
 import config from '../../../config/config';
 
@@ -73,7 +73,7 @@ export default function WalletCATCreateExisting() {
         <Back variant="h5">
           {asteroid 
             ? <Trans>Create custom CAT Wallet</Trans>
-            : <Trans>Create Chia Asset Token Wallet from Existing TAIL</Trans>}
+            : <Trans>Create Hydangea Asset Token Wallet from Existing TAIL</Trans>}
           
         </Back>
         <Card>

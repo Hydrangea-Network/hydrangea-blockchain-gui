@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(Valinnainen)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "Haluatko tarkastella lohkoja? Katso avoimen koodin <0>Chia Explorer</0>."
+msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
+msgstr "Haluatko tarkastella lohkoja? Katso avoimen koodin <0>Hydrangea Explorer</0>."
 
 #: src/components/app/AppSelectMode.tsx:120
 #~ msgid "+"
@@ -64,8 +64,8 @@ msgstr ""
 
 #: src/electron/main.tsx:507
 #: src/electron/main.tsx:594
-msgid "About Chia Blockchain"
-msgstr "Chia Lohkoketjusta"
+msgid "About Hydrangea Blockchain"
+msgstr "Hydrangea Lohkoketjusta"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -256,8 +256,8 @@ msgid "Block VDF Iterations"
 msgstr "Lohkon VDF-iteraatiot"
 
 #: src/components/block/Block.jsx:326
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Lohko korkeudessa {0} Chian lohkoketjussa"
+msgid "Block at height {0} in the Hydrangea blockchain"
+msgstr "Lohko korkeudessa {0} Hydrangean lohkoketjussa"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -360,16 +360,16 @@ msgid "Chat on KeyBase"
 msgstr "Keskustele KeyBasessa"
 
 #: src/electron/main.tsx:504
-msgid "Chia"
-msgstr "Chia"
+msgid "Hydrangea"
+msgstr "Hydrangea"
 
 #: src/electron/main.tsx:443
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Wiki"
+msgid "Hydrangea Blockchain Wiki"
+msgstr "Hydrangea Wiki"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:642
-#~ msgid "Chia Wallet"
-#~ msgstr "Chia-lompakko"
+#~ msgid "Hydrangea Wallet"
+#~ msgstr "Hydrangea-lompakko"
 
 #: src/components/app/AppSelectMode.tsx:163
 msgid "Choose Farming Mode"
@@ -738,7 +738,7 @@ msgstr ""
 #~ msgstr "Avaimen poisto poistaa sen tietokoneeltasi. Varmista että sinulla on varmuuskopio. Haluatko jatkaa?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:383
@@ -847,8 +847,8 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/_wallet_old/WalletImport.tsx:146
-#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-#~ msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Chia-lompakon."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+#~ msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Hydrangea-lompakon."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
 msgid "Enter your passphrase:"
@@ -865,8 +865,8 @@ msgid "Error"
 msgstr "Virhe"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "Virhe: Chioja ei voi lähettää värikolikko-osoitteeseen. Anna Chialompakon osoite."
+#~ msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+#~ msgstr "Virhe: Chioja ei voi lähettää värikolikko-osoitteeseen. Anna Hydrangealompakon osoite."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
 msgid "Estimated Network Space"
@@ -1836,7 +1836,7 @@ msgid "Plots Passed Filter"
 msgstr "Plotteja Päässyt Filtteristä"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
 msgstr "Plotit ovat levyn tilavarauksia, joilla tuotetaan ja ansaitaan Chioja. <0>Katso lisää</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
@@ -2379,8 +2379,8 @@ msgstr "Puhe"
 
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:401
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:448
-#~ msgid "Spending Limit (chia per interval): {0}"
-#~ msgstr "Käyttöraja (Chiaa/ajanjakso):{0}"
+#~ msgid "Spending Limit (hydrangea per interval): {0}"
+#~ msgstr "Käyttöraja (Hydrangeaa/ajanjakso):{0}"
 
 #: src/components/app/AppState.tsx:172
 msgid "Starting services"
@@ -2433,8 +2433,8 @@ msgstr ""
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:97
 msgid "Submit"
@@ -2587,7 +2587,7 @@ msgid "This feature is available only from the GUI."
 msgstr "Tämä ominaisuus käytettävissä ainoastaan graafisessa käyttöliittymässä."
 
 #: src/components/_wallet_old/card/WalletCardSpendableBalance.tsx:26
-#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+#~ msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
 #~ msgstr "Transaktioihin käytettävissä oleva Chiojen määrä. Ei sisällä avoimia farmarin palkkioita, avoimia saapuvia transaktioita eikä lähetettyjä, mutta vahvistamattomia transaktioita."
 
 #: src/components/_wallet_old/card/WalletCardPendingChange.tsx:26
@@ -2607,7 +2607,7 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ajankohta jolloin farmari on luonut lohkon. Aikatodiste viimeistelee lohkon tämän ajankohdan jälkeen"
 
 #: src/components/_wallet_old/card/WalletCardTotalBalance.tsx:34
-#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 #~ msgstr "Yksityisten avaimiesi hallinoimien Chiojen kokonaissumma lohkoketjussa. Sisälytää jäädytetyt palkkiot, mutta ei tulevia tai lähteviä transaktioita."
 
 #: src/components/_wallet_old/card/WalletCardPendingTotalBalance.tsx:29
@@ -2653,8 +2653,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Kauppa on sisällytetty lohkoketjuun tässä lohkokorkeudessa"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Tämä Chian versio ei ole enää yhteensopiva lohkoketjun kanssa."
+#~ msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Tämä Hydrangean versio ei ole enää yhteensopiva lohkoketjun kanssa."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2682,8 +2682,8 @@ msgstr "Aikaleima"
 #~ msgid "Total Balance"
 #~ msgstr "Kokonaissaldo"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+msgid "Total Hydrangea Farmed"
 msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -2919,7 +2919,7 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Haluatko liittyä pooliin? Luo Plot-NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
+msgid "Want to earn more Hydrangea? Add more plots to your farm."
 msgstr "Haluatko ansaita Chioja? Lisää plot-tiedostoja farmiisi."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
@@ -2952,8 +2952,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Paino on kaikkien tähänastisten lohkojen vaikeuskerroin"
 
 #: src/components/_selectKey_old/SelectKey.tsx:183
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-#~ msgstr "Tervetuloa Chiaan. Kirjaudu sisään avaimella tai luo uusi avain."
+#~ msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+#~ msgstr "Tervetuloa Hydrangeaan. Kirjaudu sisään avaimella tai luo uusi avain."
 
 #: src/components/_wallet_old/WalletAdd.tsx:66
 #~ msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3031,8 +3031,8 @@ msgid "You need to claim your rewards first"
 msgstr "Sinun täytyy lunastaa ensin palkkiosi"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 msgid "You need {currencyCode} to join a pool."
@@ -3089,7 +3089,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3176,8 +3176,8 @@ msgstr "{0} pistettä {1} - {2} tuntia sitten"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Lohkopalkkiot"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+#~ msgid "{currencyCode} Total Hydrangea Farmed"
 #~ msgstr "{currencyCode} Chioja Farmaroitu"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28

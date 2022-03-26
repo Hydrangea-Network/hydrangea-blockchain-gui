@@ -3,7 +3,7 @@ import { useHistory, useRouteMatch } from "react-router";
 import { Trans } from '@lingui/macro';
 import { Grid, Typography } from '@material-ui/core';
 import { Share as ShareIcon, Speed as SpeedIcon, HomeWork as HomeWorkIcon } from '@material-ui/icons';
-import { Flex } from '@chia/core';
+import { Flex } from '@hydrangea/core';
 import WalletCreateCard from './WalletCreateCard';
 
 export default function WalletCreateList() {
@@ -29,7 +29,7 @@ export default function WalletCreateList() {
         <Grid xs={12} sm={6} md={4} item>
           <WalletCreateCard
             onSelect={handleCreateCAT}
-            title={<Trans>Chia Asset Token</Trans>}
+            title={<Trans>Hydangea Asset Token</Trans>}
             icon={<HomeWorkIcon fontSize="large" color="primary" />}
           />
         </Grid>

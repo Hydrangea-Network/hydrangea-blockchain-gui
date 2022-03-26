@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Route, Routes } from 'react-router-dom';
-import { Flex, Link, DashboardTitle } from '@chia/core';
+import { Flex, Link, DashboardTitle } from '@hydrangea/core';
 import PoolOverview from './PoolOverview';
 import PlotNFTAdd from '../plotNFT/PlotNFTAdd';
 import PlotNFTChangePool from '../plotNFT/PlotNFTChangePool';

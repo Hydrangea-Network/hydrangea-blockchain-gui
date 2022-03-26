@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetBlockchainStateQuery, useGetCombinedPlotsQuery } from '@chia/api-react';
+import { useGetBlockchainStateQuery, useGetCombinedPlotsQuery } from '@hydrangea/api-react';
 import moment from 'moment';
-import { State, CardSimple } from '@chia/core';
+import { State, CardSimple } from '@hydrangea/core';
 import type Plot from '../../../types/Plot';
 import FullNodeState from '../../../constants/FullNodeState';
 import useFullNodeState from '../../../hooks/useFullNodeState';

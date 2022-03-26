@@ -1,4 +1,4 @@
-import { useGetBlockchainStateQuery } from '@chia/api-react';
+import { useGetBlockchainStateQuery } from '@hydrangea/api-react';
 import FullNodeState from '../constants/FullNodeState';
 
 export default function useFullNodeState(): FullNodeState {

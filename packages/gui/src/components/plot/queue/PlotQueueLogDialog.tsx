@@ -9,8 +9,8 @@ import {
   LinearProgress,
   Typography,
 } from '@material-ui/core';
-import { Flex, Log } from '@chia/core';
-import { useGetPlotQueueQuery, useThrottleQuery } from '@chia/api-react';
+import { Flex, Log } from '@hydrangea/core';
+import { useGetPlotQueueQuery, useThrottleQuery } from '@hydrangea/api-react';
 import styled from 'styled-components';
 
 const StyledLinearProgress = styled(LinearProgress)`

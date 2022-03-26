@@ -1,5 +1,5 @@
 import { BaseQueryFn } from '@reduxjs/toolkit/query/react';
-import Client, { Service } from '@chia/api';
+import Client, { Service } from '@hydrangea/api';
 import { BaseQueryApi } from '@reduxjs/toolkit/dist/query/baseQueryTypes';
 import { selectApiConfig } from './slices/api';
 

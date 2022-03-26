@@ -1,7 +1,7 @@
 import React from 'react';
 import { Alert } from '@material-ui/lab';
 import { Trans } from '@lingui/macro';
-import { Card, CopyToClipboard, Flex, Loading, useOpenDialog } from '@chia/core';
+import { Card, CopyToClipboard, Flex, Loading, useOpenDialog } from '@hydrangea/core';
 import { InputAdornment, Typography } from '@material-ui/core';
 import { Edit as RenameIcon, Fingerprint as FingerprintIcon } from '@material-ui/icons';
 import {
@@ -10,7 +10,7 @@ import {
   ListItemIcon,
   MenuItem,
 } from '@material-ui/core';
-import { useSetCATNameMutation, useGetCatListQuery } from '@chia/api-react';
+import { useSetCATNameMutation, useGetCatListQuery } from '@hydrangea/api-react';
 import WalletHistory from '../WalletHistory';
 import useWallet from '../../hooks/useWallet';
 import WalletReceiveAddress from '../WalletReceiveAddress';

@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
 import { useLocalStorage, writeStorage } from '@rehooks/local-storage';
-import { useGetLoggedInFingerprintQuery } from '@chia/api-react';
+import { useGetLoggedInFingerprintQuery } from '@hydrangea/api-react';
 import UnconfirmedPlotNFT from '../types/UnconfirmedPlotNFT';
 
 const LOCAL_STORAGE_KEY = 'unconfirmedPlotNFTsV2';

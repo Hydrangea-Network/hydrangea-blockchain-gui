@@ -16,13 +16,13 @@ import {
   useCurrencyCode,
   toBech32m,
   getTransactionResult,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { 
   useSpendCATMutation,
   useGetSyncStatusQuery,
   useFarmBlockMutation,
-} from '@chia/api-react';
-import { SyncingStatus } from '@chia/api';
+} from '@hydrangea/api-react';
+import { SyncingStatus } from '@hydrangea/api';
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import { Button, Grid } from '@material-ui/core';

@@ -1,4 +1,4 @@
-import type { Point } from '@chia/api';
+import type { Point } from '@hydrangea/api';
 
 const DAY_SECONDS = 60 * 60 * 24;
 

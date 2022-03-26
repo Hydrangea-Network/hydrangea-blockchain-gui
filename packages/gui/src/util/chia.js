@@ -84,17 +84,17 @@ chia_formatter.setFiat = (currency, rate, display = null) => {
 };
 
 export const mojo_to_chia = (mojo) => {
-  return chia_formatter(Number.parseInt(mojo), 'mojo').to('chia').value();
+  return chia_formatter(Number.parseInt(mojo), 'mojo').to('hydrangea').value();
 };
 
 export const chia_to_mojo = (chia) => {
-  return chia_formatter(Number.parseFloat(Number(chia)), 'chia')
+  return chia_formatter(Number.parseFloat(Number(chia)), 'hydrangea')
     .to('mojo')
     .value();
 };
 
 export const mojo_to_chia_string = (mojo) => {
-  return chia_formatter(Number(mojo), 'mojo').to('chia').toString();
+  return chia_formatter(Number(mojo), 'mojo').to('hydrangea').toString();
 };
 
 export const mojo_to_colouredcoin = (mojo) => {

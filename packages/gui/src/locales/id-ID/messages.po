@@ -31,8 +31,8 @@ msgid "(Optional)"
 msgstr "(Pilihan)"
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:58
-msgid "*Want to explore Chia’s blocks further? Check out <0>Chia Explorer</0> built by an open source developer."
-msgstr "*Ingin tahu soal blok Chia lebih jauh? Periksa laman <0>Chia Explorer</0> yang dibuat oleh software sumber terbuka."
+msgid "*Want to explore Hydrangea’s blocks further? Check out <0>Hydrangea Explorer</0> built by an open source developer."
+msgstr "*Ingin tahu soal blok Hydrangea lebih jauh? Periksa laman <0>Hydrangea Explorer</0> yang dibuat oleh software sumber terbuka."
 
 #: src/components/app/AppSelectMode.tsx:120
 #~ msgid "+"
@@ -64,8 +64,8 @@ msgstr ""
 
 #: src/electron/main.tsx:507
 #: src/electron/main.tsx:594
-msgid "About Chia Blockchain"
-msgstr "Tentang Chia Blockchain"
+msgid "About Hydrangea Blockchain"
+msgstr "Tentang Hydrangea Blockchain"
 
 #: src/components/trading/ViewOffer.jsx:74
 msgid "Accept"
@@ -256,8 +256,8 @@ msgid "Block VDF Iterations"
 msgstr "Perulangan blok VDF"
 
 #: src/components/block/Block.jsx:326
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Blok pada puncak {0} dalam rantai blok Chia"
+msgid "Block at height {0} in the Hydrangea blockchain"
+msgstr "Blok pada puncak {0} dalam rantai blok Hydrangea"
 
 #: src/components/fullNode/FullNode.jsx:331
 #~ msgid "Block hash"
@@ -360,16 +360,16 @@ msgid "Chat on KeyBase"
 msgstr "Hubung Chat di KeyBase"
 
 #: src/electron/main.tsx:504
-msgid "Chia"
-msgstr "Chia"
+msgid "Hydrangea"
+msgstr "Hydrangea"
 
 #: src/electron/main.tsx:443
-msgid "Chia Blockchain Wiki"
-msgstr "Wiki Chia Blockchain"
+msgid "Hydrangea Blockchain Wiki"
+msgstr "Wiki Hydrangea Blockchain"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:642
-#~ msgid "Chia Wallet"
-#~ msgstr "Wallet Chia"
+#~ msgid "Hydrangea Wallet"
+#~ msgstr "Wallet Hydrangea"
 
 #: src/components/app/AppSelectMode.tsx:163
 msgid "Choose Farming Mode"
@@ -738,7 +738,7 @@ msgstr ""
 #~ msgstr "Menghapus semua kunci akan menghilangkan kunci-kunci tersebut dari komputer anda, pastikan anda telah memiliki cadangan. Apa anda yakin ingin melanjutkan?"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 msgstr ""
 
 #: src/electron/main.tsx:383
@@ -847,8 +847,8 @@ msgid "Enter a strong passphrase to secure your keys:"
 msgstr ""
 
 #: src/components/_wallet_old/WalletImport.tsx:146
-#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-#~ msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Chia anda."
+#~ msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+#~ msgstr "Masukkan 24 kata mnemonik yang telah anda simpan untuk mengembalikan dompet Hydrangea anda."
 
 #: src/components/settings/RemovePassphrasePrompt.tsx:104
 msgid "Enter your passphrase:"
@@ -865,8 +865,8 @@ msgid "Error"
 msgstr "Error"
 
 #: src/components/_wallet_old/standard/WalletStandard.tsx:450
-#~ msgid "Error: Cannot send chia to coloured address. Please enter a chia address."
-#~ msgstr "Error: Tidak dapat mengirim Chia ke alamat berwarna. Mohon masukkan sebuah alamat Chia."
+#~ msgid "Error: Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+#~ msgstr "Error: Tidak dapat mengirim Hydrangea ke alamat berwarna. Mohon masukkan sebuah alamat Hydrangea."
 
 #: src/components/fullNode/card/FullNodeEstimatedNetworkSpace.tsx:14
 msgid "Estimated Network Space"
@@ -1836,9 +1836,9 @@ msgid "Plots Passed Filter"
 msgstr "Plot Diterima Seleksi"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia. <0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea. <0>Learn more</0>"
 msgstr ""
-"Plot adalah penempatan ruang dalam hard drive yang digunakan untuk disewakan dan memperoleh Chia\n"
+"Plot adalah penempatan ruang dalam hard drive yang digunakan untuk disewakan dan memperoleh Hydrangea\n"
 "<0>Pelajari lebih lanjut</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
@@ -2381,8 +2381,8 @@ msgstr "Pertuturan"
 
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:401
 #: src/components/_wallet_old/rateLimited/WalletRateLimited.jsx:448
-#~ msgid "Spending Limit (chia per interval): {0}"
-#~ msgstr "Batas Pengeluaran (chia per jarak waktu): {0}"
+#~ msgid "Spending Limit (hydrangea per interval): {0}"
+#~ msgstr "Batas Pengeluaran (hydrangea per jarak waktu): {0}"
 
 #: src/components/app/AppState.tsx:172
 msgid "Starting services"
@@ -2435,8 +2435,8 @@ msgstr ""
 #~ msgstr "Sub Block Height"
 
 #: src/components/block/Block.jsx:338
-#~ msgid "Sub Block at height {0} in the Chia blockchain"
-#~ msgstr "Sub Block at height {0} in the Chia blockchain"
+#~ msgid "Sub Block at height {0} in the Hydrangea blockchain"
+#~ msgstr "Sub Block at height {0} in the Hydrangea blockchain"
 
 #: src/components/app/AppPassPrompt.tsx:97
 msgid "Submit"
@@ -2589,8 +2589,8 @@ msgid "This feature is available only from the GUI."
 msgstr "Fitur ini hanya tersedia di GUI."
 
 #: src/components/_wallet_old/card/WalletCardSpendableBalance.tsx:26
-#~ msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-#~ msgstr "Ini adalah jumlah Chia yang ada yang bisa anda gunakan untuk transaksi. Ini tidak berikut penghasilan farming yang masih tertahan, transaksi masuk yang masih tertahan, dan Chia yang sudah anda pakai tapi belum terdaftar di blockchain."
+#~ msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+#~ msgstr "Ini adalah jumlah Hydrangea yang ada yang bisa anda gunakan untuk transaksi. Ini tidak berikut penghasilan farming yang masih tertahan, transaksi masuk yang masih tertahan, dan Hydrangea yang sudah anda pakai tapi belum terdaftar di blockchain."
 
 #: src/components/_wallet_old/card/WalletCardPendingChange.tsx:26
 #~ msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -2609,8 +2609,8 @@ msgid "This is the time the block was created by the farmer, which is before it 
 msgstr "Ini adalah waktu dimana blok di hasilkan oleh farmer, sebelum di finalisasi dengan bukti dari waktu"
 
 #: src/components/_wallet_old/card/WalletCardTotalBalance.tsx:34
-#~ msgid "This is the total amount of chia in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-#~ msgstr "Ini adalah jumlah total Chia di dalam blockchain di pucak terbaru sub blok yang di kontrol oleh kunci privat anda. Termasuk hadiah farming yang masi beku, tapi tidak termasuk transaksi masuk atau keluar yang masih tertahan."
+#~ msgid "This is the total amount of hydrangea in the blockchain at the current peak sub block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+#~ msgstr "Ini adalah jumlah total Hydrangea di dalam blockchain di pucak terbaru sub blok yang di kontrol oleh kunci privat anda. Termasuk hadiah farming yang masi beku, tapi tidak termasuk transaksi masuk atau keluar yang masih tertahan."
 
 #: src/components/_wallet_old/card/WalletCardPendingTotalBalance.tsx:29
 #~ msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."
@@ -2655,8 +2655,8 @@ msgid "This trade was included on blockchain at this block height"
 msgstr "Perdagangan ini sudah termasuk di blockchain pada ketinggian block ini"
 
 #: src/components/app/AppTimeBombAlert.tsx:19
-#~ msgid "This version of Chia is no longer compatible with the blockchain and can not safely farm."
-#~ msgstr "Versi Chia anda tidak serasi kepada blockchain dan tidak boleh ditransaksi."
+#~ msgid "This version of Hydrangea is no longer compatible with the blockchain and can not safely farm."
+#~ msgstr "Versi Hydrangea anda tidak serasi kepada blockchain dan tidak boleh ditransaksi."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:154
 msgid "Thread Multiplier for Phase 2"
@@ -2684,8 +2684,8 @@ msgstr "Timestamp"
 #~ msgid "Total Balance"
 #~ msgstr "Jumlah Saldo"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+msgid "Total Hydrangea Farmed"
 msgstr ""
 
 #: src/components/fullNode/card/FullNodeCardTotalIterations.tsx:14
@@ -2921,8 +2921,8 @@ msgid "Want to Join a Pool? Create a Plot NFT"
 msgstr "Mau bergabung ke Pool? Buat sebuah Plot NFT"
 
 #: src/components/plot/overview/PlotOverviewPlots.tsx:139
-msgid "Want to earn more Chia? Add more plots to your farm."
-msgstr "Ingin mendapatkan lebih banyak Chia? Tambahkan lebih banyak plot ke farm anda."
+msgid "Want to earn more Hydrangea? Add more plots to your farm."
+msgstr "Ingin mendapatkan lebih banyak Hydrangea? Tambahkan lebih banyak plot ke farm anda."
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:87
 msgid "Want to have a delay before the next plot starts?"
@@ -2954,8 +2954,8 @@ msgid "Weight is the total added difficulty of all sub blocks up to and includin
 msgstr "Beban adalah jumlah total ke rumitan semua sub blok sampai dengan blok ini"
 
 #: src/components/_selectKey_old/SelectKey.tsx:183
-#~ msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-#~ msgstr "Selamat datang di Chia. Silahkan masuk dengan key eksisting atau dengan membuat key baru."
+#~ msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+#~ msgstr "Selamat datang di Hydrangea. Silahkan masuk dengan key eksisting atau dengan membuat key baru."
 
 #: src/components/_wallet_old/WalletAdd.tsx:66
 #~ msgid "Welcome! The following words are used for your wallet backup. Without them, you will lose access to your wallet, keep them safe! Write down each word along with the order number next to them. (Order is important)"
@@ -3033,8 +3033,8 @@ msgid "You need to claim your rewards first"
 msgstr "Anda harus mengambil penghargaan terlebih dahulu"
 
 #: src/components/app/AppTimeBomb.tsx:28
-#~ msgid "You need to upgrade the Chia application as this version will stop working soon!"
-#~ msgstr "You need to upgrade the Chia application as this version will stop working soon!"
+#~ msgid "You need to upgrade the Hydrangea application as this version will stop working soon!"
+#~ msgstr "You need to upgrade the Hydrangea application as this version will stop working soon!"
 
 #: src/components/plotNFT/select/PlotNFTSelectFaucet.tsx:36
 msgid "You need {currencyCode} to join a pool."
@@ -3091,7 +3091,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:181
 #: src/components/settings/ChangePassphrasePrompt.tsx:211
 #: src/components/settings/SetPassphrasePrompt.tsx:193
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/Settings.tsx:85
@@ -3178,9 +3178,9 @@ msgstr "{0} poin {1} - {2} jam yang lalu"
 #~ msgid "{currencyCode} Block Rewards"
 #~ msgstr "{currencyCode} Blok Ganjaran"
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:29
-#~ msgid "{currencyCode} Total Chia Farmed"
-#~ msgstr "{currencyCode} Total Chia yang di-Farm"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:29
+#~ msgid "{currencyCode} Total Hydrangea Farmed"
+#~ msgstr "{currencyCode} Total Hydrangea yang di-Farm"
 
 #: src/components/farm/card/FarmCardUserFees.tsx:28
 #~ msgid "{currencyCode} User Transaction Fees"

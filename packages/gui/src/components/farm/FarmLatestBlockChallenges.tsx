@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@material-ui/core';
-import { Link, Table, Card } from '@chia/core';
-import { useGetSignagePointsQuery, useGetCombinedPlotsQuery } from '@chia/api-react';
+import { Link, Table, Card } from '@hydrangea/core';
+import { useGetSignagePointsQuery, useGetCombinedPlotsQuery } from '@hydrangea/api-react';
 import type { Row } from '../core/components/Table/Table';
 
 const cols = [

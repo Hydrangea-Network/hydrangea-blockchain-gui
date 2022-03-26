@@ -3,7 +3,7 @@ import { Trans } from '@lingui/macro';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Button, Divider, Grid, Typography } from '@material-ui/core';
 import styled from 'styled-components';
-import { CardHero, Link, useOpenDialog } from '@chia/core';
+import { CardHero, Link, useOpenDialog } from '@hydrangea/core';
 import heroSrc from './images/hero.svg';
 import PlotAddDirectoryDialog from '../../plot/PlotAddDirectoryDialog';
 

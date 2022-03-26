@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { useGetOffersCountQuery, useGetAllOffersQuery } from '@chia/api-react';
-import { OfferTradeRecord } from '@chia/api';
+import { useGetOffersCountQuery, useGetAllOffersQuery } from '@hydrangea/api-react';
+import { OfferTradeRecord } from '@hydrangea/api';
 
 export default function useWalletOffers(
   defaultRowsPerPage = 5,

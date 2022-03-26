@@ -10,7 +10,7 @@ import {
 import styled from 'styled-components';
 import { ChevronRight as ChevronRightIcon } from '@material-ui/icons';
 import { useSelector } from 'react-redux';
-import { Flex, Loading, Logo } from '@chia/core';
+import { Flex, Loading, Logo } from '@hydrangea/core';
 import type { RootState } from '../../../modules/rootReducer';
 import WalletName from '../../../constants/WalletName';
 import config from '../../../config/config';

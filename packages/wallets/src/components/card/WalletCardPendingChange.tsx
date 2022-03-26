@@ -1,7 +1,7 @@
 import React, { useMemo, ReactElement } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetWalletBalanceQuery } from '@chia/api-react';
-import { CardSimple } from '@chia/core';
+import { useGetWalletBalanceQuery } from '@hydrangea/api-react';
+import { CardSimple } from '@hydrangea/core';
 import useWallet from '../../hooks/useWallet';
 import getWalletHumanValue from '../../utils/getWalletHumanValue';
 

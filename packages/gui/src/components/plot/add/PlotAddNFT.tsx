@@ -1,6 +1,6 @@
 import React, { useState, forwardRef } from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, CardStep, Select, Flex, Loading } from '@chia/core';
+import { Button, CardStep, Select, Flex, Loading } from '@hydrangea/core';
 import {
   Box,
   Grid,

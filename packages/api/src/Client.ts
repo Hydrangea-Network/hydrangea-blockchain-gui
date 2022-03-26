@@ -8,7 +8,7 @@ import type Service from './services/Service';
 import ErrorData from './utils/ErrorData';
 import ConnectionState from './constants/ConnectionState';
 
-const log = debug('chia-api:client');
+const log = debug('hydrangea-api:client');
 
 type Options = {
   url: string;

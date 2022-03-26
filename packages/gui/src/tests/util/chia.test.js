@@ -1,6 +1,6 @@
 const chia = require('../../util/chia');
 
-describe('chia', () => {
+describe('hydrangea', () => {
   it('converts number mojo to chia', () => {
     const result = chia.mojo_to_chia(1000000);
 

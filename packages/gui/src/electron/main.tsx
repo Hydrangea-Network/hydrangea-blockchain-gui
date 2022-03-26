@@ -505,12 +505,12 @@ if (!handleSquirrelEvent()) {
     ];
 
     if (process.platform === 'darwin') {
-      // Chia Blockchain menu (Mac)
+      // Hydrangea Blockchain menu (Mac)
       template.unshift({
-        label: i18n._(/* i18n */ { id: 'Chia' }),
+        label: i18n._(/* i18n */ { id: 'Hydrangea' }),
         submenu: [
           {
-            label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+            label: i18n._(/* i18n */ { id: 'About Hydrangea Blockchain' }),
             click: () => {
               openAbout();
             },
@@ -597,7 +597,7 @@ if (!handleSquirrelEvent()) {
           type: 'separator',
         },
         {
-          label: i18n._(/* i18n */ { id: 'About Chia Blockchain' }),
+          label: i18n._(/* i18n */ { id: 'About Hydrangea Blockchain' }),
           click() {
             openAbout();
           },
