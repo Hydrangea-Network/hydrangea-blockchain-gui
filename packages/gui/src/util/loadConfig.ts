@@ -11,7 +11,7 @@ function getConfigRootDir(net = 'mainnet'): string {
 
   return 'HYDRANGEA_ROOT' in process.env 
     ? untildify(process.env.HYDRANGEA_ROOT)
-    : path.join(homedir, '.chia', net);
+    : path.join(homedir, '.hydrangea', net);
 }
 
 export function readConfigFile(net?: string): string {
