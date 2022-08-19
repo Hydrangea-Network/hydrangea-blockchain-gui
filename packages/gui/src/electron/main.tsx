@@ -28,7 +28,7 @@ import { setUserDataDir } from '../util/userData';
 import { i18n } from '../config/locales';
 import About from '../components/about/About';
 import packageJson from '../../package.json';
-import AppIcon from '../assets/img/chia64x64.png';
+import AppIcon from '../assets/img/hydrangea64x64.png';
 import windowStateKeeper from 'electron-window-state';
 import validateSha256 from './validateSha256';
 
