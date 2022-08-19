@@ -39,7 +39,7 @@
     ],
     "win": {
       "target": "nsis",
-      "icon": "src/assets/img/chia.ico",
+      "icon": "src/assets/img/hydrangea.ico",
       "timeStampServer": "http://timestamp.comodoca.com",
       "executableName": "Chia"
     },
@@ -58,7 +58,7 @@
       "artifactName": "${productName}-${env.CHIA_INSTALLER_VERSION}.${ext}",
       "category": "public.app-category.finance",
       "target": "dmg",
-      "icon": "src/assets/img/chia.icns",
+      "icon": "src/assets/img/hydrangea.icns",
       "entitlements": "entitlements.mac.plist",
       "provisioningProfile": "chiablockchain.provisionprofile",
       "darkModeSupport": true,
@@ -88,7 +88,7 @@
     },
     "linux": {
       "artifactName": "${productName}-${env.CHIA_INSTALLER_VERSION}.${ext}",
-      "icon": "src/assets/img/chia.icns"
+      "icon": "src/assets/img/hydrangea.icns"
     },
     "deb": {
       "afterInstall": "../../../build_scripts/assets/deb/postinst.sh",
