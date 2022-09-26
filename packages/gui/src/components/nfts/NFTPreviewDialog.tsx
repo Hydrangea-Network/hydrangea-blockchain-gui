@@ -1,6 +1,6 @@
 import React from 'react';
-import { Flex } from '@chia/core';
-import { type NFTInfo } from '@chia/api';
+import { Flex } from '@hydrangea/core';
+import { type NFTInfo } from '@hydrangea/api';
 import { Dialog, Paper } from '@mui/material';
 import NFTPreview from './NFTPreview';
 import { styled } from '@mui/styles';

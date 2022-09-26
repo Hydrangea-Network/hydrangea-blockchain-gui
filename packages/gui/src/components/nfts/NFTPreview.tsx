@@ -19,9 +19,9 @@ import {
   SandboxedIframe,
   usePersistState,
   useDarkMode,
-} from '@chia/core';
+} from '@hydrangea/core';
 import styled from 'styled-components';
-import { type NFTInfo } from '@chia/api';
+import { type NFTInfo } from '@hydrangea/api';
 import isURL from 'validator/lib/isURL';
 import useNFTHash from '../../hooks/useNFTHash';
 import AudioSvg from '../../assets/img/audio.svg';

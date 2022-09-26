@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
 import BigNumber from 'bignumber.js';
-import { useCurrencyCode, mojoToChiaLocaleString, CardSimple, useLocale } from '@chia/core';
-import { useGetFarmedAmountQuery } from '@chia/api-react';
+import { useCurrencyCode, mojoToHydrangeaLocaleString, CardSimple, useLocale } from '@hydrangea/core';
+import { useGetFarmedAmountQuery } from '@hydrangea/api-react';
 
 export default function FarmCardBlockRewards() {
   const currencyCode = useCurrencyCode();
@@ -18,7 +18,7 @@ export default function FarmCardBlockRewards() {
 
       return (
         <>
-          {mojoToChiaLocaleString(val, locale)}
+          {mojoToHydrangeaLocaleString(val, locale)}
           &nbsp;
           {currencyCode}
         </>

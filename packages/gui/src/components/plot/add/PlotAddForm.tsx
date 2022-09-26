@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router';
 import { t, Trans } from '@lingui/macro';
-import { defaultPlotter, toBech32m, fromBech32m } from '@chia/api';
+import { defaultPlotter, toBech32m, fromBech32m } from '@hydrangea/api';
 import {
   useStartPlottingMutation,
   useCreateNewPoolWalletMutation,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import { useForm, SubmitHandler } from 'react-hook-form';
-import { Back, useShowError, ButtonLoading, Flex, Form } from '@chia/core';
+import { Back, useShowError, ButtonLoading, Flex, Form } from '@hydrangea/core';
 import PlotAddChoosePlotter from './PlotAddChoosePlotter';
 import PlotAddChooseSize from './PlotAddChooseSize';
 import PlotAddNumberOfPlots from './PlotAddNumberOfPlots';

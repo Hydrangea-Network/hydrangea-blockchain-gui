@@ -1,5 +1,5 @@
-import { Daemon, optionsForPlotter, defaultsForPlotter } from '@chia/api';
-import type { KeyringStatus, ServiceName, KeyData } from '@chia/api';
+import { Daemon, optionsForPlotter, defaultsForPlotter } from '@hydrangea/api';
+import type { KeyringStatus, ServiceName, KeyData } from '@hydrangea/api';
 import onCacheEntryAddedInvalidate from '../utils/onCacheEntryAddedInvalidate';
 import api, { baseQuery } from '../api';
 

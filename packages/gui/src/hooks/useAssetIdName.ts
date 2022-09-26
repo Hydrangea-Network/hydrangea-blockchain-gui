@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
-import { useGetCatListQuery, useGetWalletsQuery } from '@chia/api-react';
-import { CATToken, Wallet, useCurrencyCode } from '@chia/core';
-import { WalletType } from '@chia/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@hydrangea/api-react';
+import { CATToken, Wallet, useCurrencyCode } from '@hydrangea/core';
+import { WalletType } from '@hydrangea/api';
 
 export type AssetIdMapEntry = {
   walletId: number;
@@ -36,7 +36,7 @@ export default function useAssetIdName() {
 
       if (walletType === WalletType.STANDARD_WALLET) {
         assetId = 'xhg';
-        name = 'Chia';
+        name = 'Hydrangea';
         symbol = currencyCode;
         isVerified = true;
       } else if (walletType === WalletType.CAT) {
@@ -92,7 +92,7 @@ export default function useAssetIdName() {
     // If using testnet, add a TXHG assetId entry
     if (currencyCode === 'TXHG') {
       const assetId = 'txhg';
-      const name = 'Chia (Testnet)';
+      const name = 'Hydrangea (Testnet)';
       const symbol = 'TXHG';
       const displayName = symbol ? symbol : name;
       const entry: AssetIdMapEntry = {

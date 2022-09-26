@@ -21,13 +21,13 @@ test('Confirm user can navigate and interact the Settings page in user acceptabl
 
   //Given I navigate to 1651231316 Wallet
   await Promise.all([
-    page.waitForNavigation(/*{ url: 'file:///Users/jahifaw/Documents/Code/Chia-testnet-playwright/chia-blockchain/chia-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/wallets/1' }*/),
+    page.waitForNavigation(/*{ url: 'file:///Users/jahifaw/Documents/Code/Hydrangea-testnet-playwright/hydrangea-blockchain/hydrangea-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/wallets/1' }*/),
     page.locator('div[role="button"]:has-text("Private key with public fingerprint 1922132445Can be backed up to mnemonic seed")').click()
   ]);
 
   // And I click on the Setting's Gear
   await page.locator('div[role="button"]:has-text("Settings")').click();
-  // assert.equal(page.url(), 'file:///Users/jahifaw/Documents/Code/Chia-testnet-playwright/chia-blockchain/chia-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/settings');
+  // assert.equal(page.url(), 'file:///Users/jahifaw/Documents/Code/Hydrangea-testnet-playwright/hydrangea-blockchain/hydrangea-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/settings');
 
   // Then I can confirm Wallet page loads
   //await page.locator('button:has-text("Wallet")').click();

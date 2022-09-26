@@ -24,7 +24,7 @@ test.afterAll(async () => {
     await page.locator('text=1922132445').click();
 
     //And I confirm page has correct Title 
-    expect(page).toHaveTitle('Chia Blockchain');
+    expect(page).toHaveTitle('Hydrangea Blockchain');
 
     //And I navigate to Receive page
     await page.locator('[data-testid="WalletHeader-tab-receive"]').click();

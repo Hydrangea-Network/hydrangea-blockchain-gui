@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: fi_FI\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-04 12:02\n"
 "Last-Translator: \n"
 "Language-Team: Finnish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: fi\n"
 "X-Crowdin-File: /main/packages/wallets/src/locales/en-US/messages.po\n"
@@ -113,8 +113,8 @@ msgstr "Peru"
 
 #: src/components/WalletSend.tsx:103
 #: src/components/cat/WalletCATSend.tsx:118
-msgid "Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Chiaa (XHG) ei voi lähettää CAT-osoitteeseen. Anna chia-osoite."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+msgstr "Hydrangeaa (XHG) ei voi lähettää CAT-osoitteeseen. Anna hydrangea-osoite."
 
 #: src/components/WalletsSidebar.tsx:145
 msgid "Check my snapshot balance"
@@ -123,8 +123,8 @@ msgstr "Tarkista snapshot-saldo"
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
-msgid "Chia Asset Token"
-msgstr "Chia Asset Token"
+msgid "Hydrangea Asset Token"
+msgstr "Hydrangea Asset Token"
 
 #: src/components/WalletsSidebar.tsx:160
 msgid "Click here to download an older version of the wallet"
@@ -178,16 +178,16 @@ msgid "Create An Attestation Packet"
 msgstr "Luo todistuspaketti"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:76
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
-msgstr "Luo Chia Asset Token -lompakko olemassa olevasta TAIL tunnisteesta"
+msgid "Create Hydrangea Asset Token Wallet from Existing TAIL"
+msgstr "Luo Hydrangea Asset Token -lompakko olemassa olevasta TAIL tunnisteesta"
 
 #: src/components/did/WalletDIDCreate.tsx:109
 msgid "Create Distributed Identity Wallet"
 msgstr "Luo Hajautettu DID-Identiteettilompakko"
 
 #: src/components/cat/WalletCATCreateNew.tsx:75
-msgid "Create New Chia Asset Token Wallet"
-msgstr "Luo Uusi Chia Asset Token -lompakko"
+msgid "Create New Hydrangea Asset Token Wallet"
+msgstr "Luo Uusi Hydrangea Asset Token -lompakko"
 
 #: src/components/cat/WalletCATSelect.tsx:32
 #: src/components/did/WalletDIDSelect.tsx:32
@@ -266,8 +266,8 @@ msgid "Drag and drop your recovery backup file"
 msgstr "Raahaa ja pudota palautuksen varmuuskopiotiedosto"
 
 #: src/components/WalletImport.tsx:133
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Chia-lompakon."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+msgstr "Anna tallentamasi 24 muistisanaa palauttaaksesi Hydrangea-lompakon."
 
 #: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
@@ -728,8 +728,8 @@ msgstr "Käyttöajanjakson pituus (lohkojen määrä)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Käyttöraja (Chiaa/ajanjakso):{0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
+msgstr "Käyttöraja (Hydrangeaa/ajanjakso):{0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -780,7 +780,7 @@ msgid "This is not a valid address for sending funds to"
 msgstr "Tämä ei ole kelvollinen osoite varojen lähettämiseen"
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
 msgstr "Transaktioihin käytettävissä oleva Chiojen määrä. Ei sisällä avoimia farmarin palkkioita, avoimia saapuvia transaktioita eikä lähetettyjä, mutta vahvistamattomia transaktioita."
 
 #: src/components/standard/WalletStandardCards.tsx:44
@@ -792,7 +792,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "Lähtevien ja saapuvien avointen transaktioiden summa (ei vielä lohkoketjussa). Ei sisällä farmarin palkkioita."
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr "Yksityisten avaimiesi hallinoimien Chiojen kokonaissumma lohkoketjussa. Sisälytää jäädytetyt palkkiot, mutta ei keskeneräisiä tulevia tai lähteviä transaktioita."
 
 #: src/components/standard/WalletStandardCards.tsx:31

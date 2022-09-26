@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
-import type { NFTAttribute } from '@chia/api';
+import type { NFTAttribute } from '@hydrangea/api';
 import { Trans } from '@lingui/macro';
-import { CopyToClipboard, Flex, Tooltip } from '@chia/core';
+import { CopyToClipboard, Flex, Tooltip } from '@hydrangea/core';
 import { Box, Grid, Typography } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 import isRankingAttribute from '../../util/isRankingAttribute';

@@ -1,6 +1,6 @@
-import { toBech32m, fromBech32m } from '@chia/api';
-import type { PlotNFT } from '@chia/api';
-import { useSetPayoutInstructionsMutation, useGetNetworkInfoQuery } from '@chia/api-react';
+import { toBech32m, fromBech32m } from '@hydrangea/api';
+import type { PlotNFT } from '@hydrangea/api';
+import { useSetPayoutInstructionsMutation, useGetNetworkInfoQuery } from '@hydrangea/api-react';
 
 export default function usePayoutAddress(nft: PlotNFT): {
   loading: boolean;

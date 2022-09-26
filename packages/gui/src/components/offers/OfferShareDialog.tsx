@@ -10,8 +10,8 @@ import {
   useOpenDialog,
   useShowError,
   useOpenExternal,
-} from '@chia/core';
-import { OfferTradeRecord, toBech32m } from '@chia/api';
+} from '@hydrangea/core';
+import { OfferTradeRecord, toBech32m } from '@hydrangea/api';
 import {
   Button,
   Checkbox,
@@ -356,7 +356,7 @@ type KeybaseCLIRequest = {
   channelName: string;
 };
 
-const KeybaseTeamName = 'chia_offers';
+const KeybaseTeamName = 'hydrangea_offers';
 const KeybaseChannelName = 'offers-trading';
 
 async function execKeybaseCLI(request: KeybaseCLIRequest): Promise<boolean> {

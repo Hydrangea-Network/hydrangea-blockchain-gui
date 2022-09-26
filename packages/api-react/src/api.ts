@@ -1,10 +1,10 @@
 import { createApi } from '@reduxjs/toolkit/query/react';
-import chiaLazyBaseQuery from './chiaLazyBaseQuery';
+import hydrangeaLazyBaseQuery from './hydrangeaLazyBaseQuery';
 
-export const baseQuery = chiaLazyBaseQuery({});
+export const baseQuery = hydrangeaLazyBaseQuery({});
 
 export default createApi({
-  reducerPath: 'chiaApi',
+  reducerPath: 'hydrangeaApi',
   baseQuery,
   endpoints: () => ({}),
 });

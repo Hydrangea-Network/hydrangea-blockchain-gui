@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, Flex, More, useOpenDialog, MenuItem } from '@chia/core';
+import { Button, Flex, More, useOpenDialog, MenuItem } from '@hydrangea/core';
 import { createTeleporter } from 'react-teleporter';
 import { useNavigate } from 'react-router-dom';
 import { ListItemIcon, Typography } from '@mui/material';
@@ -9,7 +9,7 @@ import {
   Folder as FolderIcon,
   Add as AddIcon,
 } from '@mui/icons-material';
-import { useRefreshPlotsMutation } from '@chia/api-react';
+import { useRefreshPlotsMutation } from '@hydrangea/api-react';
 import PlotAddDirectoryDialog from './PlotAddDirectoryDialog';
 
 export type PlotHeaderProps = {

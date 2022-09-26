@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: he_IL\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:38\n"
 "Last-Translator: \n"
 "Language-Team: Hebrew\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: he\n"
 "X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
@@ -344,8 +344,8 @@ msgid "Warning: This key is used for your pool rewards address. By deleting this
 msgstr "אזהרה: מפתח זה משמש עבור כתובת תגמולים לבריכה (Pool Rewards Address) שלך. על ידי מחיקת מפתח זה את/ה עלול/ה לאבד את הגישה לכל פרסי בריכה (Pool Rewards) עתידיים"
 
 #: src/screens/SelectKey/SelectKey.tsx:143
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "ברוכים הבאים ל-Chia. בבקשה התחבר עם מפתח קיים, או צור/י לעצמך מפתח חדש."
+msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+msgstr "ברוכים הבאים ל-Hydrangea. בבקשה התחבר עם מפתח קיים, או צור/י לעצמך מפתח חדש."
 
 #: src/components/Back/Back.tsx:38
 #: src/components/FormBackButton/FormBackButton.tsx:30

@@ -7,11 +7,11 @@ import {
   FormatLargeNumber,
   TooltipIcon,
   mojoToCATLocaleString,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Box, Typography } from '@mui/material';
 import useAssetIdName from '../../hooks/useAssetIdName';
-import { WalletType } from '@chia/api';
-import { useGetNFTInfoQuery } from '@chia/api-react';
+import { WalletType } from '@hydrangea/api';
+import { useGetNFTInfoQuery } from '@hydrangea/api-react';
 import { formatAmountForWalletType } from './utils';
 import { launcherIdToNFTId } from '../../util/nfts';
 import { stripHexPrefix } from '../../util/utils';
@@ -94,9 +94,9 @@ export function OfferSummaryNFTRow(
 
     if (
       didId ===
-      'did:chia:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2'
+      'did:hydrangea:19qf3g9876t0rkq7tfdkc28cxfy424yzanea29rkzylq89kped9hq3q7wd2'
     ) {
-      return 'Chia Network';
+      return 'Hydrangea Network';
     }
 
     return didId;

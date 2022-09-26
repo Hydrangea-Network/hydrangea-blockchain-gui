@@ -1,12 +1,12 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { ConfirmDialog, More, MenuItem, useOpenDialog } from '@chia/core';
+import { ConfirmDialog, More, MenuItem, useOpenDialog } from '@hydrangea/core';
 import { Divider, ListItemIcon, Typography } from '@mui/material';
 import {
   DeleteForever as DeleteForeverIcon,
   Info as InfoIcon,
 } from '@mui/icons-material';
-import { useStopPlottingMutation } from '@chia/api-react';
+import { useStopPlottingMutation } from '@hydrangea/api-react';
 import type PlotQueueItem from '../../../types/PlotQueueItem';
 import PlotStatus from '../../../constants/PlotStatus';
 import PlotQueueLogDialog from './PlotQueueLogDialog';

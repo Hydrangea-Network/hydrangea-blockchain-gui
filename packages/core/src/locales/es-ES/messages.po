@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: es_ES\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:39\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: es-ES\n"
 "X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
@@ -344,8 +344,8 @@ msgid "Warning: This key is used for your pool rewards address. By deleting this
 msgstr "Advertencia: Esta llave se utiliza para la dirección de recompensas de fondo. Al eliminar esta clave puedes perder el acceso a futuras recompensas de fondo"
 
 #: src/screens/SelectKey/SelectKey.tsx:143
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Bienvenidos a Chia. Por favor inicie sesión con una llave existente o cree una nueva."
+msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+msgstr "Bienvenidos a Hydrangea. Por favor inicie sesión con una llave existente o cree una nueva."
 
 #: src/components/Back/Back.tsx:38
 #: src/components/FormBackButton/FormBackButton.tsx:30

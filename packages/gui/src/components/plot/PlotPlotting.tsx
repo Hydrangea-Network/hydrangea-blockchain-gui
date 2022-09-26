@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetThrottlePlotQueueQuery } from '@chia/api-react';
+import { useGetThrottlePlotQueueQuery } from '@hydrangea/api-react';
 import { TableRow } from '@mui/material';
-import { Card, Table } from '@chia/core';
+import { Card, Table } from '@hydrangea/core';
 import styled from 'styled-components';
 import PlotQueueSize from './queue/PlotQueueSize';
 import PlotQueueIndicator from './queue/PlotQueueIndicator';

@@ -1,4 +1,4 @@
-import { Flex, useDarkMode } from '@chia/core';
+import { Flex, useDarkMode } from '@hydrangea/core';
 import { Trans } from '@lingui/macro';
 import { Typography } from '@mui/material';
 import React from 'react';
@@ -14,7 +14,7 @@ export default function NFTGalleryHero() {
         <Trans>Go collect some gems</Trans>
       </Typography>
       <Typography variant="body1" color="textSecondary">
-        <Trans>Explore the Chia ecosystem; discover and trade great NFTs</Trans>
+        <Trans>Explore the Hydrangea ecosystem; discover and trade great NFTs</Trans>
       </Typography>
 
       {isDarkMode ? <HeroImageDark /> : <HeroImage />}

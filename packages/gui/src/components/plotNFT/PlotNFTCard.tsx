@@ -17,8 +17,8 @@ import {
   Link,
   ConfirmDialog,
   useOpenDialog,
-  mojoToChiaLocaleString,
-} from '@chia/core';
+  mojoToHydrangeaLocaleString,
+} from '@hydrangea/core';
 import {
   Box,
   Grid,
@@ -32,8 +32,8 @@ import {
   Link as LinkIcon,
   Payment as PaymentIcon,
 } from '@mui/icons-material';
-import { Plot as PlotIcon } from '@chia/icons';
-import { useDeleteUnconfirmedTransactionsMutation } from '@chia/api-react';
+import { Plot as PlotIcon } from '@hydrangea/icons';
+import { useDeleteUnconfirmedTransactionsMutation } from '@hydrangea/api-react';
 import type PlotNFT from '../../types/PlotNFT';
 import PlotNFTName from './PlotNFTName';
 import PlotNFTStatus from './PlotNFTState';
@@ -151,7 +151,7 @@ export default function PlotNFTCard(props: Props) {
       label: <Trans>Unclaimed Rewards</Trans>,
       value: (
         <UnitFormat
-          value={mojoToChiaLocaleString(balance)}
+          value={mojoToHydrangeaLocaleString(balance)}
           state={State.SUCCESS}
         />
       ),

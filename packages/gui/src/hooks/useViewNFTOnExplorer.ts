@@ -1,5 +1,5 @@
-import type { NFTInfo } from '@chia/api';
-import { useCurrencyCode } from '@chia/core';
+import type { NFTInfo } from '@hydrangea/api';
+import { useCurrencyCode } from '@hydrangea/core';
 import useOpenExternal from './useOpenExternal';
 
 /* ========================================================================== */

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Loading, Flex } from '@chia/core';
-import { useGetThrottlePlotQueueQuery, useGetTotalHarvestersSummaryQuery } from '@chia/api-react';
+import { Loading, Flex } from '@hydrangea/core';
+import { useGetThrottlePlotQueueQuery, useGetTotalHarvestersSummaryQuery } from '@hydrangea/api-react';
 import { Grid } from '@mui/material';
 import PlotHero from './PlotOverviewHero';
 import PlotOverviewPlots from './PlotOverviewPlots';

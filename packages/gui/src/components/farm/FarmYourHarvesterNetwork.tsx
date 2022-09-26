@@ -3,13 +3,13 @@ import { Trans } from '@lingui/macro';
 import styled from 'styled-components';
 import { Typography, Tooltip, IconButton } from '@mui/material';
 import { Delete as DeleteIcon } from '@mui/icons-material';
-import { Table, FormatBytes, FormatConnectionStatus, Card } from '@chia/core';
+import { Table, FormatBytes, FormatConnectionStatus, Card } from '@hydrangea/core';
 import {
   useIsServiceRunningQuery,
   useGetHarvesterConnectionsQuery,
-} from '@chia/api-react';
-import type { Connection } from '@chia/api';
-import { ServiceName } from '@chia/api';
+} from '@hydrangea/api-react';
+import type { Connection } from '@hydrangea/api';
+import { ServiceName } from '@hydrangea/api';
 import FarmCloseConnection from './FarmCloseConnection';
 
 const StyledIconButton = styled(IconButton)`

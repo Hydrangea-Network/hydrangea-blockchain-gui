@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex, SettingsLabel } from '@chia/core';
+import { Flex, SettingsLabel } from '@hydrangea/core';
 import {
   FormGroup,
   FormControlLabel,
@@ -34,7 +34,7 @@ export default function SettingsStartup() {
           </FormGroup>
           <Typography variant="body2" color="textSecondary">
             <Trans>
-              Changes will take effect the next time Chia is started
+              Changes will take effect the next time Hydrangea is started
             </Trans>
           </Typography>
         </Flex>

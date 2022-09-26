@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState, useRef } from 'react';
-import { WalletType } from '@chia/api';
-import { useSetCATNameMutation } from '@chia/api-react';
+import { WalletType } from '@hydrangea/api';
+import { useSetCATNameMutation } from '@hydrangea/api-react';
 import { Trans } from '@lingui/macro';
 import { Box, Typography, Switch, CircularProgress } from '@mui/material';
 import {
@@ -11,7 +11,7 @@ import {
   useShowError,
   Form,
   TextField,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { type ListItem } from '../hooks/useWalletsList';
 import { useForm } from 'react-hook-form';
 

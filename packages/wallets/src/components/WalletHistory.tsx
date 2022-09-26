@@ -26,17 +26,17 @@ import {
   TableControlled,
   useCurrencyCode,
   useSerializedNavigationState,
-  mojoToChia,
+  mojoToHydrangea,
   mojoToCAT,
   FormatLargeNumber,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   useGetOfferRecordMutation,
   useGetSyncStatusQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import styled from 'styled-components';
-import type { Row } from '@chia/core';
-import { WalletType, TransactionType, toBech32m } from '@chia/api';
+import type { Row } from '@hydrangea/core';
+import { WalletType, TransactionType, toBech32m } from '@hydrangea/api';
 import useWallet from '../hooks/useWallet';
 import useWalletTransactions from '../hooks/useWalletTransactions';
 
@@ -213,7 +213,7 @@ const getCols = (type: WalletType, isSyncing, getOfferRecord, navigate) => [
               value={
                 type === WalletType.CAT
                   ? mojoToCAT(row.amount)
-                  : mojoToChia(row.amount)
+                  : mojoToHydrangea(row.amount)
               }
             />
           </strong>
@@ -228,7 +228,7 @@ const getCols = (type: WalletType, isSyncing, getOfferRecord, navigate) => [
     field: (row: Row, metadata) => (
       <>
         <strong>
-          <FormatLargeNumber value={mojoToChia(row.feeAmount)} />
+          <FormatLargeNumber value={mojoToHydrangea(row.feeAmount)} />
         </strong>
         &nbsp;
         {metadata.feeUnit}

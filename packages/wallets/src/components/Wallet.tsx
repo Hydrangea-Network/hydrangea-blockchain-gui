@@ -1,8 +1,8 @@
 import { Alert } from '@mui/material';
 import { useParams } from 'react-router-dom';
 import { Trans } from '@lingui/macro';
-import { Suspender } from '@chia/core';
-import { WalletType } from '@chia/api';
+import { Suspender } from '@hydrangea/core';
+import { WalletType } from '@hydrangea/api';
 import React from 'react';
 import WalletStandard from './standard/WalletStandard';
 import WalletCAT from './cat/WalletCAT';

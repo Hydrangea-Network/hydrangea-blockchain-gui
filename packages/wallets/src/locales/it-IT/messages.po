@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: it_IT\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:38\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: it\n"
 "X-Crowdin-File: /main/packages/wallets/src/locales/en-US/messages.po\n"
@@ -113,8 +113,8 @@ msgstr "Annulla"
 
 #: src/components/WalletSend.tsx:103
 #: src/components/cat/WalletCATSend.tsx:118
-msgid "Cannot send chia to coloured address. Please enter a chia address."
-msgstr "Errore: impossibile inviare chia ad un indirizzo colorato. Perfavore inserisci un indirizzo chia."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
+msgstr "Errore: impossibile inviare hydrangea ad un indirizzo colorato. Perfavore inserisci un indirizzo hydrangea."
 
 #: src/components/WalletsSidebar.tsx:145
 msgid "Check my snapshot balance"
@@ -123,8 +123,8 @@ msgstr ""
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
-msgid "Chia Asset Token"
-msgstr "Chia Asset Token"
+msgid "Hydrangea Asset Token"
+msgstr "Hydrangea Asset Token"
 
 #: src/components/WalletsSidebar.tsx:160
 msgid "Click here to download an older version of the wallet"
@@ -178,16 +178,16 @@ msgid "Create An Attestation Packet"
 msgstr "Crea un Attestation Packet"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:76
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
-msgstr "Crea Portafoglio Chia Asset Token dal TAIL esistente"
+msgid "Create Hydrangea Asset Token Wallet from Existing TAIL"
+msgstr "Crea Portafoglio Hydrangea Asset Token dal TAIL esistente"
 
 #: src/components/did/WalletDIDCreate.tsx:109
 msgid "Create Distributed Identity Wallet"
 msgstr "Crea un Distributed Identity Wallet"
 
 #: src/components/cat/WalletCATCreateNew.tsx:75
-msgid "Create New Chia Asset Token Wallet"
-msgstr "Crea Un Nuovo Portafoglio per Chia Asset Token"
+msgid "Create New Hydrangea Asset Token Wallet"
+msgstr "Crea Un Nuovo Portafoglio per Hydrangea Asset Token"
 
 #: src/components/cat/WalletCATSelect.tsx:32
 #: src/components/did/WalletDIDSelect.tsx:32
@@ -266,8 +266,8 @@ msgid "Drag and drop your recovery backup file"
 msgstr "Trascina e rilascia il tuo file di backup per il recovery"
 
 #: src/components/WalletImport.tsx:133
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Inserisci le 24 parole mnemoniche che hai salvato per poter ripristinare il tuo wallet Chia."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+msgstr "Inserisci le 24 parole mnemoniche che hai salvato per poter ripristinare il tuo wallet Hydrangea."
 
 #: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
@@ -294,7 +294,7 @@ msgstr "Nome del file"
 
 #: src/components/WalletReceiveAddress.tsx:49
 msgid "HD or Hierarchical Deterministic keys are a type of public key/private key scheme where one private key can have a nearly infinite number of different public keys (and therefore wallet receive addresses) that will all ultimately come back to and be spendable by a single private key."
-msgstr "Le chiavi HD (Hierarchical Deterministic) sono un tipo di schema a chiave pubblica/privata dove una chiave privata può avere un numero quasi infinito di chiavi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono utilizzabili da una singola chiave privata."
+msgstr "Le hydrangeavi HD (Hierarchical Deterministic) sono un tipo di schema a hydrangeave pubblica/privata dove una hydrangeave privata può avere un numero quasi infinito di hydrangeavi pubbliche diverse (e quindi indirizzi di ricezione del wallet) che sono utilizzabili da una singola hydrangeave privata."
 
 #: src/components/WalletConnections.tsx:27
 msgid "IP address"
@@ -493,7 +493,7 @@ msgstr "Inserire il Nome File"
 #: src/components/cat/WalletDID.tsx:934
 #: src/components/did/WalletDID.tsx:934
 msgid "Please enter a pubkey"
-msgstr "Si prega di inserire una chiave pubblica"
+msgstr "Si prega di inserire una hydrangeave pubblica"
 
 #: src/components/cat/WalletDID.tsx:944
 #: src/components/did/WalletDID.tsx:944
@@ -583,7 +583,7 @@ msgstr "Porta"
 #: src/components/create/createRLAdmin.jsx:296
 #: src/components/did/WalletDID.tsx:993
 msgid "Pubkey"
-msgstr "Chiave pubblica"
+msgstr "Hydrangeave pubblica"
 
 #: src/components/cat/WalletDID.tsx:1002
 #: src/components/did/WalletDID.tsx:1002
@@ -728,8 +728,8 @@ msgstr "Lunghezza Intervallo di Spesa (numero di blocchi)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Limite di Spesa (chia per intervallo): {0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
+msgstr "Limite di Spesa (hydrangea per intervallo): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -780,8 +780,8 @@ msgid "This is not a valid address for sending funds to"
 msgstr "Questo indirizzo non è valido per l'invio di fondi"
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "Questo è l'ammontare di Chia che puoi utilizzare attualmente per fare transazioni. Non include le ricompense coltivate in sospeso, transazioni in entrata in sospeso, e Chia che tua hai appena speso ma non sono ancora nella blockchain."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+msgstr "Questo è l'ammontare di Hydrangea che puoi utilizzare attualmente per fare transazioni. Non include le ricompense coltivate in sospeso, transazioni in entrata in sospeso, e Hydrangea che tua hai appena speso ma non sono ancora nella blockchain."
 
 #: src/components/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -792,8 +792,8 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "Questa è la somma delle transazioni in sospeso in entrata e in uscita (non ancora incluse nella blockchain). Questo non include le ricompense coltivate."
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
-msgstr "Questo è l'ammontare totale di chia all'attuale blocco di picco nella blockchain che è controllato dalle tue chiavi private. Ciò include le ricompense da farming congelate, ma non le transazioni pendenti in ingresso e in uscita."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgstr "Questo è l'ammontare totale di hydrangea all'attuale blocco di picco nella blockchain che è controllato dalle tue hydrangeavi private. Ciò include le ricompense da farming congelate, ma non le transazioni pendenti in ingresso e in uscita."
 
 #: src/components/standard/WalletStandardCards.tsx:31
 msgid "This is the total balance + pending balance: it is what your balance will be after all pending transactions are confirmed."

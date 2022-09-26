@@ -12,9 +12,9 @@ import {
   dark,
   light,
   ErrorBoundary,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Typography } from '@mui/material';
-import { store, api } from '@chia/api-react';
+import { store, api } from '@hydrangea/api-react';
 import { Trans } from '@lingui/macro';
 import { i18n, defaultLocale, locales } from '../../config/locales';
 import AppState from './AppState';

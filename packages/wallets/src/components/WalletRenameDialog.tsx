@@ -10,7 +10,7 @@ import {
   Form,
   TextField,
   useOpenDialog,
-} from '@chia/core';
+} from '@hydrangea/core';
 
 type WalletRenameDialogFormData = {
   name: string;

@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: hu_HU\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:38\n"
 "Last-Translator: \n"
 "Language-Team: Hungarian\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
@@ -344,8 +344,8 @@ msgid "Warning: This key is used for your pool rewards address. By deleting this
 msgstr "Figyelem: Ezt a kulcsot a pool jutalmazási címéhez használják. Ha törli ezt a kulcsot, elveszítheti a hozzáférést a jövőbeni pool jutalmakhoz"
 
 #: src/screens/SelectKey/SelectKey.tsx:143
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
-msgstr "Üdvözöljük a Chia-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
+msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
+msgstr "Üdvözöljük a Hydrangea-ban. Kérem jelentkezzen be egy létező kulccsal, vagy készítsen egy új kulcsot magának."
 
 #: src/components/Back/Back.tsx:38
 #: src/components/FormBackButton/FormBackButton.tsx:30

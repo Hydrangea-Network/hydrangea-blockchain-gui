@@ -16,8 +16,8 @@ import {
   ListItemText,
   Typography,
 } from '@mui/material';
-import { useShowError, Button, Suspender } from '@chia/core';
-import { useAddPlotDirectoryMutation, useRemovePlotDirectoryMutation, useGetPlotDirectoriesQuery } from '@chia/api-react';
+import { useShowError, Button, Suspender } from '@hydrangea/core';
+import { useAddPlotDirectoryMutation, useRemovePlotDirectoryMutation, useGetPlotDirectoriesQuery } from '@hydrangea/api-react';
 import useSelectDirectory from '../../hooks/useSelectDirectory';
 
 type Props = {

@@ -1,4 +1,4 @@
-import { WalletType } from '@chia/api';
+import { WalletType } from '@hydrangea/api';
 
 type Coin = {
   confirmed_block_index: number;

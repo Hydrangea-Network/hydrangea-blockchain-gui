@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Button, Flex, Suspender } from '@chia/core';
+import { Button, Flex, Suspender } from '@hydrangea/core';
 import { useNavigate } from 'react-router';
 import {
   Grid,

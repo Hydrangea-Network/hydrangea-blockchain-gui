@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { useGetPrivateKeyQuery, useGetKeyQuery } from '@chia/api-react';
+import { useGetPrivateKeyQuery, useGetKeyQuery } from '@hydrangea/api-react';
 import { Box, Button, Grid, Typography } from '@mui/material';
 import styled from 'styled-components';
 import AlertDialog from '../../components/AlertDialog';

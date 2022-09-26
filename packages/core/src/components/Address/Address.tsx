@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 import styled from 'styled-components';
-import { toBech32m } from '@chia/api';
+import { toBech32m } from '@hydrangea/api';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import Tooltip from '../Tooltip';
 import CopyToClipboard from '../CopyToClipboard';

@@ -1,5 +1,5 @@
-import { ServiceName } from '@chia/api';
-import { useIsServiceRunningQuery } from '@chia/api-react';
+import { ServiceName } from '@hydrangea/api';
+import { useIsServiceRunningQuery } from '@hydrangea/api-react';
 import FarmerStatus from '../constants/FarmerStatus';
 import FullNodeState from '../constants/FullNodeState';
 import useFullNodeState from './useFullNodeState';

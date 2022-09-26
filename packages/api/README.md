@@ -1,10 +1,10 @@
-# @chia/api
+# @hydrangea/api
 
-![Alt text](https://www.hydrangea.website/img/chia_logo.svg)
+![Alt text](https://www.hydrangea.website/img/hydrangea_logo.svg)
 
-This library provides support for TypeScript/JavaScript [Chia](https://www.hydrangea.website) apps to access the [Chia Blockchain RPC](https://github.com/Chia-Network/chia-blockchain/wiki/RPC-Interfaces), by making it easier to perform the following actions:
+This library provides support for TypeScript/JavaScript [Hydrangea](https://www.hydrangea.website) apps to access the [Hydrangea Blockchain RPC](https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki/RPC-Interfaces), by making it easier to perform the following actions:
 
-- Making requests to the Chia Blockchain RPC.
+- Making requests to the Hydrangea Blockchain RPC.
 - Catch responses and errors with standard try/catch and async/await syntax.
 - Catch error when the request has a timeout. Each request has a default timeout of 10 minutes.
 - Auto-connect to daemon when you send the first request.
@@ -15,7 +15,7 @@ This library provides support for TypeScript/JavaScript [Chia](https://www.hydra
 ## Example
 
 ```ts
-import Client, { Wallet } from '@chia/api';
+import Client, { Wallet } from '@hydrangea/api';
 import Websocket from 'ws';
 import sleep from 'sleep-promise';
 

@@ -4,9 +4,9 @@ import BigNumber from 'bignumber.js';
 import {
   useGetBlockchainStateQuery,
   useGetTotalHarvestersSummaryQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import moment from 'moment';
-import { State, CardSimple } from '@chia/core';
+import { State, CardSimple } from '@hydrangea/core';
 import FullNodeState from '../../../constants/FullNodeState';
 import useFullNodeState from '../../../hooks/useFullNodeState';
 import FarmCardNotAvailable from './FarmCardNotAvailable';

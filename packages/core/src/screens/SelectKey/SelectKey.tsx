@@ -8,8 +8,8 @@ import {
   useDeleteAllKeysMutation,
   useLogInAndSkipImportMutation,
   useGetKeysQuery,
-} from '@chia/api-react';
-import type { KeyData } from '@chia/api';
+} from '@hydrangea/api-react';
+import type { KeyData } from '@hydrangea/api';
 import SelectKeyItem from './SelectKeyItem';
 import Button from '../../components/Button';
 import Flex from '../../components/Flex';
@@ -147,7 +147,7 @@ export default function SelectKey() {
             </Typography>
             <Typography variant="subtitle1" align="center">
               <Trans>
-                Welcome to Chia. Please log in with an existing key, or create a
+                Welcome to Hydrangea. Please log in with an existing key, or create a
                 new key.
               </Trans>
             </Typography>

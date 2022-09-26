@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutDashboardSub } from '@chia/core';
+import { LayoutDashboardSub } from '@hydrangea/core';
 import { Navigate } from 'react-router-dom'
 import WalletCreate from './create/WalletCreate';
 import { Routes, Route } from 'react-router-dom';

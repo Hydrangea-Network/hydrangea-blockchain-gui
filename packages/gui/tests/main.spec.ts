@@ -33,5 +33,5 @@ test('renders the first page', async () => {
   const text = await page.$eval('h1', (el) => el.textContent);
   expect(text).toBe('Select Your Client Mode');
   const title = await page.title();
-  expect(title).toBe('Chia Blockchain');
+  expect(title).toBe('Hydrangea Blockchain');
 });

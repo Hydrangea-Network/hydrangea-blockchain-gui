@@ -14,8 +14,8 @@ import {
   KeyboardCapslock as KeyboardCapslockIcon,
   Visibility as VisibilityIcon,
 } from '@mui/icons-material';
-import { AlertDialog, Button, DialogActions, Flex, TooltipIcon, useOpenDialog, Suspender } from '@chia/core';
-import { useRemoveKeyringPassphraseMutation, useGetKeyringStatusQuery } from '@chia/api-react';
+import { AlertDialog, Button, DialogActions, Flex, TooltipIcon, useOpenDialog, Suspender } from '@hydrangea/core';
+import { useRemoveKeyringPassphraseMutation, useGetKeyringStatusQuery } from '@hydrangea/api-react';
 
 type Props = {
   onSuccess: () => void;

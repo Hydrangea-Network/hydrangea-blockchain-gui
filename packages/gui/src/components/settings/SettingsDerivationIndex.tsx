@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 import { Trans, t } from '@lingui/macro';
 import { useForm } from 'react-hook-form';
-import { SyncingStatus } from '@chia/api';
+import { SyncingStatus } from '@hydrangea/api';
 import {
   useExtendDerivationIndexMutation,
   useGetCurrentDerivationIndexQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import {
   AlertDialog,
   ButtonLoading,
@@ -13,8 +13,8 @@ import {
   Form,
   TextField,
   useOpenDialog,
-} from '@chia/core';
-import { useWalletState } from '@chia/wallets';
+} from '@hydrangea/core';
+import { useWalletState } from '@hydrangea/wallets';
 
 type FormData = {
   index: string;

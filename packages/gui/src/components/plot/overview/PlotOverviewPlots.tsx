@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { useNavigate } from 'react-router';
-import { useRefreshPlotsMutation } from '@chia/api-react';
-import { Button, Flex, useOpenDialog, MenuItem, More } from '@chia/core';
+import { useRefreshPlotsMutation } from '@hydrangea/api-react';
+import { Button, Flex, useOpenDialog, MenuItem, More } from '@hydrangea/core';
 import { ListItemIcon, Typography } from '@mui/material';
 import { Add, Refresh } from '@mui/icons-material';
 import PlotOverviewCards from './PlotOverviewCards';

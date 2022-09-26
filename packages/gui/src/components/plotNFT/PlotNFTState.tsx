@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex, State, StateTypography, TooltipIcon } from '@chia/core';
+import { Flex, State, StateTypography, TooltipIcon } from '@hydrangea/core';
 import { Typography } from '@mui/material';
 import type PlotNFT from '../../types/PlotNFT';
 import PlotNFTStateEnum from '../../constants/PlotNFTState';

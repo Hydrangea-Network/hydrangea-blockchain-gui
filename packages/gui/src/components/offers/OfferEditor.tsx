@@ -13,15 +13,15 @@ import {
   Form,
   useOpenDialog,
   useShowError,
-} from '@chia/core';
-import { useCreateOfferForIdsMutation } from '@chia/api-react';
+} from '@hydrangea/core';
+import { useCreateOfferForIdsMutation } from '@hydrangea/api-react';
 import { Grid } from '@mui/material';
 import type OfferEditorRowData from './OfferEditorRowData';
-import { WalletType } from '@chia/api';
+import { WalletType } from '@hydrangea/api';
 import OfferEditorConditionsPanel from './OfferEditorConditionsPanel';
 import OfferEditorConfirmationDialog from './OfferEditorConfirmationDialog';
 import OfferLocalStorageKeys from './OfferLocalStorage';
-import { chiaToMojo, catToMojo } from '@chia/core';
+import { hydrangeaToMojo, catToMojo } from '@hydrangea/core';
 
 /* ========================================================================== */
 /*                                Offer Editor                                */
@@ -88,7 +88,7 @@ function OfferEditor(props: OfferEditorProps) {
     if (assetWalletId > 0) {
       let mojoAmount = new BigNumber(0);
       if (walletType === WalletType.STANDARD_WALLET) {
-        mojoAmount = chiaToMojo(amount);
+        mojoAmount = hydrangeaToMojo(amount);
       } else if (walletType === WalletType.CAT) {
         mojoAmount = catToMojo(amount);
       }
@@ -104,7 +104,7 @@ function OfferEditor(props: OfferEditorProps) {
     let missingAssetSelection = false;
     let missingAmount = false;
     let amountExceedsSpendableBalance = false;
-    let feeInMojos = chiaToMojo(formData.fee ?? 0);
+    let feeInMojos = hydrangeaToMojo(formData.fee ?? 0);
 
     formData.makerRows.forEach((row: OfferEditorRowData) => {
       updateOffer(offer, row, true);

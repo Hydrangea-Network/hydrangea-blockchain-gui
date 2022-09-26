@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: zh_CN\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:40\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /main/packages/core/src/locales/en-US/messages.po\n"
@@ -344,7 +344,7 @@ msgid "Warning: This key is used for your pool rewards address. By deleting this
 msgstr "警告：此密钥用于池奖励地址。删除此密钥可能会无法获得将来的池奖励。"
 
 #: src/screens/SelectKey/SelectKey.tsx:143
-msgid "Welcome to Chia. Please log in with an existing key, or create a new key."
+msgid "Welcome to Hydrangea. Please log in with an existing key, or create a new key."
 msgstr "欢迎来到奇亚。请用已有的密钥登录，或者创建一个新的密钥。"
 
 #: src/components/Back/Back.tsx:38

@@ -6,14 +6,14 @@ import {
   DropdownActions,
   MenuItem,
   /*useTrans,*/ usePersistState,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Trans } from '@lingui/macro';
 import { Switch, FormGroup, FormControlLabel } from '@mui/material';
 import { FilterList as FilterListIcon } from '@mui/icons-material';
 // import { defineMessage } from '@lingui/macro';
-import { WalletReceiveAddressField } from '@chia/wallets';
-import type { NFTInfo, Wallet } from '@chia/api';
-import { useGetNFTWallets /*useGetNFTsByNFTIDsQuery*/ } from '@chia/api-react';
+import { WalletReceiveAddressField } from '@hydrangea/wallets';
+import type { NFTInfo, Wallet } from '@hydrangea/api';
+import { useGetNFTWallets /*useGetNFTsByNFTIDsQuery*/ } from '@hydrangea/api-react';
 import { Box, Grid } from '@mui/material';
 // import NFTGallerySidebar from './NFTGallerySidebar';
 import NFTCardLazy from '../NFTCardLazy';

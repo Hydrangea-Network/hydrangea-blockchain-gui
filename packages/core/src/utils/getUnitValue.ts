@@ -12,7 +12,7 @@ type Display = {
 const display: {
   [key in Unit]: Display;
 } = {
-  chia: {
+  hydrangea: {
     format: '{amount} XHG',
     fractionDigits: 12,
   },

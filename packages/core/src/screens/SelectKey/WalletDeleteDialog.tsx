@@ -13,7 +13,7 @@ import {
   useCheckDeleteKeyMutation,
   useDeleteKeyMutation,
   useGetKeyringStatusQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import useSkipMigration from '../../hooks/useSkipMigration';
 import useKeyringMigrationPrompt from '../../hooks/useKeyringMigrationPrompt';
 import Flex from '../../components/Flex';

@@ -1,6 +1,6 @@
 import React from 'react';
-import type { KeyData } from '@chia/api';
-import { useDeleteLabelMutation, useSetLabelMutation } from '@chia/api-react';
+import type { KeyData } from '@hydrangea/api';
+import { useDeleteLabelMutation, useSetLabelMutation } from '@hydrangea/api-react';
 import { Trans } from '@lingui/macro';
 import { useForm } from 'react-hook-form';
 import { ButtonGroup, Chip, InputAdornment } from '@mui/material';

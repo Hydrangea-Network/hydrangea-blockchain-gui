@@ -6,20 +6,20 @@ import {
   ServiceHumanName,
   ServiceName,
   PassphrasePromptReason,
-} from '@chia/api';
+} from '@hydrangea/api';
 import {
   useCloseMutation,
   useGetStateQuery,
   useGetKeyringStatusQuery,
   useServices,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import {
   Flex,
   LayoutHero,
   LayoutLoading,
   useMode,
   useIsSimulator,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Typography, Collapse } from '@mui/material';
 import AppKeyringMigrator from './AppKeyringMigrator';
 import AppPassPrompt from './AppPassPrompt';

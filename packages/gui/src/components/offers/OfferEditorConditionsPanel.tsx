@@ -7,16 +7,16 @@ import {
   Fee,
   Flex,
   TooltipIcon,
-  mojoToChia,
-  mojoToChiaLocaleString,
+  mojoToHydrangea,
+  mojoToHydrangeaLocaleString,
   mojoToCAT,
   mojoToCATLocaleString,
   useLocale,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Box, Divider, IconButton, Typography } from '@mui/material';
 import { Add, Remove } from '@mui/icons-material';
-import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@chia/api-react';
-import { Wallet, WalletType } from '@chia/api';
+import { useGetWalletBalanceQuery, useGetWalletsQuery } from '@hydrangea/api-react';
+import { Wallet, WalletType } from '@hydrangea/api';
 import type OfferEditorRowData from './OfferEditorRowData';
 import OfferAssetSelector from './OfferAssetSelector';
 import OfferExchangeRate from './OfferExchangeRate';
@@ -64,11 +64,11 @@ function OfferEditorConditionRow(props: OfferEditorConditionsRowProps) {
     ) {
       switch (item.walletType) {
         case WalletType.STANDARD_WALLET:
-          balanceString = mojoToChiaLocaleString(
+          balanceString = mojoToHydrangeaLocaleString(
             walletBalance.spendableBalance,
             locale,
           );
-          balance = mojoToChia(walletBalance.spendableBalance);
+          balance = mojoToHydrangea(walletBalance.spendableBalance);
           break;
         case WalletType.CAT:
           balanceString = mojoToCATLocaleString(

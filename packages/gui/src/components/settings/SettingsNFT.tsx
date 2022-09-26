@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import { Grid } from '@mui/material';
-import { Flex, SettingsLabel } from '@chia/core';
+import { Flex, SettingsLabel } from '@hydrangea/core';
 import { Switch, FormGroup, FormControlLabel } from '@mui/material';
 import useHideObjectionableContent from '../../hooks/useHideObjectionableContent';
 

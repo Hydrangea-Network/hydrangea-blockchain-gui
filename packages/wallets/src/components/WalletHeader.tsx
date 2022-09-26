@@ -6,10 +6,10 @@ import {
   useOpenDialog,
   DropdownActions,
   MenuItem,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Typography, ListItemIcon, Tab, Tabs } from '@mui/material';
 import { Delete as DeleteIcon } from '@mui/icons-material';
-import { useDeleteUnconfirmedTransactionsMutation } from '@chia/api-react';
+import { useDeleteUnconfirmedTransactionsMutation } from '@hydrangea/api-react';
 import WalletName from './WalletName';
 
 type StandardWalletProps = {

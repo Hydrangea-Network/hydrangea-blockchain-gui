@@ -8,10 +8,10 @@ import {
   useOpenDialog,
   useSerializedNavigationState,
   useShowError,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Button, Grid, Typography } from '@mui/material';
-import { useGetOfferSummaryMutation } from '@chia/api-react';
-import { type OfferSummaryRecord } from '@chia/api';
+import { useGetOfferSummaryMutation } from '@hydrangea/api-react';
+import { type OfferSummaryRecord } from '@hydrangea/api';
 import OfferDataEntryDialog from './OfferDataEntryDialog';
 import { offerContainsAssetOfType } from './utils';
 import fs, { Stats } from 'fs';

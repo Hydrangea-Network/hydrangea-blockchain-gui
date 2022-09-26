@@ -2,8 +2,8 @@ import React, { useMemo, useState } from 'react';
 import { Trans } from '@lingui/macro';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
-import { Button, Flex, Form, TextField, Loading } from '@chia/core';
-import { useSetRewardTargetsMutation, useGetRewardTargetsQuery } from '@chia/api-react';
+import { Button, Flex, Form, TextField, Loading } from '@hydrangea/core';
+import { useSetRewardTargetsMutation, useGetRewardTargetsQuery } from '@hydrangea/api-react';
 import {
   Alert,
   Dialog,

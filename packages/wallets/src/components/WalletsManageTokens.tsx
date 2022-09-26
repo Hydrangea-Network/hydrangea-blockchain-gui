@@ -1,7 +1,7 @@
 import React, { type ReactNode, useState } from 'react';
 import { Trans } from '@lingui/macro';
 import { Box, IconButton, InputBase } from '@mui/material';
-import { WalletType } from '@chia/api';
+import { WalletType } from '@hydrangea/api';
 import {
   Button,
   useColorModeValue,
@@ -9,7 +9,7 @@ import {
   Flex,
   Tooltip,
   useTrans,
-} from '@chia/core';
+} from '@hydrangea/core';
 import styled from 'styled-components';
 import { Add, KeyboardArrowDown, KeyboardArrowUp } from '@mui/icons-material';
 import { useToggle } from 'react-use';

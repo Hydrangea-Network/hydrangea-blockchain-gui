@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: km_KH\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:40\n"
 "Last-Translator: \n"
 "Language-Team: Khmer\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: km\n"
 "X-Crowdin-File: /main/packages/gui/src/locales/en-US/messages.po\n"
@@ -56,7 +56,7 @@ msgstr ""
 
 #: src/electron/main.tsx:586
 #: src/electron/main.tsx:673
-msgid "About Chia Blockchain"
+msgid "About Hydrangea Blockchain"
 msgstr ""
 
 #: src/components/offers/NFTOfferViewer.tsx:742
@@ -242,7 +242,7 @@ msgid "Block VDF Iterations"
 msgstr ""
 
 #: src/components/block/Block.jsx:296
-msgid "Block at height {0} in the Chia blockchain"
+msgid "Block at height {0} in the Hydrangea blockchain"
 msgstr ""
 
 #: src/components/block/Block.jsx:122
@@ -343,11 +343,11 @@ msgid "Check Provenance on Spacescan.io"
 msgstr ""
 
 #: src/electron/main.tsx:583
-msgid "Chia"
+msgid "Hydrangea"
 msgstr ""
 
 #: src/electron/main.tsx:522
-msgid "Chia Blockchain Wiki"
+msgid "Hydrangea Blockchain Wiki"
 msgstr ""
 
 #: src/components/app/AppSelectMode.tsx:155
@@ -635,7 +635,7 @@ msgid "Deleting key"
 msgstr ""
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:183
@@ -794,7 +794,7 @@ msgid "Exclude final directory"
 msgstr ""
 
 #: src/components/nfts/gallery/NFTGalleryHero.tsx:17
-msgid "Explore the Chia ecosystem; discover and trade great NFTs"
+msgid "Explore the Hydrangea ecosystem; discover and trade great NFTs"
 msgstr ""
 
 #: src/components/offers/utils.ts:174
@@ -1783,7 +1783,7 @@ msgid "Plots With Missing Keys"
 msgstr ""
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia.<0>Learn more</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea.<0>Learn more</0>"
 msgstr ""
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
@@ -2505,8 +2505,8 @@ msgstr ""
 msgid "Total Amount Requested"
 msgstr ""
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+msgid "Total Hydrangea Farmed"
 msgstr ""
 
 #: src/components/plot/card/PlotCardTotalHarvesters.tsx:11
@@ -2874,7 +2874,7 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:229
 #: src/components/settings/ChangePassphrasePrompt.tsx:271
 #: src/components/settings/SetPassphrasePrompt.tsx:238
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
+msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:61

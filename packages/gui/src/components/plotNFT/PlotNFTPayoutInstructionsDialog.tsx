@@ -9,7 +9,7 @@ import {
   Loading,
   TextField,
   Form,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Alert,
   Dialog,
@@ -112,7 +112,7 @@ export default function PlotNFTPayoutInstructionsDialog(props: Props) {
                   </Trans>{' '}
                   <Link
                     target="_blank"
-                    href="https://github.com/Chia-Network/pool-reference/blob/main/SPECIFICATION.md#payloadpayout_instructions"
+                    href="https://github.com/Hydrangea-Network/pool-reference/blob/main/SPECIFICATION.md#payloadpayout_instructions"
                     noWrap
                   >
                     <Trans>Learn More</Trans>

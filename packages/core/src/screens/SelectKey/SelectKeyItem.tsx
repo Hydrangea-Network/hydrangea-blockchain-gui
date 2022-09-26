@@ -6,8 +6,8 @@ import {
   Visibility as VisibilityIcon,
   Edit as EditIcon,
 } from '@mui/icons-material';
-import type { KeyData } from '@chia/api';
-import { useGetLoggedInFingerprintQuery } from '@chia/api-react';
+import type { KeyData } from '@hydrangea/api';
+import { useGetLoggedInFingerprintQuery } from '@hydrangea/api-react';
 import SelectKeyDetailDialog from './SelectKeyDetailDialog';
 import CardListItem from '../../components/CardListItem';
 import More from '../../components/More';

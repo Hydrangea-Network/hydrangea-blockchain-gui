@@ -1,12 +1,12 @@
 import React, { useMemo } from 'react';
 import { useNavigate, useParams } from 'react-router';
-import { CardListItem, Flex, Truncate } from '@chia/core';
+import { CardListItem, Flex, Truncate } from '@hydrangea/core';
 import { Box, Card, CardContent, Typography } from '@mui/material';
 import styled from 'styled-components';
 import { orderBy } from 'lodash';
 
-import { useGetDIDQuery, useGetWalletsQuery } from '@chia/api-react';
-import { WalletType } from '@chia/api';
+import { useGetDIDQuery, useGetWalletsQuery } from '@hydrangea/api-react';
+import { WalletType } from '@hydrangea/api';
 import { didToDIDId } from '../../util/dids';
 
 const StyledRoot = styled(Box)`

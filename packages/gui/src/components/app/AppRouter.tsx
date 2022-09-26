@@ -6,8 +6,8 @@ import {
   LayoutDashboard,
   Mode,
   useMode,
-} from '@chia/core';
-import { WalletAdd, WalletImport, Wallets } from '@chia/wallets';
+} from '@hydrangea/core';
+import { WalletAdd, WalletImport, Wallets } from '@hydrangea/wallets';
 import AppProviders from './AppProviders';
 import FullNode from '../fullNode/FullNode';
 import Block from '../block/Block';

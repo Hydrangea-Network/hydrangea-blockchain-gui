@@ -2,12 +2,12 @@ import React from 'react';
 import { Trans, t } from '@lingui/macro';
 import {
   ButtonLoading,
-  chiaToMojo,
+  hydrangeaToMojo,
   Fee,
   Flex,
   Form,
-  mojoToChiaLocaleString,
-} from '@chia/core';
+  mojoToHydrangeaLocaleString,
+} from '@hydrangea/core';
 import {
   Card,
   Typography,
@@ -16,7 +16,7 @@ import styled from 'styled-components';
 import {
   useCreateNewWalletMutation,
   useGetWalletBalanceQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router';
 import useOpenExternal from '../../hooks/useOpenExternal';
@@ -70,13 +70,13 @@ export default function ProfileAdd() {
 
     const walletId = await createProfile({
       walletType: 'did_wallet',
-      options: {did_type: 'new', backup_dids: [], num_of_backup_ids_needed: '0', amount: 1, fee: chiaToMojo(fee)},
+      options: {did_type: 'new', backup_dids: [], num_of_backup_ids_needed: '0', amount: 1, fee: hydrangeaToMojo(fee)},
     }).unwrap();
 
     navigate(`/dashboard/settings/profiles/${walletId}`);
   }
 
-  const standardBalance = mojoToChiaLocaleString(balance?.confirmedWalletBalance);
+  const standardBalance = mojoToHydrangeaLocaleString(balance?.confirmedWalletBalance);
 
   return (
     <div style={{width:"70%"}}>
@@ -92,7 +92,7 @@ export default function ProfileAdd() {
           </Flex>
           <div style={{cursor: "pointer"}}>
             <Flex paddingBottom={5}>
-              <Typography onClick={handleClick} sx={{ textDecoration: "underline" }}>Get Mojos from the Chia Faucet</Typography>
+              <Typography onClick={handleClick} sx={{ textDecoration: "underline" }}>Get Mojos from the Hydrangea Faucet</Typography>
             </Flex>
           </div>
           <Flex flexDirection="column" gap={2.5} paddingBottom={1}>

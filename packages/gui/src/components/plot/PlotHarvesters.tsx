@@ -1,8 +1,8 @@
 import React, { useMemo } from 'react';
 import { orderBy } from 'lodash';
-import { useGetHarvestersSummaryQuery } from '@chia/api-react';
+import { useGetHarvestersSummaryQuery } from '@hydrangea/api-react';
 import { Trans } from '@lingui/macro';
-import { Loading, Flex } from '@chia/core';
+import { Loading, Flex } from '@hydrangea/core';
 import { Typography } from '@mui/material';
 import PlotHarvester from './PlotHarvester';
 import isLocalhost from '../../util/isLocalhost';

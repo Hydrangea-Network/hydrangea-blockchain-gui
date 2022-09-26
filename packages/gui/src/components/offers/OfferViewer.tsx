@@ -15,8 +15,8 @@ import {
   TableControlled,
   TooltipIcon,
   useShowError,
-  mojoToChiaLocaleString,
-} from '@chia/core';
+  mojoToHydrangeaLocaleString,
+} from '@hydrangea/core';
 import {
   Box,
   Button,
@@ -35,8 +35,8 @@ import {
   OfferSummaryRecord,
   OfferTradeRecord,
   OfferCoinOfInterest,
-} from '@chia/api';
-import { useCheckOfferValidityMutation } from '@chia/api-react';
+} from '@hydrangea/api';
+import { useCheckOfferValidityMutation } from '@hydrangea/api-react';
 import { colorForOfferState, displayStringForOfferState } from './utils';
 import useAcceptOfferHook from '../../hooks/useAcceptOfferHook';
 import OfferHeader from './OfferHeader';
@@ -190,7 +190,7 @@ function OfferDetails(props: OfferDetailsProps) {
         return (
           <Typography variant="body2">
             <Flex flexDirection="row" flexGrow={1} gap={1}>
-              {mojoToChiaLocaleString(coin.amount)}
+              {mojoToHydrangeaLocaleString(coin.amount)}
             </Flex>
           </Typography>
         );

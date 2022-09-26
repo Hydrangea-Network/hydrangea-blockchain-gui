@@ -1,6 +1,6 @@
-import { OfferTradeRecord } from '@chia/api';
-import { useGetOfferDataMutation } from '@chia/api-react';
-import { useShowSaveDialog } from '@chia/core';
+import { OfferTradeRecord } from '@hydrangea/api';
+import { useGetOfferDataMutation } from '@hydrangea/api-react';
+import { useShowSaveDialog } from '@hydrangea/core';
 import fs from 'fs';
 import { suggestedFilenameForOffer } from '../components/offers/utils';
 import useAssetIdName from './useAssetIdName';

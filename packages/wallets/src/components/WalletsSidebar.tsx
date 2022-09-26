@@ -11,13 +11,13 @@ import {
   useColorModeValue,
   useOpenExternal,
   FormatLargeNumber,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   useGetLoggedInFingerprintQuery,
   useGetPrivateKeyQuery,
   useGetWalletsQuery,
-} from '@chia/api-react';
-import { WalletType } from '@chia/api';
+} from '@hydrangea/api-react';
+import { WalletType } from '@hydrangea/api';
 import styled from 'styled-components';
 import WalletIcon from './WalletIcon';
 import getWalletPrimaryTitle from '../utils/getWalletPrimaryTitle';

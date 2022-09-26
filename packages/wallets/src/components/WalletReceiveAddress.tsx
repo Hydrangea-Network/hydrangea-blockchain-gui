@@ -7,11 +7,11 @@ import {
   Loading,
   Flex,
   TooltipIcon,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   useGetCurrentAddressQuery,
   useGetNextAddressMutation,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import {
   Box,
   TextField,

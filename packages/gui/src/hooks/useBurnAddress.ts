@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { toBech32m } from '@chia/api';
-import { useCurrencyCode } from '@chia/core';
+import { toBech32m } from '@hydrangea/api';
+import { useCurrencyCode } from '@hydrangea/core';
 
 export default function useBurnAddress(): string | undefined {
   const feeUnit = useCurrencyCode();

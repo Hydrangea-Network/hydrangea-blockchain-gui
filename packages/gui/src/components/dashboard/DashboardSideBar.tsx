@@ -11,8 +11,8 @@ import {
   Offers as OffersIcon,
   Tokens as TokensIcon,
   Settings as SettingsIcon,
-} from '@chia/icons';
-import { Flex, SideBarItem } from '@chia/core';
+} from '@hydrangea/icons';
+import { Flex, SideBarItem } from '@hydrangea/core';
 
 const StyledItemsContainer = styled(Flex)`
   flex-direction: column;

@@ -10,7 +10,7 @@ import {
   TextField,
   Checkbox,
   TooltipIcon,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { FormControl, FormControlLabel, Typography } from '@mui/material';
 import useSelectDirectory from '../../../hooks/useSelectDirectory';
 import Plotter from '../../../types/Plotter';

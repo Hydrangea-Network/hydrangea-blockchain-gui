@@ -2,12 +2,12 @@ import React, { useMemo, useState, useEffect } from 'react';
 import { Trans } from '@lingui/macro';
 import { useForm } from 'react-hook-form';
 import styled from 'styled-components';
-import { Button, Flex, Form, TextField, Loading } from '@chia/core';
-import { fromBech32m } from '@chia/api';
+import { Button, Flex, Form, TextField, Loading } from '@hydrangea/core';
+import { fromBech32m } from '@hydrangea/api';
 import {
   useSetRewardTargetsMutation,
   useGetRewardTargetsQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import {
   Alert,
   Dialog,

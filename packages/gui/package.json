@@ -1,9 +1,9 @@
 {
-  "name": "@chia/gui",
-  "author": "Chia Network <hello@hydrangea.website> (https://hydrangea.website/)",
-  "description": "GUI for Chia Blockchain",
+  "name": "@hydrangea/gui",
+  "author": "Hydrangea Network <hello@hydrangea.website> (https://hydrangea.website/)",
+  "description": "GUI for Hydrangea Blockchain",
   "license": "Apache-2.0",
-  "productName": "Chia Blockchain",
+  "productName": "Hydrangea Blockchain",
   "private": true,
   "homepage": "./",
   "main": "build/electron/main.js",
@@ -11,8 +11,8 @@
     "node": ">=12.20.0"
   },
   "build": {
-    "productName": "chia",
-    "appId": "net.chia.blockchain",
+    "productName": "hydrangea",
+    "appId": "net.hydrangea.blockchain",
     "asar": true,
     "asarUnpack": "**/daemon/**",
     "npmRebuild": false,
@@ -25,13 +25,13 @@
     ],
     "protocols": [
       {
-        "name": "Chia URL",
+        "name": "Hydrangea URL",
         "schemes": [
-          "chia"
+          "hydrangea"
         ]
       },
       {
-        "name": "Chia XHG Address",
+        "name": "Hydrangea XHG Address",
         "schemes": [
           "xhg"
         ]
@@ -41,10 +41,10 @@
       "target": "nsis",
       "icon": "src/assets/img/hydrangea.ico",
       "timeStampServer": "http://timestamp.comodoca.com",
-      "executableName": "Chia"
+      "executableName": "Hydrangea"
     },
     "nsis": {
-      "artifactName": "ChiaSetup-${env.CHIA_INSTALLER_VERSION}.exe",
+      "artifactName": "HydrangeaSetup-${env.HYDRANGEA_INSTALLER_VERSION}.exe",
       "oneClick": false,
       "deleteAppDataOnUninstall": true,
       "allowToChangeInstallationDirectory": true,
@@ -54,13 +54,13 @@
       "include": "installer.nsh"
     },
     "mac": {
-      "executableName": "Chia",
-      "artifactName": "${productName}-${env.CHIA_INSTALLER_VERSION}.${ext}",
+      "executableName": "Hydrangea",
+      "artifactName": "${productName}-${env.HYDRANGEA_INSTALLER_VERSION}.${ext}",
       "category": "public.app-category.finance",
       "target": "dmg",
       "icon": "src/assets/img/hydrangea.icns",
       "entitlements": "entitlements.mac.plist",
-      "provisioningProfile": "chiablockchain.provisionprofile",
+      "provisioningProfile": "hydrangeablockchain.provisionprofile",
       "darkModeSupport": true,
       "hardenedRuntime": true,
       "gatekeeperAssess": false
@@ -87,7 +87,7 @@
       }
     },
     "linux": {
-      "artifactName": "${productName}-${env.CHIA_INSTALLER_VERSION}.${ext}",
+      "artifactName": "${productName}-${env.HYDRANGEA_INSTALLER_VERSION}.${ext}",
       "icon": "src/assets/img/hydrangea.icns"
     },
     "deb": {
@@ -102,7 +102,7 @@
         "--rpm-rpmbuild-define=_enable_debug_package 0",
         "--rpm-rpmbuild-define=debug_package %{nil}",
         "--rpm-rpmbuild-define=__os_install_post /usr/lib/rpm/brp-compress %{nil}",
-        "--rpm-attr=4755,root,root:/opt/chia/chrome-sandbox"
+        "--rpm-attr=4755,root,root:/opt/hydrangea/chrome-sandbox"
       ]
     }
   },
@@ -130,11 +130,11 @@
     "test:jest": "jest"
   },
   "dependencies": {
-    "@chia/api": "1.0.0",
-    "@chia/api-react": "1.0.0",
-    "@chia/core": "1.0.0",
-    "@chia/icons": "1.0.0",
-    "@chia/wallets": "1.0.0",
+    "@hydrangea/api": "1.0.0",
+    "@hydrangea/api-react": "1.0.0",
+    "@hydrangea/core": "1.0.0",
+    "@hydrangea/icons": "1.0.0",
+    "@hydrangea/wallets": "1.0.0",
     "@electron/remote": "2.0.1",
     "@lingui/core": "3.13.0",
     "@lingui/macro": "3.13.0",

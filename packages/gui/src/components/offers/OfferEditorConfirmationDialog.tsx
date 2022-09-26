@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { ConfirmDialog } from '@chia/core';
+import { ConfirmDialog } from '@hydrangea/core';
 import { Typography } from '@mui/material';
 
 /* ========================================================================== */

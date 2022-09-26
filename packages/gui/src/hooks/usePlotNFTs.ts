@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import type { PlotNFT } from '@chia/api';
-import { useGetPlotNFTsQuery } from '@chia/api-react';
+import type { PlotNFT } from '@hydrangea/api';
+import { useGetPlotNFTsQuery } from '@hydrangea/api-react';
 import useUnconfirmedPlotNFTs from './useUnconfirmedPlotNFTs';
 import PlotNFTExternal from 'types/PlotNFTExternal';
 

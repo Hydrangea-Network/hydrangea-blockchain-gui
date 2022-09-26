@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@mui/material';
 import FarmCardStatus from '../card/FarmCardStatus';
-import FarmCardTotalChiaFarmed from './FarmCardTotalChiaFarmed';
+import FarmCardTotalHydrangeaFarmed from './FarmCardTotalHydrangeaFarmed';
 import FarmCardBlockRewards from './FarmCardBlockRewards';
 import FarmCardUserFees from './FarmCardUserFees';
 import FarmCardLastHeightFarmed from './FarmCardLastHeightFarmed';
@@ -18,7 +18,7 @@ export default function FarmCards() {
           <FarmCardStatus />
         </Grid>
         <Grid xs={12} sm={6} md={4} item>
-          <FarmCardTotalChiaFarmed />
+          <FarmCardTotalHydrangeaFarmed />
         </Grid>
         <Grid xs={12} sm={6} md={4} item>
           <FarmCardBlockRewards />

@@ -13,7 +13,7 @@ import {
   FormatLargeNumber,
   Link,
   useOpenDialog,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Box,
   Card,
@@ -21,7 +21,7 @@ import {
   Typography,
   ListItemIcon,
 } from '@mui/material';
-import { Plot as PlotIcon } from '@chia/icons';
+import { Plot as PlotIcon } from '@hydrangea/icons';
 import {
   /* Link as LinkIcon, */ Payment as PaymentIcon,
 } from '@mui/icons-material';

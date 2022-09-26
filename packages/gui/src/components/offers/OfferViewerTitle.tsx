@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
 import moment from 'moment';
-import { OfferTradeRecord } from '@chia/api';
-import { Flex, useColorModeValue } from '@chia/core';
+import { OfferTradeRecord } from '@hydrangea/api';
+import { Flex, useColorModeValue } from '@hydrangea/core';
 import { Typography } from '@mui/material';
 import path from 'path';
 import styled from 'styled-components';

@@ -20,7 +20,7 @@ import {
   useLogout,
   useGetLoggedInFingerprintQuery,
   useGetKeyQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import { ExitToApp as ExitToAppIcon } from '@mui/icons-material';
 import Settings from '../Settings';
 import Tooltip from '../Tooltip';

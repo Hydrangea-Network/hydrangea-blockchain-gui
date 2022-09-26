@@ -7,9 +7,9 @@ import {
   LayoutDashboardSub,
   Loading,
   useOpenDialog,
-} from '@chia/core';
-import type { NFTInfo } from '@chia/api';
-import { useGetNFTWallets, useGetNFTInfoQuery } from '@chia/api-react';
+} from '@hydrangea/core';
+import type { NFTInfo } from '@hydrangea/api';
+import { useGetNFTWallets, useGetNFTInfoQuery } from '@hydrangea/api-react';
 import {
   Box,
   Grid,

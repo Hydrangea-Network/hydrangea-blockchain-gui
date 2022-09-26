@@ -15,7 +15,7 @@ import {
   Loading,
   Link,
   Flex,
-} from '@chia/core';
+} from '@hydrangea/core';
 import useWallet from '../../hooks/useWallet';
 
 type Props = {

@@ -2,20 +2,20 @@ import React, { useMemo, ReactNode } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useCopyToClipboard } from 'react-use';
 import { Trans } from '@lingui/macro';
-import type { NFTInfo } from '@chia/api';
-import { useSetNFTStatusMutation } from '@chia/api-react';
+import type { NFTInfo } from '@hydrangea/api';
+import { useSetNFTStatusMutation } from '@hydrangea/api-react';
 import {
   AlertDialog,
   DropdownActions,
   MenuItem,
   useOpenDialog,
-} from '@chia/core';
-import type { DropdownActionsChildProps } from '@chia/core';
+} from '@hydrangea/core';
+import type { DropdownActionsChildProps } from '@hydrangea/core';
 import {
   LinkSmall as LinkSmallIcon,
   NFTsSmall as NFTsSmallIcon,
   OffersSmall as OffersSmallIcon,
-} from '@chia/icons';
+} from '@hydrangea/icons';
 import { ListItemIcon, Typography } from '@mui/material';
 import {
   ArrowForward as TransferIcon,

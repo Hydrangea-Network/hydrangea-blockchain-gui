@@ -11,18 +11,18 @@ import {
   TextFieldNumber,
   TextField,
   useOpenDialog,
-  chiaToMojo,
+  hydrangeaToMojo,
   catToMojo,
   useIsSimulator,
   useCurrencyCode,
   getTransactionResult,
   TooltipIcon,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   useSpendCATMutation,
   useFarmBlockMutation,
-} from '@chia/api-react';
-import { SyncingStatus, toBech32m } from '@chia/api';
+} from '@hydrangea/api-react';
+import { SyncingStatus, toBech32m } from '@hydrangea/api';
 import isNumeric from 'validator/es/lib/isNumeric';
 import { useForm, useWatch } from 'react-hook-form';
 import { Grid, Typography } from '@mui/material';
@@ -115,10 +115,10 @@ export default function WalletCATSend(props: Props) {
     }
 
     if (address.includes('colour')) {
-      throw new Error(t`Cannot send chia to coloured address. Please enter a chia address.`);
+      throw new Error(t`Cannot send hydrangea to coloured address. Please enter a hydrangea address.`);
     }
 
-    if (address.includes('chia_addr') || address.includes('colour_desc')) {
+    if (address.includes('hydrangea_addr') || address.includes('colour_desc')) {
       throw new Error(t`Recipient address is not a coloured wallet address. Please enter a coloured wallet address`);
     }
     if (address.slice(0, 14) === 'colour_addr://') {
@@ -129,7 +129,7 @@ export default function WalletCATSend(props: Props) {
       }
     }
 
-    if (address.slice(0, 12) === 'chia_addr://') {
+    if (address.slice(0, 12) === 'hydrangea_addr://') {
       address = address.slice(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -137,7 +137,7 @@ export default function WalletCATSend(props: Props) {
     }
 
     const amountValue = catToMojo(amount);
-    const feeValue = chiaToMojo(fee);
+    const feeValue = hydrangeaToMojo(fee);
 
     const memo = data.memo.trim();
     const memos = memo ? [memo] : undefined;

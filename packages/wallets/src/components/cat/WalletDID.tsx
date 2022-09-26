@@ -11,7 +11,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import Backdrop from '@mui/material/Backdrop';
 import CircularProgress from '@mui/material/CircularProgress';
-import { AlertDialog, Card, Flex, Loading, Dropzone, mojoToChiaLocaleString } from '@chia/core';
+import { AlertDialog, Card, Flex, Loading, Dropzone, mojoToHydrangeaLocaleString } from '@hydrangea/core';
 import {
   did_generate_backup_file,
   did_spend,
@@ -612,7 +612,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojoToChiaLocaleString(props.balance)} TXHG
+            {mojoToHydrangeaLocaleString(props.balance)} TXHG
           </Typography>
         </Box>
       </Box>
@@ -948,7 +948,7 @@ const CreateAttest = (props) => {
       return;
     }
     let address = puzhash_input.value.trim();
-    if (address.substring(0, 12) === 'chia_addr://') {
+    if (address.substring(0, 12) === 'hydrangea_addr://') {
       address = address.substring(12);
     }
     if (address.startsWith('0x') || address.startsWith('0X')) {
@@ -1024,7 +1024,7 @@ const CashoutCard = (props) => {
   function cashout() {
     let puzzlehash = address_input.value.trim();
 
-    if (puzzlehash.slice(0, 12) === 'chia_addr://') {
+    if (puzzlehash.slice(0, 12) === 'hydrangea_addr://') {
       puzzlehash = puzzlehash.slice(12);
     }
     if (puzzlehash.startsWith('0x') || puzzlehash.startsWith('0X')) {

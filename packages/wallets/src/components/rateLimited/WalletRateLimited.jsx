@@ -13,7 +13,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Tooltip } from '@mui/material';
 import HelpIcon from '@mui/icons-material/Help';
-import { AlertDialog, Card, Flex, chiaToMojo, mojoToChiaLocaleString } from '@chia/core';
+import { AlertDialog, Card, Flex, hydrangeaToMojo, mojoToHydrangeaLocaleString } from '@hydrangea/core';
 import {
   send_transaction,
   rl_set_user_info_action,
@@ -250,17 +250,17 @@ const IncompleteCard = (props) => {
     const ip_debuf = ip_unhex.toString('utf8');
     const ip_parsed = JSON.parse(ip_debuf);
     const interval_input = ip_parsed.interval;
-    const chiaper_input = ip_parsed.limit;
+    const hydrangeaper_input = ip_parsed.limit;
     const origin_input = ip_parsed.origin_string;
     const admin_pubkey_input = ip_parsed.admin_pubkey;
     const interval_value = Number.parseInt(Number(interval_input));
-    const chiaper_value = Number.parseInt(Number(chiaper_input));
+    const hydrangeaper_value = Number.parseInt(Number(hydrangeaper_input));
     const origin_parsed = JSON.parse(origin_input);
     dispatch(
       rl_set_user_info_action(
         id,
         interval_value,
-        chiaper_value,
+        hydrangeaper_value,
         origin_parsed,
         admin_pubkey_input,
       ),
@@ -398,8 +398,8 @@ const RLDetailsCard = (props) => {
             <Box flexGrow={1}>
               <Typography variant="subtitle1">
                 <Trans>
-                  Spending Limit (chia per interval):{' '}
-                  {mojoToChiaLocaleString(limit)}
+                  Spending Limit (hydrangea per interval):{' '}
+                  {mojoToHydrangeaLocaleString(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -445,8 +445,8 @@ const RLDetailsCard = (props) => {
             <Box flexGrow={1}>
               <Typography variant="subtitle1">
                 <Trans>
-                  Spending Limit (chia per interval):{' '}
-                  {mojoToChiaLocaleString(limit)}
+                  Spending Limit (hydrangea per interval):{' '}
+                  {mojoToHydrangeaLocaleString(limit)}
                 </Trans>
               </Typography>
             </Box>
@@ -511,7 +511,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojoToChiaLocaleString(props.balance)} {currencyCode}
+            {mojoToHydrangeaLocaleString(props.balance)} {currencyCode}
           </Typography>
         </Box>
       </Box>
@@ -651,8 +651,8 @@ const SendCard = (props) => {
       );
       return;
     }
-    const amount = chiaToMojo(amount_input.value);
-    const fee = chiaToMojo(fee_input.value);
+    const amount = hydrangeaToMojo(amount_input.value);
+    const fee = hydrangeaToMojo(fee_input.value);
 
     if (address.startsWith('0x') || address.startsWith('0X')) {
       address = address.slice(2);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, LinearProgress, type LinearProgressProps } from '@mui/material';
-import { useGetHarvesterStats } from '@chia/api-react';
+import { useGetHarvesterStats } from '@hydrangea/api-react';
 
 function LinearProgressWithLabel(props: LinearProgressProps & { value: number }) {
   return (

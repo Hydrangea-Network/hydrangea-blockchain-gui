@@ -1,9 +1,9 @@
 import BigNumber from 'bignumber.js';
 import Unit from '../constants/Unit';
-import chiaFormatter from './chiaFormatter';
+import hydrangeaFormatter from './hydrangeaFormatter';
 
-export default function chiaToMojo(chia: string | number | BigNumber): BigNumber {
-  return chiaFormatter(chia, Unit.CHIA)
+export default function hydrangeaToMojo(hydrangea: string | number | BigNumber): BigNumber {
+  return hydrangeaFormatter(hydrangea, Unit.HYDRANGEA)
     .to(Unit.MOJO)
     .toBigNumber();
 }

@@ -10,12 +10,12 @@ import {
   Flex,
   Form,
   State,
-  mojoToChiaLocaleString,
-  chiaToMojo,
+  mojoToHydrangeaLocaleString,
+  hydrangeaToMojo,
   Back,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { useForm } from 'react-hook-form';
-import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery, useGetCurrentAddressQuery } from '@chia/api-react'
+import { usePwAbsorbRewardsMutation, useGetPlotNFTsQuery, useGetCurrentAddressQuery } from '@hydrangea/api-react'
 import { ChevronRight as ChevronRightIcon } from '@mui/icons-material';
 import { Grid, Typography } from '@mui/material';
 import { useParams } from 'react-router';
@@ -65,7 +65,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
       const walletId = nft?.poolWalletStatus.walletId;
 
       const { fee } = data;
-      const feeMojos = chiaToMojo(fee);
+      const feeMojos = hydrangeaToMojo(fee);
 
 
       if (walletId === undefined) {
@@ -150,7 +150,7 @@ export default function PlotNFTAbsorbRewards(props: Props) {
               <Trans>
                 You will recieve{' '}
                 <UnitFormat
-                  value={mojoToChiaLocaleString(balance)}
+                  value={mojoToHydrangeaLocaleString(balance)}
                   display="inline"
                   state={State.SUCCESS}
                 />{' '}

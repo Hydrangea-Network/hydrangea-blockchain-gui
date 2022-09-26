@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
-import { chiaToMojo, AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@chia/core';
+import { hydrangeaToMojo, AlertDialog, Amount, Fee, Back, ButtonLoading, Card, Flex, Form } from '@hydrangea/core';
 import { Box, Grid } from '@mui/material';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from 'react-router';
@@ -53,8 +53,8 @@ export default function WalletCATCreateNew() {
       }
       */
 
-      const amountMojos = chiaToMojo(amount || '0');
-      const feeMojos = chiaToMojo(fee || '0');
+      const amountMojos = hydrangeaToMojo(amount || '0');
+      const feeMojos = hydrangeaToMojo(fee || '0');
 
 
       /*
@@ -72,7 +72,7 @@ export default function WalletCATCreateNew() {
     <Form methods={methods} onSubmit={handleSubmit}>
       <Flex flexDirection="column" gap={3}>
         <Back variant="h5">
-          <Trans>Create New Chia Asset Token Wallet</Trans>
+          <Trans>Create New Hydrangea Asset Token Wallet</Trans>
         </Back>
         <Card>
           <Grid spacing={2} container>

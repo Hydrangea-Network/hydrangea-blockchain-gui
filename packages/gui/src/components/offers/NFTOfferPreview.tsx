@@ -1,13 +1,13 @@
 import React from 'react';
 import { Trans, t } from '@lingui/macro';
-import { useGetNFTInfoQuery } from '@chia/api-react';
+import { useGetNFTInfoQuery } from '@hydrangea/api-react';
 import {
   Button,
   Flex,
   Loading,
   TooltipIcon,
   useColorModeValue,
-} from '@chia/core';
+} from '@hydrangea/core';
 import { Card, Grid, Typography } from '@mui/material';
 import NFTCard from '../nfts/NFTCard';
 import { launcherIdFromNFTId } from '../../util/nfts';

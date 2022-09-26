@@ -19,15 +19,15 @@ import {
   TableControlled,
   TooltipIcon,
   useOpenDialog,
-  chiaToMojo,
+  hydrangeaToMojo,
   useCurrencyCode,
   useSerializedNavigationState,
   useShowSaveDialog,
   Tooltip,
   LayoutDashboardSub,
   MenuItem,
-} from '@chia/core';
-import { OfferSummaryRecord, OfferTradeRecord } from '@chia/api';
+} from '@hydrangea/core';
+import { OfferSummaryRecord, OfferTradeRecord } from '@hydrangea/api';
 import {
   Box,
   Checkbox,
@@ -49,12 +49,12 @@ import {
   Reply as Share,
   Visibility,
 } from '@mui/icons-material';
-import { Offers } from '@chia/icons';
+import { Offers } from '@hydrangea/icons';
 import {
   useCancelOfferMutation,
   useGetOfferDataMutation,
   useGetWalletsQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import {
   colorForOfferState,
   displayStringForOfferState,
@@ -100,7 +100,7 @@ function ConfirmOfferCancellation(props: ConfirmOfferCancellationProps) {
   async function handleConfirm() {
     const { fee: xhgFee } = methods.getValues();
 
-    const fee = cancelWithTransaction ? chiaToMojo(xhgFee) : new BigNumber(0);
+    const fee = cancelWithTransaction ? hydrangeaToMojo(xhgFee) : new BigNumber(0);
 
     onClose([true, { cancelWithTransaction, cancellationFee: fee }]);
   }

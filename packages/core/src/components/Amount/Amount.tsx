@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import { useWatch, useFormContext } from 'react-hook-form';
 import TextField, { TextFieldProps } from '../TextField';
-import chiaToMojo from '../../utils/chiaToMojo';
+import hydrangeaToMojo from '../../utils/hydrangeaToMojo';
 import catToMojo from '../../utils/catToMojo';
 import useCurrencyCode from '../../hooks/useCurrencyCode';
 import FormatLargeNumber from '../FormatLargeNumber';
@@ -50,9 +50,9 @@ export default function Amount(props: AmountProps) {
   const correctedValue = value && value[0] === '.' ? `0${value}` : value;
 
   const currencyCode = symbol === undefined ? defaultCurrencyCode : symbol;
-  const isChiaCurrency = ['XHG', 'TXHG'].includes(currencyCode);
-  const mojo = isChiaCurrency
-    ? chiaToMojo(correctedValue)
+  const isHydrangeaCurrency = ['XHG', 'TXHG'].includes(currencyCode);
+  const mojo = isHydrangeaCurrency
+    ? hydrangeaToMojo(correctedValue)
     : catToMojo(correctedValue);
 
   return (
@@ -65,7 +65,7 @@ export default function Amount(props: AmountProps) {
           spellCheck: false,
           inputComponent: NumberFormatCustom as any,
           inputProps: {
-            decimalScale: isChiaCurrency ? 12 : 3,
+            decimalScale: isHydrangeaCurrency ? 12 : 3,
             'data-testid': dataTestid,
           },
           endAdornment: (

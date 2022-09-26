@@ -12,7 +12,7 @@ import moment from 'moment';
 import { ArrowBackIos as ArrowBackIosIcon } from '@mui/icons-material';
 import { useSelector, useDispatch } from 'react-redux';
 import { useNavigate } from 'react-router';
-import { Button, Flex, Link } from '@chia/core';
+import { Button, Flex, Link } from '@hydrangea/core';
 import {
   add_new_key_action,
   add_and_restore_from_backup,

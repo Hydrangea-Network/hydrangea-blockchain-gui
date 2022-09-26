@@ -10,14 +10,14 @@ import BigNumber from 'bignumber.js';
 import { orderBy, groupBy, map } from 'lodash';
 import { useMeasure } from 'react-use';
 import styled from 'styled-components';
-import { useGetWalletBalanceQuery } from '@chia/api-react';
-import { TransactionType } from '@chia/api';
-import type { Transaction } from '@chia/api';
+import { useGetWalletBalanceQuery } from '@hydrangea/api-react';
+import { TransactionType } from '@hydrangea/api';
+import type { Transaction } from '@hydrangea/api';
 import {
   useCurrencyCode,
-  mojoToChia,
+  mojoToHydrangea,
   blockHeightToTimestamp,
-} from '@chia/core';
+} from '@hydrangea/core';
 import useWalletTransactions from '../hooks/useWalletTransactions';
 
 const StyledGraphContainer = styled.div`
@@ -115,8 +115,8 @@ function prepareGraphPoints(
         peakTransaction.confirmedAtHeight,
         peakTransaction
       ),
-      y: BigNumber.max(0, mojoToChia(start)).toNumber(), // max 21,000,000 safe to number
-      tooltip: mojoToChia(balance).toString(), // bignumber is not supported by react
+      y: BigNumber.max(0, mojoToHydrangea(start)).toNumber(), // max 21,000,000 safe to number
+      tooltip: mojoToHydrangea(balance).toString(), // bignumber is not supported by react
     },
   ];
 
@@ -127,8 +127,8 @@ function prepareGraphPoints(
 
     points.push({
       x: timestamp,
-      y: BigNumber.max(0, mojoToChia(start)).toNumber(), // max 21,000,000 safe to number
-      tooltip: mojoToChia(start).toString(), // bignumber is not supported by react
+      y: BigNumber.max(0, mojoToHydrangea(start)).toNumber(), // max 21,000,000 safe to number
+      tooltip: mojoToHydrangea(start).toString(), // bignumber is not supported by react
     });
   });
 

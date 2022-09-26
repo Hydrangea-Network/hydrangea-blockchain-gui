@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: en_PT\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:41\n"
 "Last-Translator: \n"
 "Language-Team: Pirate English\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: en-PT\n"
 "X-Crowdin-File: /main/packages/wallets/src/locales/en-US/messages.po\n"
@@ -113,7 +113,7 @@ msgstr "Abandon"
 
 #: src/components/WalletSend.tsx:103
 #: src/components/cat/WalletCATSend.tsx:118
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 msgstr ""
 
 #: src/components/WalletsSidebar.tsx:145
@@ -123,7 +123,7 @@ msgstr ""
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
-msgid "Chia Asset Token"
+msgid "Hydrangea Asset Token"
 msgstr ""
 
 #: src/components/WalletsSidebar.tsx:160
@@ -178,7 +178,7 @@ msgid "Create An Attestation Packet"
 msgstr ""
 
 #: src/components/cat/WalletCATCreateExisting.tsx:76
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Hydrangea Asset Token Wallet from Existing TAIL"
 msgstr ""
 
 #: src/components/did/WalletDIDCreate.tsx:109
@@ -186,7 +186,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr ""
 
 #: src/components/cat/WalletCATCreateNew.tsx:75
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Hydrangea Asset Token Wallet"
 msgstr ""
 
 #: src/components/cat/WalletCATSelect.tsx:32
@@ -266,8 +266,8 @@ msgid "Drag and drop your recovery backup file"
 msgstr ""
 
 #: src/components/WalletImport.tsx:133
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "Give the 24 word mnemonic that ye scribbled down in order t' restore yer Chia treasure chest."
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+msgstr "Give the 24 word mnemonic that ye scribbled down in order t' restore yer Hydrangea treasure chest."
 
 #: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
@@ -728,8 +728,8 @@ msgstr "Spendin' Interval Length (number o' booties)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "Squanderin' Limit (chia per interval): {0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
+msgstr "Squanderin' Limit (hydrangea per interval): {0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -780,8 +780,8 @@ msgid "This is not a valid address for sending funds to"
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "'tis the amount o' Chia that ye can currently use t' make transactions. It does nah include pendin' lootin' rewards, pendin' incomin' transactions, 'n Chia that ye 'ave jus' spent but ain't yet in the blockchain."
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+msgstr "'tis the amount o' Hydrangea that ye can currently use t' make transactions. It does nah include pendin' lootin' rewards, pendin' incomin' transactions, 'n Hydrangea that ye 'ave jus' spent but ain't yet in the blockchain."
 
 #: src/components/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -792,7 +792,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "'tis the sum o' the incomin' 'n outgoin' pendin' transactions (nah yet included into the blockchain). This be nah includin' lootin' rewards."
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:31

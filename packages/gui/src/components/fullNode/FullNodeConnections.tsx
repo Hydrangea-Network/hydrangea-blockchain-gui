@@ -6,9 +6,9 @@ import {
   FormatLargeNumber,
   Loading,
   Table,
-} from '@chia/core';
-import { useGetFullNodeConnectionsQuery } from '@chia/api-react';
-import { Connection } from '@chia/api';
+} from '@hydrangea/core';
+import { useGetFullNodeConnectionsQuery } from '@hydrangea/api-react';
+import { Connection } from '@hydrangea/api';
 import { Tooltip } from '@mui/material';
 import { service_connection_types } from '../../util/service_names';
 

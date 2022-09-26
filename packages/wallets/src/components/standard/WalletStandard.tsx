@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Trans } from '@lingui/macro';
 import { useNavigate } from 'react-router-dom';
-import { WalletType } from '@chia/api';
-import { Flex, MenuItem } from '@chia/core';
-import { Offers as OffersIcon } from '@chia/icons';
+import { WalletType } from '@hydrangea/api';
+import { Flex, MenuItem } from '@hydrangea/core';
+import { Offers as OffersIcon } from '@hydrangea/icons';
 import { Box, Typography, ListItemIcon } from '@mui/material';
 import WalletHistory from '../WalletHistory';
 import WalletStandardCards from './WalletStandardCards';

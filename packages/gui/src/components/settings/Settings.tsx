@@ -7,7 +7,7 @@ import {
   useLocation,
   useNavigate,
 } from 'react-router-dom';
-import { Flex, LayoutDashboardSub } from '@chia/core';
+import { Flex, LayoutDashboardSub } from '@hydrangea/core';
 import { Typography, Tab, Tabs } from '@mui/material';
 import SettingsDataLayer from './SettingsDataLayer';
 import SettingsGeneral from './SettingsGeneral';

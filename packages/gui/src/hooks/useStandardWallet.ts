@@ -1,7 +1,7 @@
 import { useMemo } from 'react';
-import type { Wallet } from '@chia/api';
-import { WalletType } from '@chia/api';
-import { useGetWalletsQuery, useGetWalletBalanceQuery } from '@chia/api-react';
+import type { Wallet } from '@hydrangea/api';
+import { WalletType } from '@hydrangea/api';
+import { useGetWalletsQuery, useGetWalletBalanceQuery } from '@hydrangea/api-react';
 
 export default function useStandardWallet(): {
   loading: boolean;

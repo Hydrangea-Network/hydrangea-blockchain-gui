@@ -9,7 +9,7 @@ import {
   Checkbox,
   TooltipIcon,
   Select,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Grid,
   FormControl,

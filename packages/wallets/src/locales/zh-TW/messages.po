@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: zh_TW\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-07-27 18:40\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Traditional\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: zh-TW\n"
 "X-Crowdin-File: /main/packages/wallets/src/locales/en-US/messages.po\n"
@@ -113,7 +113,7 @@ msgstr "取消"
 
 #: src/components/WalletSend.tsx:103
 #: src/components/cat/WalletCATSend.tsx:118
-msgid "Cannot send chia to coloured address. Please enter a chia address."
+msgid "Cannot send hydrangea to coloured address. Please enter a hydrangea address."
 msgstr "不能寄送奇亞到有色地址。請輸入奇亞地址。"
 
 #: src/components/WalletsSidebar.tsx:145
@@ -123,7 +123,7 @@ msgstr ""
 #: src/components/cat/WalletCATSelect.tsx:25
 #: src/components/create/WalletCreateList.tsx:32
 #: src/constants/WalletName.ts:23
-msgid "Chia Asset Token"
+msgid "Hydrangea Asset Token"
 msgstr "奇亞資產代幣"
 
 #: src/components/WalletsSidebar.tsx:160
@@ -178,7 +178,7 @@ msgid "Create An Attestation Packet"
 msgstr "建立一個證明封包"
 
 #: src/components/cat/WalletCATCreateExisting.tsx:76
-msgid "Create Chia Asset Token Wallet from Existing TAIL"
+msgid "Create Hydrangea Asset Token Wallet from Existing TAIL"
 msgstr "從現有的TAIL建立奇亞資產代幣錢包"
 
 #: src/components/did/WalletDIDCreate.tsx:109
@@ -186,7 +186,7 @@ msgid "Create Distributed Identity Wallet"
 msgstr "建立分散式識別的錢包"
 
 #: src/components/cat/WalletCATCreateNew.tsx:75
-msgid "Create New Chia Asset Token Wallet"
+msgid "Create New Hydrangea Asset Token Wallet"
 msgstr "建立新的奇亞資產代幣錢包"
 
 #: src/components/cat/WalletCATSelect.tsx:32
@@ -266,8 +266,8 @@ msgid "Drag and drop your recovery backup file"
 msgstr "拖放您的備份檔案"
 
 #: src/components/WalletImport.tsx:133
-msgid "Enter the 24 word mnemonic that you have saved in order to restore your Chia wallet."
-msgstr "輸入你已存的 24 字助記符號以復原您的 Chia 錢包。"
+msgid "Enter the 24 word mnemonic that you have saved in order to restore your Hydrangea wallet."
+msgstr "輸入你已存的 24 字助記符號以復原您的 Hydrangea 錢包。"
 
 #: src/components/cat/WalletCATSend.tsx:128
 msgid "Error the entered address appears to be for a different colour."
@@ -730,8 +730,8 @@ msgstr "花費間隔長度 (區塊數量)"
 
 #: src/components/rateLimited/WalletRateLimited.jsx:400
 #: src/components/rateLimited/WalletRateLimited.jsx:447
-msgid "Spending Limit (chia per interval): {0}"
-msgstr "花用限制（每間隔可用 Chia）：{0}"
+msgid "Spending Limit (hydrangea per interval): {0}"
+msgstr "花用限制（每間隔可用 Hydrangea）：{0}"
 
 #: src/constants/WalletName.ts:5
 msgid "Standard Wallet"
@@ -782,8 +782,8 @@ msgid "This is not a valid address for sending funds to"
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:23
-msgid "This is the amount of Chia that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Chia that you have just spent but is not yet in the blockchain."
-msgstr "這是你目前可用來交易的 Chia 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Chia 。"
+msgid "This is the amount of Hydrangea that you can currently use to make transactions. It does not include pending farming rewards, pending incoming transactions, and Hydrangea that you have just spent but is not yet in the blockchain."
+msgstr "這是你目前可用來交易的 Hydrangea 數量。他不包括未結的耕種獎勵，未結的匯入交易和你剛花用，但還沒在區塊鏈內的 Hydrangea 。"
 
 #: src/components/standard/WalletStandardCards.tsx:44
 msgid "This is the pending change, which are change coins which you have sent to yourself, but have not been confirmed yet."
@@ -794,7 +794,7 @@ msgid "This is the sum of the incoming and outgoing pending transactions (not ye
 msgstr "這是匯入和匯出的未結交易的總和（還沒包含在區塊鏈中）。這不包括耕種獎勵。"
 
 #: src/components/standard/WalletStandardCards.tsx:16
-msgid "This is the total amount of chia in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
+msgid "This is the total amount of hydrangea in the blockchain at the current peak block that is controlled by your private keys. It includes frozen farming rewards, but not pending incoming and outgoing transactions."
 msgstr ""
 
 #: src/components/standard/WalletStandardCards.tsx:31

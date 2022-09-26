@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import type { Plot, PlotNFTExternal } from '@chia/api';
-import { useIsWalletSynced } from '@chia/wallets';
+import type { Plot, PlotNFTExternal } from '@hydrangea/api';
+import { useIsWalletSynced } from '@hydrangea/wallets';
 import usePlotNFTName from './usePlotNFTName';
 
 export default function usePlotNFTExternalDetails(nft: PlotNFTExternal): {

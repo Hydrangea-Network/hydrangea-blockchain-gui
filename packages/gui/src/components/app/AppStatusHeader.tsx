@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Flex, useMode, Mode } from '@chia/core';
+import { Flex, useMode, Mode } from '@hydrangea/core';
 import { Box, ButtonGroup, Button, Popover } from '@mui/material';
-import { WalletConnections, WalletStatus } from '@chia/wallets';
+import { WalletConnections, WalletStatus } from '@hydrangea/wallets';
 import Connections from '../fullNode/FullNodeConnections';
 import FullNodeStateIndicator from '../fullNode/FullNodeStateIndicator';
 

@@ -6,13 +6,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: sv_SE\n"
-"Project-Id-Version: chia-blockchain\n"
+"Project-Id-Version: hydrangea-blockchain\n"
 "Report-Msgid-Bugs-To: \n"
 "PO-Revision-Date: 2022-08-04 12:02\n"
 "Last-Translator: \n"
 "Language-Team: Swedish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: chia-blockchain\n"
+"X-Crowdin-Project: hydrangea-blockchain\n"
 "X-Crowdin-Project-ID: 440660\n"
 "X-Crowdin-Language: sv-SE\n"
 "X-Crowdin-File: /main/packages/gui/src/locales/en-US/messages.po\n"
@@ -56,8 +56,8 @@ msgstr "Ett värde på {0} rekommenderas"
 
 #: src/electron/main.tsx:607
 #: src/electron/main.tsx:694
-msgid "About Chia Blockchain"
-msgstr "Om Chia Blockchain"
+msgid "About Hydrangea Blockchain"
+msgstr "Om Hydrangea Blockchain"
 
 #: src/components/offers/NFTOfferViewer.tsx:750
 #: src/components/offers/OfferAcceptConfirmationDialog.tsx:23
@@ -243,8 +243,8 @@ msgid "Block VDF Iterations"
 msgstr "VDF-iterationer för block"
 
 #: src/components/block/Block.jsx:296
-msgid "Block at height {0} in the Chia blockchain"
-msgstr "Block vid höjd {0} i Chia-blockkedjan"
+msgid "Block at height {0} in the Hydrangea blockchain"
+msgstr "Block vid höjd {0} i Hydrangea-blockkedjan"
 
 #: src/components/block/Block.jsx:122
 msgid "Block with hash {headerHash}"
@@ -363,12 +363,12 @@ msgid "Check Provenance on Spacescan.io"
 msgstr "Kontrollera proveniens på Spacescan.io"
 
 #: src/electron/main.tsx:604
-msgid "Chia"
-msgstr "Chia"
+msgid "Hydrangea"
+msgstr "Hydrangea"
 
 #: src/electron/main.tsx:543
-msgid "Chia Blockchain Wiki"
-msgstr "Chia Blockchains wiki"
+msgid "Hydrangea Blockchain Wiki"
+msgstr "Hydrangea Blockchains wiki"
 
 #: src/components/app/AppSelectMode.tsx:155
 msgid "Choose Farming Mode"
@@ -654,8 +654,8 @@ msgid "Deleting key"
 msgstr "Tar bort nyckel"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:92
-msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Chia Proof of Space plotter. If unsure, use the default Chia Proof of Space plotter."
-msgstr "Beroende på din systemkonfiguration, kan det visa sig att en alternativ plotter skapar plottar snabbare än Chias standard-Proof-of-Space-plotter. Om du är osäker, använd Chias standard-Proof-of-Space-plotter."
+msgid "Depending on your system configuration, you may find that an alternative plotter produces plots faster than the default Hydrangea Proof of Space plotter. If unsure, use the default Hydrangea Proof of Space plotter."
+msgstr "Beroende på din systemkonfiguration, kan det visa sig att en alternativ plotter skapar plottar snabbare än Hydrangeas standard-Proof-of-Space-plotter. Om du är osäker, använd Hydrangeas standard-Proof-of-Space-plotter."
 
 #: src/components/settings/SettingsPanel.tsx:185
 msgid "Derivation Index"
@@ -821,7 +821,7 @@ msgid "Exclude final directory"
 msgstr "Uteslut slutlig mapp"
 
 #: src/components/nfts/gallery/NFTGalleryHero.tsx:17
-msgid "Explore the Chia ecosystem; discover and trade great NFTs"
+msgid "Explore the Hydrangea ecosystem; discover and trade great NFTs"
 msgstr ""
 
 #: src/components/offers/utils.ts:175
@@ -1855,8 +1855,8 @@ msgid "Plots With Missing Keys"
 msgstr "Plottar vars nycklar saknas"
 
 #: src/components/plot/overview/PlotOverviewHero.tsx:33
-msgid "Plots are allocated space on your hard drive used to farm and earn Chia.<0>Learn more</0>"
-msgstr "Plottar allokeras utrymme på din hårddisk som används för att odla och tjäna Chia. <0>Läs mer</0>"
+msgid "Plots are allocated space on your hard drive used to farm and earn Hydrangea.<0>Learn more</0>"
+msgstr "Plottar allokeras utrymme på din hårddisk som används för att odla och tjäna Hydrangea. <0>Läs mer</0>"
 
 #: src/components/plot/add/PlotAddChoosePlotter.tsx:103
 msgid "Plotter"
@@ -2590,9 +2590,9 @@ msgstr ""
 msgid "Total Amount Requested"
 msgstr ""
 
-#: src/components/farm/card/FarmCardTotalChiaFarmed.tsx:27
-msgid "Total Chia Farmed"
-msgstr "Totalt antal Chia som odlats"
+#: src/components/farm/card/FarmCardTotalHydrangeaFarmed.tsx:27
+msgid "Total Hydrangea Farmed"
+msgstr "Totalt antal Hydrangea som odlats"
 
 #: src/components/plot/card/PlotCardTotalHarvesters.tsx:11
 msgid "Total Harvesters"
@@ -2964,8 +2964,8 @@ msgstr ""
 #: src/components/app/AppKeyringMigrator.tsx:239
 #: src/components/settings/ChangePassphrasePrompt.tsx:271
 #: src/components/settings/SetPassphrasePrompt.tsx:242
-msgid "Your passphrase can be stored in your system's secure credential store. Chia will be able to access your keys without prompting for your passphrase."
-msgstr "Din lösenfras kan sparas i systemets arkiv för autentiseringsuppgifter. Chia kommer att ha åtkomst till dina nycklar utan att fråga efter din lösenfras."
+msgid "Your passphrase can be stored in your system's secure credential store. Hydrangea will be able to access your keys without prompting for your passphrase."
+msgstr "Din lösenfras kan sparas i systemets arkiv för autentiseringsuppgifter. Hydrangea kommer att ha åtkomst till dina nycklar utan att fråga efter din lösenfras."
 
 #: src/components/settings/SettingsPanel.tsx:61
 msgid "Your passphrase has been set"

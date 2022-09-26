@@ -7,7 +7,7 @@ import {
   Flex,
   useOpenDialog,
   useOpenExternal,
-} from '@chia/core';
+} from '@hydrangea/core';
 import {
   Checkbox,
   FormControlLabel,

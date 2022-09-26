@@ -2,7 +2,7 @@ import React from 'react';
 import { get } from 'lodash';
 import { Controller, useFormContext } from 'react-hook-form';
 import { Trans } from '@lingui/macro';
-import { useGetFeeEstimateQuery } from '@chia/api-react';
+import { useGetFeeEstimateQuery } from '@hydrangea/api-react';
 import {
   FormControl,
   IconButton,
@@ -16,7 +16,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import useMode from '../../hooks/useMode';
 import useLocale from '../../hooks/useLocale';
 import Mode from '../../constants/Mode';
-import mojoToChiaLocaleString from '../../utils/mojoToChiaLocaleString';
+import mojoToHydrangeaLocaleString from '../../utils/mojoToHydrangeaLocaleString';
 import Fee from '../Fee';
 import Flex from '../Flex';
 
@@ -95,7 +95,7 @@ export default function EstimatedFee(props: FeeProps) {
 
   function formatEst(number, multiplier, locale) {
     let num = Math.round(number * multiplier * 10 ** -4) * 10 ** 4;
-    let formatNum = mojoToChiaLocaleString(num, locale);
+    let formatNum = mojoToHydrangeaLocaleString(num, locale);
     return formatNum;
   }
 

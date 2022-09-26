@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
 import { Trans } from '@lingui/macro';
-import { WalletType } from '@chia/api';
-import type { CATToken, Wallet } from '@chia/api';
-import { useGetCatListQuery, useGetWalletsQuery } from '@chia/api-react';
-import { useCurrencyCode } from '@chia/core';
+import { WalletType } from '@hydrangea/api';
+import type { CATToken, Wallet } from '@hydrangea/api';
+import { useGetCatListQuery, useGetWalletsQuery } from '@hydrangea/api-react';
+import { useCurrencyCode } from '@hydrangea/core';
 import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 
 type TokenSelectOption = {
@@ -44,7 +44,7 @@ export default function NFTOfferTokenSelector(props: Props) {
       return [];
     }
 
-    const chiaWalletSelection = [
+    const hydrangeaWalletSelection = [
       wallets.find(
         (wallet: Wallet) => wallet.type === WalletType.STANDARD_WALLET,
       ),
@@ -52,9 +52,9 @@ export default function NFTOfferTokenSelector(props: Props) {
       return {
         walletId: wallet.id,
         walletType: wallet.type,
-        name: 'Chia',
+        name: 'Hydrangea',
         symbol: currencyCode,
-        displayName: `Chia (${currencyCode})`,
+        displayName: `Hydrangea (${currencyCode})`,
         disabled: false,
         tail: '',
       };
@@ -76,7 +76,7 @@ export default function NFTOfferTokenSelector(props: Props) {
           tail: wallet.tail,
         };
       });
-    const allOptions = [...chiaWalletSelection, ...catOptions];
+    const allOptions = [...hydrangeaWalletSelection, ...catOptions];
     const selected = allOptions.find(
       (option: TokenSelectOption) => option.walletId === selectedWalletId,
     );

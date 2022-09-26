@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loading, State, StateIndicator } from '@chia/core';
+import { Loading, State, StateIndicator } from '@hydrangea/core';
 import useFullNodeState from '../../hooks/useFullNodeState';
 import FullNodeState from '../../constants/FullNodeState';
 

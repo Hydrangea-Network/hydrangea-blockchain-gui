@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { t, Trans } from '@lingui/macro';
-import { CopyToClipboard, Loading, Flex } from '@chia/core';
-import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@chia/api-react';
+import { CopyToClipboard, Loading, Flex } from '@hydrangea/core';
+import { useGetCurrentAddressQuery, useGetNextAddressMutation } from '@hydrangea/api-react';
 import {
   TextField,
   InputAdornment,

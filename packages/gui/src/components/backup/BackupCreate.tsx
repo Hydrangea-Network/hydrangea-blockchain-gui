@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Button } from '@chia/core';
+import { Button } from '@hydrangea/core';
 import { Dialog, DialogContent, DialogContentText, DialogTitle, DialogActions, Modal, Typography } from '@mui/material';
 import { useSelector, useDispatch } from 'react-redux';
 import type { RootState } from '../../modules/rootReducer';

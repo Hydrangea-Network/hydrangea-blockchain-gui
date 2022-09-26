@@ -8,8 +8,8 @@ import {
   Card,
   Flex,
   ButtonLoading,
-  chiaToMojo,
-} from '@chia/core';
+  hydrangeaToMojo,
+} from '@hydrangea/core';
 import { Typography, Button, Box, TextField, Tooltip } from '@mui/material';
 import { createState } from '../../../modules/createWallet';
 import { useDispatch } from 'react-redux';
@@ -37,7 +37,7 @@ export default function WalletDIDCreate() {
       const didArray = data.backup_dids?.map((item) => item.backupid) ?? [];
       let uniqDidArray = Array.from(new Set(didArray));
       uniqDidArray = uniqDidArray.filter((item) => item !== '');
-      const amount_val = chiaToMojo(data.amount);
+      const amount_val = hydrangeaToMojo(data.amount);
       if (
         amount_val === '' ||
         Number(amount_val) === 0 ||
@@ -117,7 +117,7 @@ export default function WalletDIDCreate() {
             <Flex flexDirection="column" gap={1}>
               <Flex alignItems="center" gap={1}>
                 <Typography variant="subtitle1">Enter amount</Typography>
-                <Tooltip title="The amount of Chia you enter must correspond to an even amount of mojos. One additional mojo will be added to the total amount for security purposes.">
+                <Tooltip title="The amount of Hydrangea you enter must correspond to an even amount of mojos. One additional mojo will be added to the total amount for security purposes.">
                   <HelpIcon style={{ color: '#c8c8c8', fontSize: 12 }} />
                 </Tooltip>
               </Flex>

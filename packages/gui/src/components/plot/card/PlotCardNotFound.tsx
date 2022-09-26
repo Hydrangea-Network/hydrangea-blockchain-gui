@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { FormatLargeNumber, CardSimple } from '@chia/core';
-import { useGetTotalHarvestersSummaryQuery } from '@chia/api-react';
+import { FormatLargeNumber, CardSimple } from '@hydrangea/core';
+import { useGetTotalHarvestersSummaryQuery } from '@hydrangea/api-react';
 
 export default function PlotCardNotFound() {
   const { noKeyFilenames, initializedHarvesters, isLoading } = useGetTotalHarvestersSummaryQuery();

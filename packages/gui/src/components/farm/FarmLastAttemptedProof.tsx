@@ -1,7 +1,7 @@
 import React from 'react';
 import { Trans } from '@lingui/macro';
-import { Link, Table, Card } from '@chia/core';
-import { useGetFarmingInfoQuery } from '@chia/api-react';
+import { Link, Table, Card } from '@hydrangea/core';
+import { useGetFarmingInfoQuery } from '@hydrangea/api-react';
 import moment from 'moment';
 import type { Row } from '../core/components/Table/Table';
 // import usePlots from '../../hooks/usePlots';
@@ -49,7 +49,7 @@ export default function FarmLastAttemptedProof() {
           challenge.{' '}
           <Link
             target="_blank"
-            href="https://github.com/Chia-Network/chia-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
+            href="https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki/FAQ#what-is-the-plot-filter-and-why-didnt-my-plot-pass-it"
           >
             Learn more
           </Link>

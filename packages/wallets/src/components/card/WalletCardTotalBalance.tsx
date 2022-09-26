@@ -3,10 +3,10 @@ import { Trans } from '@lingui/macro';
 import {
   useGetWalletBalanceQuery,
   useGetCurrentDerivationIndexQuery,
-} from '@chia/api-react';
+} from '@hydrangea/api-react';
 import styled from 'styled-components';
 import WalletGraph from '../WalletGraph';
-import { CardSimple, Flex, TooltipIcon } from '@chia/core';
+import { CardSimple, Flex, TooltipIcon } from '@hydrangea/core';
 import useWallet from '../../hooks/useWallet';
 import useWalletHumanValue from '../../hooks/useWalletHumanValue';
 import { Typography } from '@mui/material';

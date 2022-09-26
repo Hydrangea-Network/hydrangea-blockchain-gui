@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flex, LayoutDashboardSub } from '@chia/core';
+import { Flex, LayoutDashboardSub } from '@hydrangea/core';
 import { Route, Routes } from 'react-router-dom';
 import PlotOverview from './overview/PlotOverview';
 import PlotAdd from './add/PlotAdd';

@@ -1,5 +1,5 @@
 enum OfferAsset {
-  CHIA = 'CHIA',
+  HYDRANGEA = 'HYDRANGEA',
   TOKEN = 'TOKEN',
   NFT = 'NFT',
 }

@@ -9,7 +9,7 @@ import {
 } from 'victory';
 import { useMeasure } from 'react-use';
 import { Box, Typography } from '@mui/material';
-import { Flex } from '@chia/core';
+import { Flex } from '@hydrangea/core';
 
 const HOUR_SECONDS = 60 * 60;
 

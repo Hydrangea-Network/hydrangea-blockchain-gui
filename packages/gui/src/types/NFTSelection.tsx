@@ -1,4 +1,4 @@
-import type NFTInfo from '@chia/api';
+import type NFTInfo from '@hydrangea/api';
 
 type NFTSelection = {
   items: NFTInfo[];

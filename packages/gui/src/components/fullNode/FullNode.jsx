@@ -9,9 +9,9 @@ import {
   StateColor,
   Table,
   LayoutDashboardSub,
-} from '@chia/core';
-import { Status } from '@chia/icons';
-import { useGetLatestBlocksQuery, useGetUnfinishedBlockHeadersQuery } from '@chia/api-react';
+} from '@hydrangea/core';
+import { Status } from '@hydrangea/icons';
+import { useGetLatestBlocksQuery, useGetUnfinishedBlockHeadersQuery } from '@hydrangea/api-react';
 import { useNavigate } from 'react-router-dom';
 import { Box, Tooltip, Typography } from '@mui/material';
 // import HelpIcon from '@mui/icons-material/Help';

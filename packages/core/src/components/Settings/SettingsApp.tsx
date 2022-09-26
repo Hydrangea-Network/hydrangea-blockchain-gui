@@ -5,7 +5,7 @@ import useDarkMode from '../../hooks/useDarkMode';
 import Button from '../Button';
 import Link from '../Link';
 import { ButtonGroup } from '@mui/material';
-import { Farming } from '@chia/icons';
+import { Farming } from '@hydrangea/icons';
 import {
   WbSunny as WbSunnyIcon,
   NightsStay as NightsStayIcon,
@@ -40,7 +40,7 @@ export default function SettingsApp(props: SettingsAppProps) {
   async function handleOpenFAQURL(): Promise<void> {
     try {
       const shell: Shell = (window as any).shell;
-      await shell.openExternal('https://github.com/Chia-Network/chia-blockchain/wiki/FAQ');
+      await shell.openExternal('https://github.com/Hydrangea-Network/hydrangea-blockchain/wiki/FAQ');
     } catch (error: any) {
       showError(error);
     }

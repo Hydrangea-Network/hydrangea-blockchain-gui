@@ -23,7 +23,7 @@ test('Confirm Error Dialog when wrong data is entered on Send Page for 192213244
   
   // Given I log into Wallet 1922132445
   await Promise.all([
-    page.waitForNavigation(/*{ url: 'file:///Users/jahifaw/Documents/Code/Chia-testnet-playwright/chia-blockchain/chia-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/wallets/1' }*/),
+    page.waitForNavigation(/*{ url: 'file:///Users/jahifaw/Documents/Code/Hydrangea-testnet-playwright/hydrangea-blockchain/hydrangea-blockchain-gui/packages/gui/build/renderer/index.html#/dashboard/wallets/1' }*/),
     page.locator('div[role="button"]:has-text("Private key with public fingerprint 1922132445Can be backed up to mnemonic seed")').click()
   ]);
 
