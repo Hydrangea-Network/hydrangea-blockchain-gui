@@ -1,6 +1,6 @@
 {
   "name": "@chia/core",
-  "author": "Chia Network <hello@chia.net> (https://chia.net/)",
+  "author": "Chia Network <hello@hydrangea.website> (https://hydrangea.website/)",
   "description": "Chia Core Library",
   "productName": "Chia Blockchain",
   "private": true,

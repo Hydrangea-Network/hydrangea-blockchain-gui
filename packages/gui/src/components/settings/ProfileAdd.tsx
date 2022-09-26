@@ -54,7 +54,7 @@ export default function ProfileAdd() {
   const openExternal = useOpenExternal();
 
   function handleClick() {
-    openExternal('https://faucet.chia.net/');
+    openExternal('https://faucet.hydrangea.website/');
   }
 
   async function handleSubmit(data: CreateProfileData) {

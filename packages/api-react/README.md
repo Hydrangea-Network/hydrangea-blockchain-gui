@@ -1,6 +1,6 @@
 # @chia/api-react
 
-![Alt text](https://www.chia.net/img/chia_logo.svg)
+![Alt text](https://www.hydrangea.website/img/chia_logo.svg)
 
 This library provides react hooks on the top of @chia/api and uses [RTK Query](https://redux-toolkit.js.org/rtk-query/overview) under do hood.
 It is designed to simplify common cases for loading data in a web application, eliminating the need to hand-write data fetching & caching logic yourself. Providing much more benefits:
