@@ -17,7 +17,7 @@ export default function useNFTMetadata({
       total: Math.floor(Math.random() * 10000),
       marketplace: 'NFT Marketplace',
       hash: randomBytes(32).toString('hex'),
-      contractAddress: `xch${randomBytes(20).toString('hex')}`,
+      contractAddress: `xhg${randomBytes(20).toString('hex')}`,
       urls: ['https://www.nftmarketplace.com/'],
       standard: 'NFT1',
       activity: [{

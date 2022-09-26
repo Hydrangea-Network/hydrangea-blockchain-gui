@@ -22,7 +22,7 @@ function getSkyNFTURL(nft: NFTInfo, testnet: boolean) {
 }
 
 function getSpacescanURL(nft: NFTInfo, testnet: boolean) {
-  const url = `https://spacescan.io/${testnet ? 'txch10' : 'xch'}/nft/${
+  const url = `https://spacescan.io/${testnet ? 'txhg10' : 'xhg'}/nft/${
     nft.$nftId
   }`;
   return url;
@@ -44,7 +44,7 @@ const UrlBuilderMapping = {
 
 export default function useViewNFTOnExplorer() {
   const openExternal = useOpenExternal();
-  const testnet = useCurrencyCode() === 'TXCH';
+  const testnet = useCurrencyCode() === 'TXHG';
 
   function handleViewNFTOnExplorer(nft: NFTInfo, explorer: NFTExplorer) {
     const urlBuilder = UrlBuilderMapping[explorer];

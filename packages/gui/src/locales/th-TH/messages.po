@@ -39,7 +39,7 @@ msgid "+ Add a Plot"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:91
-msgid "<0>Need some XCH?</0>"
+msgid "<0>Need some XHG?</0>"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:99
@@ -210,7 +210,7 @@ msgid "Backup file is used to restore smart wallets."
 msgstr "ไฟล์การสำรองข้อมูลจะถูกใช้สำหรับการกู้คืนสมาร์ตวอลเล็ต"
 
 #: src/components/settings/ProfileAdd.tsx:103
-msgid "Balance: {standardBalance} XCH"
+msgid "Balance: {standardBalance} XHG"
 msgstr ""
 
 #: src/components/block/Block.jsx:277
@@ -542,7 +542,7 @@ msgid "Create an Offer"
 msgstr ""
 
 #: src/components/offers/OfferManager.tsx:576
-msgid "Create an offer to exchange assets including XCH, tokens, and NFTs. View an offer to inspect and accept an offer made by another party."
+msgid "Create an offer to exchange assets including XHG, tokens, and NFTs. View an offer to inspect and accept an offer made by another party."
 msgstr ""
 
 #: src/components/offers/OfferManager.tsx:153
@@ -1058,7 +1058,7 @@ msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:93
 #: src/components/offers/OfferEditorConditionsPanel.tsx:463
-msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 XCH (5,000,000 mojos)"
+msgid "Including a fee in the offer can help expedite the transaction when the offer is accepted. The recommended minimum fee is 0.000005 XHG (5,000,000 mojos)"
 msgstr ""
 
 #: src/components/farm/FarmLatestBlockChallenges.tsx:19
@@ -1108,16 +1108,16 @@ msgid "Join a Pool"
 msgstr "เข้าร่วม Pool"
 
 #: src/components/plot/add/PlotAddNFT.tsx:49
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile."
-msgstr "เข้าร่วม Pool และรับรางวัลการทำฟาร์ม XCH อย่างสม่ำเสมอ ผลตอบแทนเฉลี่ยเท่าเดิม แต่มีความผันผวนน้อยกว่ามาก"
+msgid "Join a pool and get consistent XHG farming rewards. The average returns are the same, but it is much less volatile."
+msgstr "เข้าร่วม Pool และรับรางวัลการทำฟาร์ม XHG อย่างสม่ำเสมอ ผลตอบแทนเฉลี่ยเท่าเดิม แต่มีความผันผวนน้อยกว่ามาก"
 
 #: src/components/plotNFT/PlotNFTAdd.tsx:63
-msgid "Join a pool and get consistent XCH farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
-msgstr "เข้าร่วม Pool และรับรางวัลการทำฟาร์ม XCH อย่างสม่ำเสมอ ผลตอบแทนเฉลี่ยเท่าเดิม แต่มีความผันผวนน้อยกว่ามาก เพิ่มพล๊อตให้กับพล็อต NFT คุณสามารถเปลี่ยนพูลได้อย่างง่ายดายโดยไม่ต้องพล็อตใหม่"
+msgid "Join a pool and get consistent XHG farming rewards. The average returns are the same, but it is much less volatile. Assign plots to a plot NFT. You can easily switch pools without having to re-plot."
+msgstr "เข้าร่วม Pool และรับรางวัลการทำฟาร์ม XHG อย่างสม่ำเสมอ ผลตอบแทนเฉลี่ยเท่าเดิม แต่มีความผันผวนน้อยกว่ามาก เพิ่มพล๊อตให้กับพล็อต NFT คุณสามารถเปลี่ยนพูลได้อย่างง่ายดายโดยไม่ต้องพล็อตใหม่"
 
 #: src/components/plot/add/PlotAddNFT.tsx:138
-msgid "Join a pool and get more consistent XCH farming rewards. Create a plot NFT and assign your new plots to a group."
-msgstr "เข้าร่วม Pool และรับรางวัลการทำฟาร์ม XCH ที่สม่ำเสมอมากขึ้น สร้างพล็อต NFT และเพิ่มพล๊อตใหม่ของคุณให้กับ Pool"
+msgid "Join a pool and get more consistent XHG farming rewards. Create a plot NFT and assign your new plots to a group."
+msgstr "เข้าร่วม Pool และรับรางวัลการทำฟาร์ม XHG ที่สม่ำเสมอมากขึ้น สร้างพล็อต NFT และเพิ่มพล๊อตใหม่ของคุณให้กับ Pool"
 
 #: src/components/app/AppSelectMode.tsx:143
 msgid "Join farming pools"
@@ -1364,7 +1364,7 @@ msgid "NFT details not available"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:256
-msgid "NFT for XCH"
+msgid "NFT for XHG"
 msgstr ""
 
 #: src/components/offers/NFTOfferPreview.tsx:56
@@ -1476,8 +1476,8 @@ msgstr "ยังไม่เชื่อมต่อ"
 
 #: src/components/block/FarmManageFarmingRewards.tsx:163
 #: src/components/farm/FarmManageFarmingRewards.tsx:176
-msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XCH reward for pooling plots."
-msgstr "โปรดทราบว่าการดำเนินการนี้จะไม่เปลี่ยนที่อยู่การรับเงินแบบ pooling ของคุณ สิ่งนี้มีผลเฉพาะกับพล๊อตรูปแบบเก่าและรางวัล 0.25XCH สำหรับ pooling พล๊อต"
+msgid "Note that this does not change your pooling payout addresses. This only affects old format plots, and the 0.25XHG reward for pooling plots."
+msgstr "โปรดทราบว่าการดำเนินการนี้จะไม่เปลี่ยนที่อยู่การรับเงินแบบ pooling ของคุณ สิ่งนี้มีผลเฉพาะกับพล๊อตรูปแบบเก่าและรางวัล 0.25XHG สำหรับ pooling พล๊อต"
 
 #: src/components/plotNFT/PlotExternalNFTCard.tsx:117
 #: src/components/plotNFT/PlotNFTCard.tsx:158
@@ -1979,7 +1979,7 @@ msgid "Recommended"
 msgstr ""
 
 #: src/components/settings/ProfileAdd.tsx:118
-msgid "Recommended: 0.000005 XCH"
+msgid "Recommended: 0.000005 XHG"
 msgstr ""
 
 #: src/components/plot/PlotHeader.tsx:75
@@ -2129,8 +2129,8 @@ msgid "Self Pooling"
 msgstr ""
 
 #: src/components/plotNFT/select/PlotNFTSelectBase.tsx:104
-msgid "Self pool. When you win a block you will earn XCH rewards."
-msgstr "Self pool เมื่อคุณชนะบล็อก คุณจะได้รับรางวัล XCH"
+msgid "Self pool. When you win a block you will earn XHG rewards."
+msgstr "Self pool เมื่อคุณชนะบล็อก คุณจะได้รับรางวัล XHG"
 
 #: src/components/nfts/NFTTransferAction.tsx:245
 msgid "Send to Address"
@@ -2207,8 +2207,8 @@ msgid "Skips adding a final directory to harvester for farming"
 msgstr "ข้ามการเพิ่มไดเร็กทอรีสุดท้ายไปยังผู้เก็บเกี่ยวสำหรับการฟาร์ม"
 
 #: src/components/pool/PoolHero.tsx:21
-msgid "Smooth out your XCH farming rewards by joining a pool."
-msgstr "ให้รางวัลการทำฟาร์ม XCH ของคุณราบรื่นด้วยการเข้าร่วม Pool"
+msgid "Smooth out your XHG farming rewards by joining a pool."
+msgstr "ให้รางวัลการทำฟาร์ม XHG ของคุณราบรื่นด้วยการเข้าร่วม Pool"
 
 #: src/components/plot/add/PlotAddNumberOfPlots.tsx:138
 msgid "Specify a value of 0 to use all available threads"
@@ -2240,7 +2240,7 @@ msgid "Status"
 msgstr "สถานะ"
 
 #: src/components/app/AppSelectMode.tsx:84
-msgid "Store and Send XCH"
+msgid "Store and Send XHG"
 msgstr ""
 
 #: src/components/app/AppPassPrompt.tsx:114
@@ -2308,7 +2308,7 @@ msgid "The NFT transfer transaction has been successfully submitted to the block
 msgstr ""
 
 #: src/components/settings/SettingsPanel.tsx:185
-msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XCH, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
+msgid "The derivation index sets the range of wallet addresses that the wallet scans the blockchain for. This number is generally higher if you have a lot of transactions or canceled offers for XHG, CATs, or NFTs. If you believe your balance is incorrect because it’s missing coins, then increasing the derivation index could help the wallet include the missing coins in the balance total."
 msgstr ""
 
 #: src/components/farm/FarmFullNodeConnections.tsx:95
@@ -2382,8 +2382,8 @@ msgid "The total transactions fees in this block. Rewarded to the farmer."
 msgstr "ค่าธรรมเนียมในการทำธุรกรรมใน Block นี้ จะเป็นรางวัลแก่ farmer"
 
 #: src/components/plotNFT/PlotNFTPayoutInstructionsDialog.tsx:106
-msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XCH address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
-msgstr "นี่คือคู่มือที่อธิบายว่า Farmer ได้รับเหรียญอย่างไร โดยค่ามาตรฐานจะเป็นที่อยู่กระเป๋า XCH แต่สามารถเปลี่ยนเป็นสตริงใดก็ได้ที่มีขนาดน้อยกว่า 1024 ตัวอักษร ที่เกี่ยวโยงไปถึงบล็อคเชนหรือระบบจ่ายเงินอื่นๆ"
+msgid "These are the instructions for how the farmer wants to get paid. By default this will be an XHG address, but it can be set to any string with a size of less than 1024 characters, so it can represent another blockchain or payment system identifier."
+msgstr "นี่คือคู่มือที่อธิบายว่า Farmer ได้รับเหรียญอย่างไร โดยค่ามาตรฐานจะเป็นที่อยู่กระเป๋า XHG แต่สามารถเปลี่ยนเป็นสตริงใดก็ได้ที่มีขนาดน้อยกว่า 1024 ตัวอักษร ที่เกี่ยวโยงไปถึงบล็อคเชนหรือระบบจ่ายเงินอื่นๆ"
 
 #: src/components/plot/card/PlotCardPlotsFailedToOpen.tsx:15
 msgid "These plots are invalid, you might want to delete them."
@@ -2755,7 +2755,7 @@ msgid "Would you like to transfer the specified NFT to a new owner?"
 msgstr ""
 
 #: src/components/offers/NFTOfferEditor.tsx:261
-msgid "XCH for NFT"
+msgid "XHG for NFT"
 msgstr ""
 
 #: src/components/plot/add/PlotAddChooseSize.tsx:48

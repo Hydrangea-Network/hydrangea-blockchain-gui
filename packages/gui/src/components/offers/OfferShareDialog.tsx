@@ -253,7 +253,7 @@ async function postToOfferBin(
 
 enum HashgreenErrorCodes {
   OFFERED_AMOUNT_TOO_SMALL = 40020, // The offered amount is too small
-  MARKET_NOT_FOUND = 50029, // Pairing doesn't exist e.g. XCH/RandoCoin
+  MARKET_NOT_FOUND = 50029, // Pairing doesn't exist e.g. XHG/RandoCoin
   OFFER_FILE_EXISTS = 50037, // Offer already shared
   COINS_ALREADY_COMMITTED = 50041, // Coins in the offer are already committed in another offer
 }
@@ -869,7 +869,7 @@ function OfferShareKeybaseDialog(props: OfferShareServiceDialogProps) {
   const [isSubmitting, setIsSubmitting] = React.useState(false);
   const [isJoiningTeam, setIsJoiningTeam] = React.useState(false);
   const [shared, setShared] = React.useState(false);
-  const teamName = testnet ? 'testxchoffersdev' : KeybaseTeamName;
+  const teamName = testnet ? 'testxhgoffersdev' : KeybaseTeamName;
   const channelName = testnet ? 'offers' : KeybaseChannelName;
 
   function handleClose() {

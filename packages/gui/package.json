@@ -31,9 +31,9 @@
         ]
       },
       {
-        "name": "Chia XCH Address",
+        "name": "Chia XHG Address",
         "schemes": [
-          "xch"
+          "xhg"
         ]
       }
     ],

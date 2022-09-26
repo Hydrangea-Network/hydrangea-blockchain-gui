@@ -40,7 +40,7 @@ test('Create an Offer', async () => {
   await expect(page.locator('text=Coins')).toBeVisible()
 
   // When I click Viewing offer back button
-  await page.locator('text=Viewing offercreated August 26, 2022 6:16 PMYou created this offerSummaryIn exch >> button').click();
+  await page.locator('text=Viewing offercreated August 26, 2022 6:16 PMYou created this offerSummaryIn exhg >> button').click();
 
   // And I click miniMenu
   await page.locator('[aria-label="more"]').click();

@@ -64,7 +64,7 @@ import NFTOfferTokenSelector from './NFTOfferTokenSelector';
 
 /* ========================================================================== */
 /*              Temporary home for the NFT-specific Offer Editor              */
-/*       An NFT offer consists of a single NFT being offered for XCH/CAT      */
+/*       An NFT offer consists of a single NFT being offered for XHG/CAT      */
 /* ========================================================================== */
 
 const StyledWarningIcon = styled(WarningIcon)`
@@ -102,7 +102,7 @@ function NFTOfferCreationFee(props: NFTOfferCreationFeeProps) {
               <Trans>
                 Including a fee in the offer can help expedite the transaction
                 when the offer is accepted. The recommended minimum fee is
-                0.000005 XCH (5,000,000 mojos)
+                0.000005 XHG (5,000,000 mojos)
               </Trans>
             </TooltipIcon>
           </Box>
@@ -500,7 +500,7 @@ function NFTOfferConditionalsPanel(props: NFTOfferConditionalsPanelProps) {
                           <FormatLargeNumber
                             value={new BigNumber(makerFee ?? 0)}
                           />
-                          {' XCH'}
+                          {' XHG'}
                         </div>
                       )}
                   </Typography>
@@ -551,7 +551,7 @@ NFTOfferConditionalsPanel.defaultProps = {
 
 /* ========================================================================== */
 /*                              NFT Offer Editor                              */
-/*           Currently only supports a single NFT <--> XCH/CAT offer          */
+/*           Currently only supports a single NFT <--> XHG/CAT offer          */
 /* ========================================================================== */
 
 export type NFTOfferEditorTokenWalletInfo = {

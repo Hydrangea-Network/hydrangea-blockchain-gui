@@ -612,7 +612,7 @@ const BalanceCardSubSection = (props) => {
         </Box>
         <Box>
           <Typography variant="subtitle1">
-            {mojoToChiaLocaleString(props.balance)} TXCH
+            {mojoToChiaLocaleString(props.balance)} TXHG
           </Typography>
         </Box>
       </Box>

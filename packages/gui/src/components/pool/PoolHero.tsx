@@ -19,7 +19,7 @@ export default function PoolHero() {
           <Pooling color="primary" fontSize="extraLarge" />
           <Typography variant="body1">
             <Trans>
-              Smooth out your XCH farming rewards by joining a pool.
+              Smooth out your XHG farming rewards by joining a pool.
             </Trans>
           </Typography>
           <Button onClick={handleJoinPool} variant="contained" color="primary">

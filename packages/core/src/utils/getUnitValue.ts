@@ -13,7 +13,7 @@ const display: {
   [key in Unit]: Display;
 } = {
   chia: {
-    format: '{amount} XCH',
+    format: '{amount} XHG',
     fractionDigits: 12,
   },
   mojo: {

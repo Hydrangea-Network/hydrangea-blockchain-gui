@@ -50,7 +50,7 @@ export function summaryStringsForNFTOffer(
   ) => string,
 ): [makerString: string, takerString: string] {
   // const makerAssetType = offerAssetTypeForAssetId
-  // TODO: Remove 1:1 NFT <--> XCH assumption
+  // TODO: Remove 1:1 NFT <--> XHG assumption
   const makerEntry: [string, string] = Object.entries(summary.offered)[0];
   const takerEntry: [string, string] = Object.entries(summary.requested)[0];
   const makerAssetType = offerAssetTypeForAssetId(makerEntry[0], summary);
@@ -237,7 +237,7 @@ export function offerAssetTypeForAssetId(
 ): OfferAsset | undefined {
   let assetType: OfferAsset | undefined;
 
-  if (['xch', 'txch'].includes(assetId)) {
+  if (['xhg', 'txhg'].includes(assetId)) {
     assetType = OfferAsset.CHIA;
   } else {
     const infos: OfferSummaryInfos = offerSummary.infos;
@@ -265,7 +265,7 @@ export function offerAssetIdForAssetType(
   offerSummary: OfferSummaryRecord,
 ): string | undefined {
   if (assetType === OfferAsset.CHIA) {
-    return 'xch';
+    return 'xhg';
   }
 
   const assetId = Object.keys(offerSummary.infos).find(

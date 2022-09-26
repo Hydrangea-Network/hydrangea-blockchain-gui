@@ -180,7 +180,7 @@ export default function WalletSend(props: SendCardProps) {
                 data-testid="WalletSend-fee"
                 fullWidth
                 required
-                txType="walletSendXCH"
+                txType="walletSendXHG"
               />
             </Grid>
           </Grid>
